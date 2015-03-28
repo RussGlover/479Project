@@ -1,10 +1,9 @@
 //
 // EECE 479: Project Verilog File: controller.v
 //
-// This is the stub for the controller block.  Please start with this
-// template when writing your Verilog code.
+//This module describes the state machine
 //
-// Names:  <insert your names here>
+// Names:  Russill Glover, Albert Ruskey, Nat Wongpatimachai
 // Number:  <insert your student numbers here>
 //
 
@@ -121,6 +120,13 @@ begin
 			end
    endcase
 end
+
+assign load = load_reg;
+assign add = add_reg;
+assign shift = shift_reg;
+assign inbit = inbit_reg;
+assign [1:0] sel = sel_reg;
+assign valid = valid_reg;   
 
 
 
