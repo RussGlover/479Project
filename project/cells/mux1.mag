@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1428277303
+timestamp 1428644507
 << pwell >>
 rect -78 8 -42 23
 rect -25 8 0 25
@@ -17,36 +17,44 @@ rect -48 42 3 44
 rect -23 38 -21 42
 rect -15 38 -13 40
 rect -57 36 -55 38
-rect -82 25 -71 27
-rect -82 6 -80 8
-rect -73 2 -71 25
+rect -82 29 -71 31
+rect -82 5 -80 7
+rect -73 2 -71 29
 rect -65 25 -63 32
 rect -57 29 -55 32
 rect -57 27 -47 29
 rect -65 23 -55 25
 rect -65 16 -63 18
 rect -57 16 -55 23
-rect -65 9 -63 12
-rect -57 10 -55 12
-rect -49 8 -47 27
+rect -49 21 -47 27
 rect -23 27 -21 34
 rect -15 31 -13 34
-rect -15 29 -5 31
-rect -7 28 -5 29
+rect -15 29 3 31
 rect -23 25 -13 27
+rect -49 19 -38 21
+rect -65 9 -63 12
+rect -57 10 -55 12
+rect -49 8 -47 19
+rect -40 12 -38 19
 rect -23 18 -21 20
 rect -15 18 -13 25
-rect -7 26 3 28
-rect -23 13 -21 14
-rect -62 6 -47 8
-rect -41 11 -21 13
+rect -40 10 -33 12
+rect -23 10 -21 14
 rect -15 12 -13 14
-rect -41 2 -39 11
-rect -23 10 -21 11
-rect -7 10 -5 26
-rect -23 8 -5 10
-rect -7 6 3 8
-rect -73 0 -39 2
+rect -7 12 -5 29
+rect -11 10 -5 12
+rect -62 6 -47 8
+rect -45 2 -43 5
+rect -35 3 -33 10
+rect -26 8 -21 10
+rect -15 8 -9 10
+rect -23 6 -13 8
+rect -7 5 3 7
+rect -7 4 -5 5
+rect -21 3 -5 4
+rect -73 0 -43 2
+rect -35 2 -5 3
+rect -35 1 -19 2
 << ndiffusion >>
 rect -66 12 -65 16
 rect -63 12 -62 16
@@ -80,10 +88,11 @@ rect -74 12 -70 16
 rect -50 12 -46 16
 rect -32 14 -28 18
 rect -8 14 -4 18
-rect -20 10 -16 14
-rect -78 8 -66 9
+rect -20 13 -16 14
+rect -79 8 -66 9
 rect -76 5 -66 8
-rect -34 6 -16 10
+rect -39 6 -30 10
+rect -39 3 -35 6
 << metal2 >>
 rect -78 36 -74 50
 rect -56 46 -52 50
@@ -103,6 +112,8 @@ rect -20 33 -16 34
 rect -20 23 -16 29
 rect -20 18 -16 19
 rect -4 18 0 34
+rect -38 9 -20 10
+rect -38 6 -16 9
 rect -38 0 -34 6
 << ntransistor >>
 rect -65 12 -63 16
@@ -119,6 +130,8 @@ rect -72 40 -68 44
 rect -52 40 -48 44
 rect -80 4 -76 8
 rect -66 5 -62 9
+rect -43 3 -39 7
+rect -30 6 -26 10
 << ndcontact >>
 rect -70 12 -66 16
 rect -62 12 -58 16
@@ -148,8 +161,17 @@ rect -78 12 -74 16
 rect -46 12 -42 16
 rect -36 14 -32 18
 rect -4 14 0 18
-rect -38 6 -34 10
+rect -20 9 -16 13
 << psubstratepcontact >>
 rect -78 19 -74 23
 rect -4 21 0 25
+<< labels >>
+rlabel metal2 -78 36 -74 50 1 A
+rlabel metal2 -56 42 -52 50 5 B
+rlabel metal2 -4 38 0 50 7 C
+rlabel polysilicon -82 47 3 49 5 S0n
+rlabel polysilicon -82 42 -72 44 3 S1n
+rlabel metal2 -38 0 -34 6 1 out
+rlabel polysilicon -82 29 -71 31 1 S1
+rlabel polysilicon -82 5 -80 7 3 S0
 << end >>
