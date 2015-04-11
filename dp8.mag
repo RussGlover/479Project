@@ -1,0 +1,16 @@
+magic
+tech scmos
+timestamp 1428714792
+use dp1v4  dp1v4_2
+timestamp 1428712852
+transform 1 0 -388 0 1 232
+box -38 -232 175 166
+use dp1v4  dp1v4_1
+timestamp 1428712852
+transform 1 0 -175 0 1 232
+box -38 -232 175 166
+use dp1v4  dp1v4_0
+timestamp 1428712852
+transform 1 0 38 0 1 232
+box -38 -232 175 166
+<< end >>
