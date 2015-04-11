@@ -1,0 +1,61 @@
+timestamp 1428721947
+version 7.5
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+node "m2_25_106#" 0 304 25 106 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0
+node "rr" 109 14236 -40 -10 ndiff 20 18 20 18 0 0 0 0 0 0 0 0 320 176 248 140 0 0
+node "out" 130 2318 -48 -10 ndiff 24 20 24 20 0 0 0 0 0 0 0 0 92 62 300 166 0 0
+node "divin" 109 988 -82 -12 ndiff 20 18 20 18 0 0 0 0 0 0 0 0 96 64 332 174 0 0
+node "a_n90_n12#" 522 5968 -90 -12 ndiff 44 38 44 38 0 0 0 0 0 0 0 0 256 168 192 112 0 0
+node "adder" 108 2232 -97 -12 ndc 20 18 20 18 0 0 0 0 0 0 0 0 96 64 152 84 0 0
+node "s1" 1672 45148 -93 -19 pc 0 0 0 0 296 292 0 0 0 0 0 0 564 298 0 0 0 0
+node "s0" 2138 50880 -112 0 pc 0 0 0 0 382 374 0 0 0 0 0 0 552 300 0 0 0 0
+node "s0n" 765 44690 -50 1 p 0 0 0 0 136 136 0 0 0 0 0 0 816 416 0 0 0 0
+node "s1n" 994 52584 -92 -1 p 0 0 0 0 190 182 0 0 0 0 0 0 816 416 0 0 0 0
+node "w_n52_n16#" 60 0 -52 -16 pw 0 0 16 16 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "w_n105_n16#" 60 0 -105 -16 pw 0 0 16 16 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "w_n100_5#" 16357 0 -100 5 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 683 154
+cap "s0n" "out" 152
+cap "w_n100_5#" "out" 940
+cap "w_n105_n16#" "s1n" 3262
+cap "s0n" "rr" 720
+cap "w_n52_n16#" "out" 2146
+cap "w_n105_n16#" "s0" 4046
+cap "s0n" "adder" 720
+cap "w_n52_n16#" "rr" 2076
+cap "w_n100_5#" "adder" 564
+cap "s0" "s1" 480
+cap "a_n90_n12#" "s1n" 304
+cap "s0n" "s1n" 240
+cap "s1n" "divin" 5732
+cap "w_n100_5#" "s1n" 2460
+cap "w_n105_n16#" "s1" 10810
+cap "w_n100_5#" "s0" 2538
+cap "a_n90_n12#" "w_n105_n16#" 1600
+cap "w_n105_n16#" "divin" 1432
+cap "w_n52_n16#" "s0" 8650
+cap "a_n90_n12#" "s1" 240
+cap "s1n" "rr" 720
+cap "s1" "divin" 392
+cap "w_n100_5#" "s1" 2310
+cap "s0" "out" 1746
+cap "s0" "rr" 1112
+cap "a_n90_n12#" "divin" 720
+cap "s0n" "divin" 2340
+cap "w_n100_5#" "a_n90_n12#" 2524
+cap "w_n100_5#" "s0n" 2124
+cap "s1" "out" 570
+cap "w_n100_5#" "divin" 1960
+cap "s0n" "w_n52_n16#" 3262
+cap "adder" "s0" 392
+cap "w_n105_n16#" "adder" 2076
+device mosfet nfet -42 -10 -41 -9 2 4 "w_n52_n16#" "s0n" 4 0 "out" 4 0 "rr" 4 0
+device mosfet nfet -50 -10 -49 -9 2 4 "w_n52_n16#" "s0" 4 0 "a_n90_n12#" 4 0 "out" 4 0
+device mosfet nfet -84 -12 -83 -11 2 4 "w_n105_n16#" "s1n" 4 0 "a_n90_n12#" 4 0 "divin" 4 0
+device mosfet nfet -92 -12 -91 -11 2 4 "w_n105_n16#" "s1" 4 0 "adder" 4 0 "a_n90_n12#" 4 0
+device mosfet pfet -42 10 -41 11 2 4 "w_n100_5#" "s0" 4 0 "out" 4 0 "rr" 4 0
+device mosfet pfet -50 10 -49 11 2 4 "w_n100_5#" "s0n" 4 0 "a_n90_n12#" 4 0 "out" 4 0
+device mosfet pfet -84 8 -83 9 2 4 "w_n100_5#" "s1" 4 0 "a_n90_n12#" 4 0 "divin" 4 0
+device mosfet pfet -92 8 -91 9 2 4 "w_n100_5#" "s1n" 4 0 "adder" 4 0 "a_n90_n12#" 4 0

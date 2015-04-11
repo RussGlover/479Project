@@ -1,0 +1,44 @@
+| units: 100 tech: scmos format: MIT
+p s1n adder a_n90_n12 2 4 -92 8
+p s1 a_n90_n12 divin 2 4 -84 8
+p s0n a_n90_n12 out 2 4 -50 10
+p s0 out rr 2 4 -42 10
+n s1 adder a_n90_n12 2 4 -92 -12
+n s1n a_n90_n12 divin 2 4 -84 -12
+n s0 a_n90_n12 out 2 4 -50 -10
+n s0n out rr 2 4 -42 -10
+C w_n100_5 s1 2.3
+C w_n105_n16 s1n 3.3
+C w_n52_n16 out 2.1
+C s1n divin 5.7
+C w_n105_n16 s0 4.0
+C w_n52_n16 rr 2.1
+C s0n divin 2.3
+C w_n105_n16 s1 10.8
+C w_n100_5 a_n90_n12 2.5
+C w_n105_n16 adder 2.1
+C w_n100_5 s1n 2.5
+C w_n100_5 s0n 2.1
+C w_n52_n16 s0n 3.3
+C w_n100_5 s0 2.5
+C w_n52_n16 s0 8.7
+C rr GND 14.2
+R rr 109
+C out GND 2.3
+R out 130
+R divin 109
+C a_n90_n12 GND 6.0
+R a_n90_n12 522
+C adder GND 2.2
+R adder 108
+C s1 GND 45.1
+R s1 1672
+C s0 GND 50.9
+R s0 2138
+C s0n GND 44.7
+R s0n 765
+C s1n GND 52.6
+R s1n 994
+R w_n52_n16 60
+R w_n105_n16 60
+R w_n100_5 16357

@@ -1,16 +1,121 @@
 magic
 tech scmos
-timestamp 1428714792
+timestamp 1428730236
+<< metal1 >>
+rect 213 391 1623 395
+rect 213 383 1623 387
+rect 213 376 1623 380
+rect 213 369 1623 373
+rect 213 362 1623 366
+rect 213 355 1623 359
+rect 213 229 1557 233
+rect 1569 229 1623 233
+rect 1569 219 1573 229
+rect 213 215 1573 219
+rect 209 161 1623 165
+rect 209 151 213 161
+rect -1491 147 -1488 151
+rect 213 106 1623 110
+rect 1610 98 1623 102
+rect 1610 89 1623 93
+rect 1610 71 1623 75
+rect 1610 52 1623 56
+rect 1610 40 1623 44
+rect 1610 33 1623 37
+rect 1610 14 1623 18
+rect 1610 7 1623 11
+rect 1610 0 1623 4
+<< m2contact >>
+rect -1406 215 -1402 219
+rect -1193 215 -1189 219
+rect -980 215 -976 219
+rect -767 215 -763 219
+rect -554 215 -550 219
+rect -341 215 -337 219
+rect -128 215 -124 219
+rect 85 215 89 219
+use dp1v4  dp1v4_7
+timestamp 1428729908
+transform 1 0 -1453 0 1 232
+box -38 -232 175 166
+use dp1v4  dp1v4_6
+timestamp 1428729908
+transform 1 0 -1240 0 1 232
+box -38 -232 175 166
+use dp1v4  dp1v4_5
+timestamp 1428729908
+transform 1 0 -1027 0 1 232
+box -38 -232 175 166
+use dp1v4  dp1v4_4
+timestamp 1428729908
+transform 1 0 -814 0 1 232
+box -38 -232 175 166
+use dp1v4  dp1v4_3
+timestamp 1428729908
+transform 1 0 -601 0 1 232
+box -38 -232 175 166
 use dp1v4  dp1v4_2
-timestamp 1428712852
+timestamp 1428729908
 transform 1 0 -388 0 1 232
 box -38 -232 175 166
 use dp1v4  dp1v4_1
-timestamp 1428712852
+timestamp 1428729908
 transform 1 0 -175 0 1 232
 box -38 -232 175 166
 use dp1v4  dp1v4_0
-timestamp 1428712852
+timestamp 1428729908
 transform 1 0 38 0 1 232
 box -38 -232 175 166
+use lowbit  lowbit_0
+timestamp 1428729908
+transform 1 0 211 0 1 304
+box -22 -304 182 95
+use lowbit  lowbit_1
+timestamp 1428729908
+transform 1 0 384 0 1 304
+box -22 -304 182 95
+use lowbit  lowbit_2
+timestamp 1428729908
+transform 1 0 558 0 1 304
+box -22 -304 182 95
+use lowbit  lowbit_3
+timestamp 1428729908
+transform 1 0 732 0 1 304
+box -22 -304 182 95
+use lowbit  lowbit_4
+timestamp 1428729908
+transform 1 0 905 0 1 304
+box -22 -304 182 95
+use lowbit  lowbit_5
+timestamp 1428729908
+transform 1 0 1079 0 1 304
+box -22 -304 182 95
+use lowbit  lowbit_6
+timestamp 1428729908
+transform 1 0 1254 0 1 304
+box -22 -304 182 95
+use lowbit  lowbit_7
+timestamp 1428729908
+transform 1 0 1428 0 1 304
+box -22 -304 182 95
+<< labels >>
+rlabel metal1 1623 391 1623 395 7 Vdd
+rlabel metal1 1623 383 1623 387 7 clockload
+rlabel metal1 1623 376 1623 380 7 notclockload
+rlabel metal1 1623 369 1623 373 7 clk
+rlabel metal1 1623 362 1623 366 7 notclk
+rlabel metal1 1623 355 1623 359 7 reset
+rlabel metal1 1623 229 1623 233 7 Gnd
+rlabel metal1 1623 161 1623 165 7 Add
+rlabel metal1 1623 106 1623 110 7 Vdd
+rlabel metal1 1623 98 1623 102 7 S0n
+rlabel metal1 1623 89 1623 93 7 S1n
+rlabel metal1 1623 71 1623 75 7 S1
+rlabel metal1 1623 52 1623 56 7 S0
+rlabel metal1 1623 40 1623 44 7 Gnd
+rlabel metal1 1623 33 1623 37 7 inbit
+rlabel metal1 1623 14 1623 18 7 notshift
+rlabel metal1 1623 7 1623 11 7 shift
+rlabel metal1 1623 0 1623 4 8 Vdd
+rlabel metal1 -1491 147 -1491 151 3 Cout
 << end >>

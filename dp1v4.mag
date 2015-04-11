@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1428712852
+timestamp 1428729908
 << metal1 >>
 rect 166 159 175 163
 rect 166 151 175 155
@@ -30,19 +30,22 @@ rect 47 -8 51 -3
 rect 108 -5 112 -3
 rect 99 -9 112 -5
 rect 127 -7 131 -3
-rect 127 -212 131 -165
+rect 127 -157 131 -55
+rect 127 -212 131 -161
+<< m2contact >>
+rect 127 -161 131 -157
 use reg1  reg1_0
 timestamp 1428711541
 transform 1 0 106 0 1 173
 box -144 -176 -18 -10
 use rr1  rr1_0
-timestamp 1428642829
+timestamp 1428723998
 transform 1 0 197 0 1 173
 box -113 -176 -31 -10
 use mux1  mux1_0
-timestamp 1428711484
+timestamp 1428729551
 transform 1 0 102 0 1 -161
-box -140 -27 64 110
+box -140 -27 64 31
 use dp1v2  shift1_0
 timestamp 1428712110
 transform 1 0 11 0 1 -12
