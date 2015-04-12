@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1428730236
+timestamp 1428738085
 << metal1 >>
 rect 213 391 1623 395
 rect 213 383 1623 387
@@ -15,6 +15,7 @@ rect 213 215 1573 219
 rect 209 161 1623 165
 rect 209 151 213 161
 rect -1491 147 -1488 151
+rect 1592 147 1623 151
 rect 213 106 1623 110
 rect 1610 98 1623 102
 rect 1610 89 1623 93
@@ -25,7 +26,49 @@ rect 1610 33 1623 37
 rect 1610 14 1623 18
 rect 1610 7 1623 11
 rect 1610 0 1623 4
+rect -1452 -8 1588 -4
+<< metal2 >>
+rect -1456 395 -1452 398
+rect -1243 395 -1239 398
+rect -1030 395 -1026 398
+rect -817 395 -813 398
+rect -604 395 -600 398
+rect -391 395 -387 398
+rect -178 395 -174 398
+rect 35 395 39 398
+rect 257 395 261 399
+rect 430 395 434 399
+rect 604 395 608 399
+rect 778 395 782 399
+rect 951 395 955 399
+rect 1125 395 1129 399
+rect 1300 395 1304 399
+rect 1474 395 1478 399
+rect -1467 348 -1456 352
+rect -1467 233 -1463 348
+rect 1341 178 1345 184
+rect -1456 -4 -1452 63
+rect -1326 -3 -1322 75
+rect -1113 -2 -1109 22
+rect -900 -2 -896 20
+rect -687 -2 -683 30
+rect -474 -2 -470 21
+rect -261 -2 -257 25
+rect -48 -2 -44 22
+rect 165 -2 169 20
+rect 354 -2 358 104
+rect 527 -2 531 104
+rect 701 -2 705 104
+rect 875 -2 879 104
+rect 1048 -2 1052 105
+rect 1222 -2 1226 104
+rect 1282 41 1286 46
+rect 1397 -2 1401 105
+rect 1571 -2 1575 104
+rect 1588 -4 1592 147
 << m2contact >>
+rect -1456 348 -1452 352
+rect -1467 229 -1463 233
 rect -1406 215 -1402 219
 rect -1193 215 -1189 219
 rect -980 215 -976 219
@@ -34,68 +77,71 @@ rect -554 215 -550 219
 rect -341 215 -337 219
 rect -128 215 -124 219
 rect 85 215 89 219
+rect 1588 147 1592 151
+rect -1456 -8 -1452 -4
+rect 1588 -8 1592 -4
 use dp1v4  dp1v4_7
-timestamp 1428729908
+timestamp 1428734395
 transform 1 0 -1453 0 1 232
 box -38 -232 175 166
 use dp1v4  dp1v4_6
-timestamp 1428729908
+timestamp 1428734395
 transform 1 0 -1240 0 1 232
 box -38 -232 175 166
 use dp1v4  dp1v4_5
-timestamp 1428729908
+timestamp 1428734395
 transform 1 0 -1027 0 1 232
 box -38 -232 175 166
 use dp1v4  dp1v4_4
-timestamp 1428729908
+timestamp 1428734395
 transform 1 0 -814 0 1 232
 box -38 -232 175 166
 use dp1v4  dp1v4_3
-timestamp 1428729908
+timestamp 1428734395
 transform 1 0 -601 0 1 232
 box -38 -232 175 166
 use dp1v4  dp1v4_2
-timestamp 1428729908
+timestamp 1428734395
 transform 1 0 -388 0 1 232
 box -38 -232 175 166
 use dp1v4  dp1v4_1
-timestamp 1428729908
+timestamp 1428734395
 transform 1 0 -175 0 1 232
 box -38 -232 175 166
 use dp1v4  dp1v4_0
-timestamp 1428729908
+timestamp 1428734395
 transform 1 0 38 0 1 232
 box -38 -232 175 166
 use lowbit  lowbit_0
-timestamp 1428729908
+timestamp 1428734601
 transform 1 0 211 0 1 304
 box -22 -304 182 95
 use lowbit  lowbit_1
-timestamp 1428729908
+timestamp 1428734601
 transform 1 0 384 0 1 304
 box -22 -304 182 95
 use lowbit  lowbit_2
-timestamp 1428729908
+timestamp 1428734601
 transform 1 0 558 0 1 304
 box -22 -304 182 95
 use lowbit  lowbit_3
-timestamp 1428729908
+timestamp 1428734601
 transform 1 0 732 0 1 304
 box -22 -304 182 95
 use lowbit  lowbit_4
-timestamp 1428729908
+timestamp 1428734601
 transform 1 0 905 0 1 304
 box -22 -304 182 95
 use lowbit  lowbit_5
-timestamp 1428729908
+timestamp 1428734601
 transform 1 0 1079 0 1 304
 box -22 -304 182 95
 use lowbit  lowbit_6
-timestamp 1428729908
+timestamp 1428734601
 transform 1 0 1254 0 1 304
 box -22 -304 182 95
 use lowbit  lowbit_7
-timestamp 1428729908
+timestamp 1428734601
 transform 1 0 1428 0 1 304
 box -22 -304 182 95
 << labels >>
@@ -108,14 +154,48 @@ rlabel metal1 1623 355 1623 359 7 reset
 rlabel metal1 1623 229 1623 233 7 Gnd
 rlabel metal1 1623 161 1623 165 7 Add
 rlabel metal1 1623 106 1623 110 7 Vdd
-rlabel metal1 1623 98 1623 102 7 S0n
-rlabel metal1 1623 89 1623 93 7 S1n
-rlabel metal1 1623 71 1623 75 7 S1
-rlabel metal1 1623 52 1623 56 7 S0
 rlabel metal1 1623 40 1623 44 7 Gnd
 rlabel metal1 1623 33 1623 37 7 inbit
 rlabel metal1 1623 14 1623 18 7 notshift
 rlabel metal1 1623 7 1623 11 7 shift
 rlabel metal1 1623 0 1623 4 8 Vdd
 rlabel metal1 -1491 147 -1491 151 3 Cout
+rlabel metal2 257 399 261 399 5 dend7
+rlabel metal2 430 399 434 399 5 dend6
+rlabel metal2 604 399 608 399 5 dend5
+rlabel metal2 778 399 782 399 5 dend4
+rlabel metal2 951 399 955 399 5 dend3
+rlabel metal2 1125 399 1129 399 5 dend2
+rlabel metal2 1300 399 1304 399 5 dend1
+rlabel metal2 1474 399 1478 399 5 dend0
+rlabel metal2 -1243 398 -1239 398 5 divin6
+rlabel metal2 -1030 398 -1026 398 5 divin5
+rlabel metal2 -817 398 -813 398 5 divin4
+rlabel metal2 -604 398 -600 398 5 divin3
+rlabel metal2 -391 398 -387 398 5 divin2
+rlabel metal2 -178 398 -174 398 5 divin1
+rlabel metal2 35 398 39 398 5 divin0
+rlabel metal2 -1113 -2 -1109 -2 1 rem14
+rlabel metal2 -900 -2 -896 -2 1 rem13
+rlabel metal2 -687 -2 -683 -2 1 rem12
+rlabel metal2 -474 -2 -470 -2 1 rem11
+rlabel metal2 -261 -2 -257 -2 1 rem10
+rlabel metal2 -48 -2 -44 -2 1 rem9
+rlabel metal2 165 -2 169 -2 1 rem8
+rlabel metal2 354 -2 358 -2 1 quo7
+rlabel metal2 527 -2 531 -2 1 quo6
+rlabel metal2 701 -2 705 -2 1 quo5
+rlabel metal2 875 -2 879 -2 1 quo4
+rlabel metal2 1048 -2 1052 -2 1 quo3
+rlabel metal2 1222 -2 1226 -2 1 quo2
+rlabel metal2 1397 -2 1401 -2 1 quo1
+rlabel metal2 1571 -2 1575 -2 1 quo0
+rlabel metal2 -1326 -3 -1322 -3 1 rem15
+rlabel metal1 1623 98 1623 102 7 S1n
+rlabel metal1 1623 89 1623 93 7 S0n
+rlabel metal1 1623 71 1623 75 7 S0
+rlabel metal1 1623 52 1623 56 7 S1
+rlabel metal2 1341 178 1345 178 1 Shiftout
+rlabel metal2 1282 45 1286 45 1 lowmuxout
+rlabel metal1 1623 147 1623 151 7 sign
 << end >>

@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1428729908
+timestamp 1428734395
 << metal1 >>
 rect 166 159 175 163
 rect 166 151 175 155
@@ -15,6 +15,8 @@ rect 166 -85 175 -81
 rect 156 -126 175 -122
 rect 165 -134 175 -130
 rect 165 -143 175 -139
+rect 71 -151 127 -147
+rect 127 -161 131 -157
 rect 165 -161 175 -157
 rect 165 -180 175 -176
 rect 159 -192 175 -188
@@ -30,10 +32,10 @@ rect 47 -8 51 -3
 rect 108 -5 112 -3
 rect 99 -9 112 -5
 rect 127 -7 131 -3
-rect 127 -157 131 -55
-rect 127 -212 131 -161
+rect 127 -147 131 -55
+rect 127 -212 131 -151
 << m2contact >>
-rect 127 -161 131 -157
+rect 127 -151 131 -147
 use reg1  reg1_0
 timestamp 1428711541
 transform 1 0 106 0 1 173
@@ -67,10 +69,10 @@ rlabel metal1 162 -218 162 -214 1 notshift
 rlabel metal1 162 -225 162 -221 1 shift
 rlabel metal1 162 -232 162 -228 1 Vdd
 rlabel metal1 170 -126 170 -122 7 Vdd
-rlabel metal1 171 -161 171 -157 7 S1
-rlabel metal1 171 -180 171 -176 7 S0
-rlabel metal1 171 -143 171 -139 7 S1n
-rlabel metal1 171 -134 171 -130 7 S0n
 rlabel metal1 175 -71 175 -67 7 Add
 rlabel metal1 175 -85 175 -81 7 C
+rlabel metal1 171 -134 171 -130 7 S1n
+rlabel metal1 171 -143 171 -139 7 S0n
+rlabel metal1 171 -161 171 -157 7 S0
+rlabel metal1 171 -180 171 -176 7 S1
 << end >>

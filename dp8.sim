@@ -1,0 +1,2760 @@
+| units: 100 tech: scmos format: MIT
+n notshift lowbit_7/shift1_0/a_21_n179# lowbit_7/shift1_0/IN0 2 4 1449 23
+n lowbit_7/shift1_0/a_21_n179# Gnd lowbit_7/shift1_0/a_67_n189# 2 4 1493 21
+n lowbit_7/shift1_0/a_67_n189# Gnd lowbit_7/rr1_0/D 2 4 1513 21
+n shift inbit lowbit_7/shift1_0/a_21_n179# 2 4 1449 15
+p lowbit_7/shift1_0/a_21_n179# Vdd lowbit_7/shift1_0/a_67_n189# 2 4 1493 7
+p lowbit_7/shift1_0/a_67_n189# Vdd lowbit_7/rr1_0/D 2 4 1513 7
+p S1n quo0 lowbit_7/mux1_0/a_n90_n12# 2 4 1454 79
+p S1 lowbit_7/mux1_0/a_n90_n12# dend0 2 4 1462 79
+p S0n lowbit_7/mux1_0/a_n90_n12# lowbit_7/shift1_0/IN0 2 4 1496 81
+p S0 lowbit_7/shift1_0/IN0 quo0 2 4 1504 81
+n S1 quo0 lowbit_7/mux1_0/a_n90_n12# 2 4 1454 59
+n S1n lowbit_7/mux1_0/a_n90_n12# dend0 2 4 1462 59
+n S0 lowbit_7/mux1_0/a_n90_n12# lowbit_7/shift1_0/IN0 2 4 1496 61
+n S0n lowbit_7/shift1_0/IN0 quo0 2 4 1504 61
+p clk lowbit_7/rr1_0/D lowbit_7/rr1_0/a_n109_n98# 2 4 1500 335
+p reset Vdd lowbit_7/rr1_0/a_n59_n133# 2 4 1547 340
+n reset Gnd lowbit_7/rr1_0/a_n59_n133# 2 4 1561 340
+n notclk lowbit_7/rr1_0/D lowbit_7/rr1_0/a_n109_n98# 2 4 1508 321
+n clk lowbit_7/rr1_0/a_n109_n98# lowbit_7/rr1_0/a_n102_n98# 2 4 1500 307
+p lowbit_7/rr1_0/a_n59_n133# lowbit_7/rr1_0/a_n102_n154# Vdd 2 4 1547 324
+n lowbit_7/rr1_0/a_n59_n133# lowbit_7/rr1_0/a_n43_n83# lowbit_7/rr1_0/a_n102_n154# 2 4 1561 324
+n lowbit_7/rr1_0/a_n109_n98# Gnd lowbit_7/rr1_0/a_n43_n83# 2 4 1561 320
+p lowbit_7/rr1_0/a_n109_n98# Vdd lowbit_7/rr1_0/a_n102_n154# 2 4 1547 316
+p notclk lowbit_7/rr1_0/a_n109_n98# lowbit_7/rr1_0/a_n102_n98# 2 4 1508 293
+p lowbit_7/rr1_0/a_n102_n154# Vdd lowbit_7/rr1_0/a_n102_n98# 2 4 1547 294
+n lowbit_7/rr1_0/a_n102_n154# Gnd lowbit_7/rr1_0/a_n102_n98# 2 4 1561 294
+p clk lowbit_7/rr1_0/a_n109_n126# lowbit_7/rr1_0/a_n109_n154# 2 4 1500 279
+n notclk lowbit_7/rr1_0/a_n109_n126# lowbit_7/rr1_0/a_n109_n154# 2 4 1508 265
+p lowbit_7/rr1_0/a_n59_n133# lowbit_7/rr1_0/a_n109_n126# Vdd 2 4 1547 272
+n lowbit_7/rr1_0/a_n59_n133# lowbit_7/rr1_0/a_n42_n135# lowbit_7/rr1_0/a_n109_n126# 2 4 1562 272
+n quo0 Gnd lowbit_7/rr1_0/a_n42_n135# 2 4 1562 268
+n clk lowbit_7/rr1_0/a_n109_n154# lowbit_7/rr1_0/a_n102_n154# 2 4 1500 251
+p quo0 Vdd lowbit_7/rr1_0/a_n109_n126# 2 4 1547 264
+p lowbit_7/rr1_0/a_n109_n154# Vdd quo0 2 4 1547 248
+n lowbit_7/rr1_0/a_n109_n154# Gnd quo0 2 4 1561 248
+p notclk lowbit_7/rr1_0/a_n109_n154# lowbit_7/rr1_0/a_n102_n154# 2 4 1508 237
+n notshift lowbit_6/shift1_0/a_21_n179# lowmuxout 2 4 1275 23
+n lowbit_6/shift1_0/a_21_n179# Gnd lowbit_6/shift1_0/a_67_n189# 2 4 1319 21
+n lowbit_6/shift1_0/a_67_n189# Gnd Shiftout 2 4 1339 21
+n shift lowbit_7/shift1_0/IN0 lowbit_6/shift1_0/a_21_n179# 2 4 1275 15
+p lowbit_6/shift1_0/a_21_n179# Vdd lowbit_6/shift1_0/a_67_n189# 2 4 1319 7
+p lowbit_6/shift1_0/a_67_n189# Vdd Shiftout 2 4 1339 7
+p S1n quo1 lowbit_6/mux1_0/a_n90_n12# 2 4 1280 79
+p S1 lowbit_6/mux1_0/a_n90_n12# dend1 2 4 1288 79
+p S0n lowbit_6/mux1_0/a_n90_n12# lowmuxout 2 4 1322 81
+p S0 lowmuxout quo1 2 4 1330 81
+n S1 quo1 lowbit_6/mux1_0/a_n90_n12# 2 4 1280 59
+n S1n lowbit_6/mux1_0/a_n90_n12# dend1 2 4 1288 59
+n S0 lowbit_6/mux1_0/a_n90_n12# lowmuxout 2 4 1322 61
+n S0n lowmuxout quo1 2 4 1330 61
+p clk Shiftout lowbit_6/rr1_0/a_n109_n98# 2 4 1326 335
+p reset Vdd lowbit_6/rr1_0/a_n59_n133# 2 4 1373 340
+n reset Gnd lowbit_6/rr1_0/a_n59_n133# 2 4 1387 340
+n notclk Shiftout lowbit_6/rr1_0/a_n109_n98# 2 4 1334 321
+n clk lowbit_6/rr1_0/a_n109_n98# lowbit_6/rr1_0/a_n102_n98# 2 4 1326 307
+p lowbit_6/rr1_0/a_n59_n133# lowbit_6/rr1_0/a_n102_n154# Vdd 2 4 1373 324
+n lowbit_6/rr1_0/a_n59_n133# lowbit_6/rr1_0/a_n43_n83# lowbit_6/rr1_0/a_n102_n154# 2 4 1387 324
+n lowbit_6/rr1_0/a_n109_n98# Gnd lowbit_6/rr1_0/a_n43_n83# 2 4 1387 320
+p lowbit_6/rr1_0/a_n109_n98# Vdd lowbit_6/rr1_0/a_n102_n154# 2 4 1373 316
+p notclk lowbit_6/rr1_0/a_n109_n98# lowbit_6/rr1_0/a_n102_n98# 2 4 1334 293
+p lowbit_6/rr1_0/a_n102_n154# Vdd lowbit_6/rr1_0/a_n102_n98# 2 4 1373 294
+n lowbit_6/rr1_0/a_n102_n154# Gnd lowbit_6/rr1_0/a_n102_n98# 2 4 1387 294
+p clk lowbit_6/rr1_0/a_n109_n126# lowbit_6/rr1_0/a_n109_n154# 2 4 1326 279
+n notclk lowbit_6/rr1_0/a_n109_n126# lowbit_6/rr1_0/a_n109_n154# 2 4 1334 265
+p lowbit_6/rr1_0/a_n59_n133# lowbit_6/rr1_0/a_n109_n126# Vdd 2 4 1373 272
+n lowbit_6/rr1_0/a_n59_n133# lowbit_6/rr1_0/a_n42_n135# lowbit_6/rr1_0/a_n109_n126# 2 4 1388 272
+n quo1 Gnd lowbit_6/rr1_0/a_n42_n135# 2 4 1388 268
+n clk lowbit_6/rr1_0/a_n109_n154# lowbit_6/rr1_0/a_n102_n154# 2 4 1326 251
+p quo1 Vdd lowbit_6/rr1_0/a_n109_n126# 2 4 1373 264
+p lowbit_6/rr1_0/a_n109_n154# Vdd quo1 2 4 1373 248
+n lowbit_6/rr1_0/a_n109_n154# Gnd quo1 2 4 1387 248
+p notclk lowbit_6/rr1_0/a_n109_n154# lowbit_6/rr1_0/a_n102_n154# 2 4 1334 237
+n notshift lowbit_5/shift1_0/a_21_n179# lowbit_5/shift1_0/IN0 2 4 1100 23
+n lowbit_5/shift1_0/a_21_n179# Gnd lowbit_5/shift1_0/a_67_n189# 2 4 1144 21
+n lowbit_5/shift1_0/a_67_n189# Gnd lowbit_5/rr1_0/D 2 4 1164 21
+n shift lowmuxout lowbit_5/shift1_0/a_21_n179# 2 4 1100 15
+p lowbit_5/shift1_0/a_21_n179# Vdd lowbit_5/shift1_0/a_67_n189# 2 4 1144 7
+p lowbit_5/shift1_0/a_67_n189# Vdd lowbit_5/rr1_0/D 2 4 1164 7
+p S1n quo2 lowbit_5/mux1_0/a_n90_n12# 2 4 1105 79
+p S1 lowbit_5/mux1_0/a_n90_n12# dend2 2 4 1113 79
+p S0n lowbit_5/mux1_0/a_n90_n12# lowbit_5/shift1_0/IN0 2 4 1147 81
+p S0 lowbit_5/shift1_0/IN0 quo2 2 4 1155 81
+n S1 quo2 lowbit_5/mux1_0/a_n90_n12# 2 4 1105 59
+n S1n lowbit_5/mux1_0/a_n90_n12# dend2 2 4 1113 59
+n S0 lowbit_5/mux1_0/a_n90_n12# lowbit_5/shift1_0/IN0 2 4 1147 61
+n S0n lowbit_5/shift1_0/IN0 quo2 2 4 1155 61
+p clk lowbit_5/rr1_0/D lowbit_5/rr1_0/a_n109_n98# 2 4 1151 335
+p reset Vdd lowbit_5/rr1_0/a_n59_n133# 2 4 1198 340
+n reset Gnd lowbit_5/rr1_0/a_n59_n133# 2 4 1212 340
+n notclk lowbit_5/rr1_0/D lowbit_5/rr1_0/a_n109_n98# 2 4 1159 321
+n clk lowbit_5/rr1_0/a_n109_n98# lowbit_5/rr1_0/a_n102_n98# 2 4 1151 307
+p lowbit_5/rr1_0/a_n59_n133# lowbit_5/rr1_0/a_n102_n154# Vdd 2 4 1198 324
+n lowbit_5/rr1_0/a_n59_n133# lowbit_5/rr1_0/a_n43_n83# lowbit_5/rr1_0/a_n102_n154# 2 4 1212 324
+n lowbit_5/rr1_0/a_n109_n98# Gnd lowbit_5/rr1_0/a_n43_n83# 2 4 1212 320
+p lowbit_5/rr1_0/a_n109_n98# Vdd lowbit_5/rr1_0/a_n102_n154# 2 4 1198 316
+p notclk lowbit_5/rr1_0/a_n109_n98# lowbit_5/rr1_0/a_n102_n98# 2 4 1159 293
+p lowbit_5/rr1_0/a_n102_n154# Vdd lowbit_5/rr1_0/a_n102_n98# 2 4 1198 294
+n lowbit_5/rr1_0/a_n102_n154# Gnd lowbit_5/rr1_0/a_n102_n98# 2 4 1212 294
+p clk lowbit_5/rr1_0/a_n109_n126# lowbit_5/rr1_0/a_n109_n154# 2 4 1151 279
+n notclk lowbit_5/rr1_0/a_n109_n126# lowbit_5/rr1_0/a_n109_n154# 2 4 1159 265
+p lowbit_5/rr1_0/a_n59_n133# lowbit_5/rr1_0/a_n109_n126# Vdd 2 4 1198 272
+n lowbit_5/rr1_0/a_n59_n133# lowbit_5/rr1_0/a_n42_n135# lowbit_5/rr1_0/a_n109_n126# 2 4 1213 272
+n quo2 Gnd lowbit_5/rr1_0/a_n42_n135# 2 4 1213 268
+n clk lowbit_5/rr1_0/a_n109_n154# lowbit_5/rr1_0/a_n102_n154# 2 4 1151 251
+p quo2 Vdd lowbit_5/rr1_0/a_n109_n126# 2 4 1198 264
+p lowbit_5/rr1_0/a_n109_n154# Vdd quo2 2 4 1198 248
+n lowbit_5/rr1_0/a_n109_n154# Gnd quo2 2 4 1212 248
+p notclk lowbit_5/rr1_0/a_n109_n154# lowbit_5/rr1_0/a_n102_n154# 2 4 1159 237
+n notshift lowbit_4/shift1_0/a_21_n179# lowbit_4/shift1_0/IN0 2 4 926 23
+n lowbit_4/shift1_0/a_21_n179# Gnd lowbit_4/shift1_0/a_67_n189# 2 4 970 21
+n lowbit_4/shift1_0/a_67_n189# Gnd lowbit_4/rr1_0/D 2 4 990 21
+n shift lowbit_5/shift1_0/IN0 lowbit_4/shift1_0/a_21_n179# 2 4 926 15
+p lowbit_4/shift1_0/a_21_n179# Vdd lowbit_4/shift1_0/a_67_n189# 2 4 970 7
+p lowbit_4/shift1_0/a_67_n189# Vdd lowbit_4/rr1_0/D 2 4 990 7
+p S1n quo3 lowbit_4/mux1_0/a_n90_n12# 2 4 931 79
+p S1 lowbit_4/mux1_0/a_n90_n12# dend3 2 4 939 79
+p S0n lowbit_4/mux1_0/a_n90_n12# lowbit_4/shift1_0/IN0 2 4 973 81
+p S0 lowbit_4/shift1_0/IN0 quo3 2 4 981 81
+n S1 quo3 lowbit_4/mux1_0/a_n90_n12# 2 4 931 59
+n S1n lowbit_4/mux1_0/a_n90_n12# dend3 2 4 939 59
+n S0 lowbit_4/mux1_0/a_n90_n12# lowbit_4/shift1_0/IN0 2 4 973 61
+n S0n lowbit_4/shift1_0/IN0 quo3 2 4 981 61
+p clk lowbit_4/rr1_0/D lowbit_4/rr1_0/a_n109_n98# 2 4 977 335
+p reset Vdd lowbit_4/rr1_0/a_n59_n133# 2 4 1024 340
+n reset Gnd lowbit_4/rr1_0/a_n59_n133# 2 4 1038 340
+n notclk lowbit_4/rr1_0/D lowbit_4/rr1_0/a_n109_n98# 2 4 985 321
+n clk lowbit_4/rr1_0/a_n109_n98# lowbit_4/rr1_0/a_n102_n98# 2 4 977 307
+p lowbit_4/rr1_0/a_n59_n133# lowbit_4/rr1_0/a_n102_n154# Vdd 2 4 1024 324
+n lowbit_4/rr1_0/a_n59_n133# lowbit_4/rr1_0/a_n43_n83# lowbit_4/rr1_0/a_n102_n154# 2 4 1038 324
+n lowbit_4/rr1_0/a_n109_n98# Gnd lowbit_4/rr1_0/a_n43_n83# 2 4 1038 320
+p lowbit_4/rr1_0/a_n109_n98# Vdd lowbit_4/rr1_0/a_n102_n154# 2 4 1024 316
+p notclk lowbit_4/rr1_0/a_n109_n98# lowbit_4/rr1_0/a_n102_n98# 2 4 985 293
+p lowbit_4/rr1_0/a_n102_n154# Vdd lowbit_4/rr1_0/a_n102_n98# 2 4 1024 294
+n lowbit_4/rr1_0/a_n102_n154# Gnd lowbit_4/rr1_0/a_n102_n98# 2 4 1038 294
+p clk lowbit_4/rr1_0/a_n109_n126# lowbit_4/rr1_0/a_n109_n154# 2 4 977 279
+n notclk lowbit_4/rr1_0/a_n109_n126# lowbit_4/rr1_0/a_n109_n154# 2 4 985 265
+p lowbit_4/rr1_0/a_n59_n133# lowbit_4/rr1_0/a_n109_n126# Vdd 2 4 1024 272
+n lowbit_4/rr1_0/a_n59_n133# lowbit_4/rr1_0/a_n42_n135# lowbit_4/rr1_0/a_n109_n126# 2 4 1039 272
+n quo3 Gnd lowbit_4/rr1_0/a_n42_n135# 2 4 1039 268
+n clk lowbit_4/rr1_0/a_n109_n154# lowbit_4/rr1_0/a_n102_n154# 2 4 977 251
+p quo3 Vdd lowbit_4/rr1_0/a_n109_n126# 2 4 1024 264
+p lowbit_4/rr1_0/a_n109_n154# Vdd quo3 2 4 1024 248
+n lowbit_4/rr1_0/a_n109_n154# Gnd quo3 2 4 1038 248
+p notclk lowbit_4/rr1_0/a_n109_n154# lowbit_4/rr1_0/a_n102_n154# 2 4 985 237
+n notshift lowbit_3/shift1_0/a_21_n179# lowbit_3/shift1_0/IN0 2 4 753 23
+n lowbit_3/shift1_0/a_21_n179# Gnd lowbit_3/shift1_0/a_67_n189# 2 4 797 21
+n lowbit_3/shift1_0/a_67_n189# Gnd lowbit_3/rr1_0/D 2 4 817 21
+n shift lowbit_4/shift1_0/IN0 lowbit_3/shift1_0/a_21_n179# 2 4 753 15
+p lowbit_3/shift1_0/a_21_n179# Vdd lowbit_3/shift1_0/a_67_n189# 2 4 797 7
+p lowbit_3/shift1_0/a_67_n189# Vdd lowbit_3/rr1_0/D 2 4 817 7
+p S1n quo4 lowbit_3/mux1_0/a_n90_n12# 2 4 758 79
+p S1 lowbit_3/mux1_0/a_n90_n12# dend4 2 4 766 79
+p S0n lowbit_3/mux1_0/a_n90_n12# lowbit_3/shift1_0/IN0 2 4 800 81
+p S0 lowbit_3/shift1_0/IN0 quo4 2 4 808 81
+n S1 quo4 lowbit_3/mux1_0/a_n90_n12# 2 4 758 59
+n S1n lowbit_3/mux1_0/a_n90_n12# dend4 2 4 766 59
+n S0 lowbit_3/mux1_0/a_n90_n12# lowbit_3/shift1_0/IN0 2 4 800 61
+n S0n lowbit_3/shift1_0/IN0 quo4 2 4 808 61
+p clk lowbit_3/rr1_0/D lowbit_3/rr1_0/a_n109_n98# 2 4 804 335
+p reset Vdd lowbit_3/rr1_0/a_n59_n133# 2 4 851 340
+n reset Gnd lowbit_3/rr1_0/a_n59_n133# 2 4 865 340
+n notclk lowbit_3/rr1_0/D lowbit_3/rr1_0/a_n109_n98# 2 4 812 321
+n clk lowbit_3/rr1_0/a_n109_n98# lowbit_3/rr1_0/a_n102_n98# 2 4 804 307
+p lowbit_3/rr1_0/a_n59_n133# lowbit_3/rr1_0/a_n102_n154# Vdd 2 4 851 324
+n lowbit_3/rr1_0/a_n59_n133# lowbit_3/rr1_0/a_n43_n83# lowbit_3/rr1_0/a_n102_n154# 2 4 865 324
+n lowbit_3/rr1_0/a_n109_n98# Gnd lowbit_3/rr1_0/a_n43_n83# 2 4 865 320
+p lowbit_3/rr1_0/a_n109_n98# Vdd lowbit_3/rr1_0/a_n102_n154# 2 4 851 316
+p notclk lowbit_3/rr1_0/a_n109_n98# lowbit_3/rr1_0/a_n102_n98# 2 4 812 293
+p lowbit_3/rr1_0/a_n102_n154# Vdd lowbit_3/rr1_0/a_n102_n98# 2 4 851 294
+n lowbit_3/rr1_0/a_n102_n154# Gnd lowbit_3/rr1_0/a_n102_n98# 2 4 865 294
+p clk lowbit_3/rr1_0/a_n109_n126# lowbit_3/rr1_0/a_n109_n154# 2 4 804 279
+n notclk lowbit_3/rr1_0/a_n109_n126# lowbit_3/rr1_0/a_n109_n154# 2 4 812 265
+p lowbit_3/rr1_0/a_n59_n133# lowbit_3/rr1_0/a_n109_n126# Vdd 2 4 851 272
+n lowbit_3/rr1_0/a_n59_n133# lowbit_3/rr1_0/a_n42_n135# lowbit_3/rr1_0/a_n109_n126# 2 4 866 272
+n quo4 Gnd lowbit_3/rr1_0/a_n42_n135# 2 4 866 268
+n clk lowbit_3/rr1_0/a_n109_n154# lowbit_3/rr1_0/a_n102_n154# 2 4 804 251
+p quo4 Vdd lowbit_3/rr1_0/a_n109_n126# 2 4 851 264
+p lowbit_3/rr1_0/a_n109_n154# Vdd quo4 2 4 851 248
+n lowbit_3/rr1_0/a_n109_n154# Gnd quo4 2 4 865 248
+p notclk lowbit_3/rr1_0/a_n109_n154# lowbit_3/rr1_0/a_n102_n154# 2 4 812 237
+n notshift lowbit_2/shift1_0/a_21_n179# lowbit_2/shift1_0/IN0 2 4 579 23
+n lowbit_2/shift1_0/a_21_n179# Gnd lowbit_2/shift1_0/a_67_n189# 2 4 623 21
+n lowbit_2/shift1_0/a_67_n189# Gnd lowbit_2/rr1_0/D 2 4 643 21
+n shift lowbit_3/shift1_0/IN0 lowbit_2/shift1_0/a_21_n179# 2 4 579 15
+p lowbit_2/shift1_0/a_21_n179# Vdd lowbit_2/shift1_0/a_67_n189# 2 4 623 7
+p lowbit_2/shift1_0/a_67_n189# Vdd lowbit_2/rr1_0/D 2 4 643 7
+p S1n quo5 lowbit_2/mux1_0/a_n90_n12# 2 4 584 79
+p S1 lowbit_2/mux1_0/a_n90_n12# dend5 2 4 592 79
+p S0n lowbit_2/mux1_0/a_n90_n12# lowbit_2/shift1_0/IN0 2 4 626 81
+p S0 lowbit_2/shift1_0/IN0 quo5 2 4 634 81
+n S1 quo5 lowbit_2/mux1_0/a_n90_n12# 2 4 584 59
+n S1n lowbit_2/mux1_0/a_n90_n12# dend5 2 4 592 59
+n S0 lowbit_2/mux1_0/a_n90_n12# lowbit_2/shift1_0/IN0 2 4 626 61
+n S0n lowbit_2/shift1_0/IN0 quo5 2 4 634 61
+p clk lowbit_2/rr1_0/D lowbit_2/rr1_0/a_n109_n98# 2 4 630 335
+p reset Vdd lowbit_2/rr1_0/a_n59_n133# 2 4 677 340
+n reset Gnd lowbit_2/rr1_0/a_n59_n133# 2 4 691 340
+n notclk lowbit_2/rr1_0/D lowbit_2/rr1_0/a_n109_n98# 2 4 638 321
+n clk lowbit_2/rr1_0/a_n109_n98# lowbit_2/rr1_0/a_n102_n98# 2 4 630 307
+p lowbit_2/rr1_0/a_n59_n133# lowbit_2/rr1_0/a_n102_n154# Vdd 2 4 677 324
+n lowbit_2/rr1_0/a_n59_n133# lowbit_2/rr1_0/a_n43_n83# lowbit_2/rr1_0/a_n102_n154# 2 4 691 324
+n lowbit_2/rr1_0/a_n109_n98# Gnd lowbit_2/rr1_0/a_n43_n83# 2 4 691 320
+p lowbit_2/rr1_0/a_n109_n98# Vdd lowbit_2/rr1_0/a_n102_n154# 2 4 677 316
+p notclk lowbit_2/rr1_0/a_n109_n98# lowbit_2/rr1_0/a_n102_n98# 2 4 638 293
+p lowbit_2/rr1_0/a_n102_n154# Vdd lowbit_2/rr1_0/a_n102_n98# 2 4 677 294
+n lowbit_2/rr1_0/a_n102_n154# Gnd lowbit_2/rr1_0/a_n102_n98# 2 4 691 294
+p clk lowbit_2/rr1_0/a_n109_n126# lowbit_2/rr1_0/a_n109_n154# 2 4 630 279
+n notclk lowbit_2/rr1_0/a_n109_n126# lowbit_2/rr1_0/a_n109_n154# 2 4 638 265
+p lowbit_2/rr1_0/a_n59_n133# lowbit_2/rr1_0/a_n109_n126# Vdd 2 4 677 272
+n lowbit_2/rr1_0/a_n59_n133# lowbit_2/rr1_0/a_n42_n135# lowbit_2/rr1_0/a_n109_n126# 2 4 692 272
+n quo5 Gnd lowbit_2/rr1_0/a_n42_n135# 2 4 692 268
+n clk lowbit_2/rr1_0/a_n109_n154# lowbit_2/rr1_0/a_n102_n154# 2 4 630 251
+p quo5 Vdd lowbit_2/rr1_0/a_n109_n126# 2 4 677 264
+p lowbit_2/rr1_0/a_n109_n154# Vdd quo5 2 4 677 248
+n lowbit_2/rr1_0/a_n109_n154# Gnd quo5 2 4 691 248
+p notclk lowbit_2/rr1_0/a_n109_n154# lowbit_2/rr1_0/a_n102_n154# 2 4 638 237
+n notshift lowbit_1/shift1_0/a_21_n179# lowbit_1/shift1_0/IN0 2 4 405 23
+n lowbit_1/shift1_0/a_21_n179# Gnd lowbit_1/shift1_0/a_67_n189# 2 4 449 21
+n lowbit_1/shift1_0/a_67_n189# Gnd lowbit_1/rr1_0/D 2 4 469 21
+n shift lowbit_2/shift1_0/IN0 lowbit_1/shift1_0/a_21_n179# 2 4 405 15
+p lowbit_1/shift1_0/a_21_n179# Vdd lowbit_1/shift1_0/a_67_n189# 2 4 449 7
+p lowbit_1/shift1_0/a_67_n189# Vdd lowbit_1/rr1_0/D 2 4 469 7
+p S1n quo6 lowbit_1/mux1_0/a_n90_n12# 2 4 410 79
+p S1 lowbit_1/mux1_0/a_n90_n12# dend6 2 4 418 79
+p S0n lowbit_1/mux1_0/a_n90_n12# lowbit_1/shift1_0/IN0 2 4 452 81
+p S0 lowbit_1/shift1_0/IN0 quo6 2 4 460 81
+n S1 quo6 lowbit_1/mux1_0/a_n90_n12# 2 4 410 59
+n S1n lowbit_1/mux1_0/a_n90_n12# dend6 2 4 418 59
+n S0 lowbit_1/mux1_0/a_n90_n12# lowbit_1/shift1_0/IN0 2 4 452 61
+n S0n lowbit_1/shift1_0/IN0 quo6 2 4 460 61
+p clk lowbit_1/rr1_0/D lowbit_1/rr1_0/a_n109_n98# 2 4 456 335
+p reset Vdd lowbit_1/rr1_0/a_n59_n133# 2 4 503 340
+n reset Gnd lowbit_1/rr1_0/a_n59_n133# 2 4 517 340
+n notclk lowbit_1/rr1_0/D lowbit_1/rr1_0/a_n109_n98# 2 4 464 321
+n clk lowbit_1/rr1_0/a_n109_n98# lowbit_1/rr1_0/a_n102_n98# 2 4 456 307
+p lowbit_1/rr1_0/a_n59_n133# lowbit_1/rr1_0/a_n102_n154# Vdd 2 4 503 324
+n lowbit_1/rr1_0/a_n59_n133# lowbit_1/rr1_0/a_n43_n83# lowbit_1/rr1_0/a_n102_n154# 2 4 517 324
+n lowbit_1/rr1_0/a_n109_n98# Gnd lowbit_1/rr1_0/a_n43_n83# 2 4 517 320
+p lowbit_1/rr1_0/a_n109_n98# Vdd lowbit_1/rr1_0/a_n102_n154# 2 4 503 316
+p notclk lowbit_1/rr1_0/a_n109_n98# lowbit_1/rr1_0/a_n102_n98# 2 4 464 293
+p lowbit_1/rr1_0/a_n102_n154# Vdd lowbit_1/rr1_0/a_n102_n98# 2 4 503 294
+n lowbit_1/rr1_0/a_n102_n154# Gnd lowbit_1/rr1_0/a_n102_n98# 2 4 517 294
+p clk lowbit_1/rr1_0/a_n109_n126# lowbit_1/rr1_0/a_n109_n154# 2 4 456 279
+n notclk lowbit_1/rr1_0/a_n109_n126# lowbit_1/rr1_0/a_n109_n154# 2 4 464 265
+p lowbit_1/rr1_0/a_n59_n133# lowbit_1/rr1_0/a_n109_n126# Vdd 2 4 503 272
+n lowbit_1/rr1_0/a_n59_n133# lowbit_1/rr1_0/a_n42_n135# lowbit_1/rr1_0/a_n109_n126# 2 4 518 272
+n quo6 Gnd lowbit_1/rr1_0/a_n42_n135# 2 4 518 268
+n clk lowbit_1/rr1_0/a_n109_n154# lowbit_1/rr1_0/a_n102_n154# 2 4 456 251
+p quo6 Vdd lowbit_1/rr1_0/a_n109_n126# 2 4 503 264
+p lowbit_1/rr1_0/a_n109_n154# Vdd quo6 2 4 503 248
+n lowbit_1/rr1_0/a_n109_n154# Gnd quo6 2 4 517 248
+p notclk lowbit_1/rr1_0/a_n109_n154# lowbit_1/rr1_0/a_n102_n154# 2 4 464 237
+n notshift lowbit_0/shift1_0/a_21_n179# dp1v4_0/inbit 2 4 232 23
+n lowbit_0/shift1_0/a_21_n179# Gnd lowbit_0/shift1_0/a_67_n189# 2 4 276 21
+n lowbit_0/shift1_0/a_67_n189# Gnd lowbit_0/rr1_0/D 2 4 296 21
+n shift lowbit_1/shift1_0/IN0 lowbit_0/shift1_0/a_21_n179# 2 4 232 15
+p lowbit_0/shift1_0/a_21_n179# Vdd lowbit_0/shift1_0/a_67_n189# 2 4 276 7
+p lowbit_0/shift1_0/a_67_n189# Vdd lowbit_0/rr1_0/D 2 4 296 7
+p S1n quo7 lowbit_0/mux1_0/a_n90_n12# 2 4 237 79
+p S1 lowbit_0/mux1_0/a_n90_n12# dend7 2 4 245 79
+p S0n lowbit_0/mux1_0/a_n90_n12# dp1v4_0/inbit 2 4 279 81
+p S0 dp1v4_0/inbit quo7 2 4 287 81
+n S1 quo7 lowbit_0/mux1_0/a_n90_n12# 2 4 237 59
+n S1n lowbit_0/mux1_0/a_n90_n12# dend7 2 4 245 59
+n S0 lowbit_0/mux1_0/a_n90_n12# dp1v4_0/inbit 2 4 279 61
+n S0n dp1v4_0/inbit quo7 2 4 287 61
+p clk lowbit_0/rr1_0/D lowbit_0/rr1_0/a_n109_n98# 2 4 283 335
+p reset Vdd lowbit_0/rr1_0/a_n59_n133# 2 4 330 340
+n reset Gnd lowbit_0/rr1_0/a_n59_n133# 2 4 344 340
+n notclk lowbit_0/rr1_0/D lowbit_0/rr1_0/a_n109_n98# 2 4 291 321
+n clk lowbit_0/rr1_0/a_n109_n98# lowbit_0/rr1_0/a_n102_n98# 2 4 283 307
+p lowbit_0/rr1_0/a_n59_n133# lowbit_0/rr1_0/a_n102_n154# Vdd 2 4 330 324
+n lowbit_0/rr1_0/a_n59_n133# lowbit_0/rr1_0/a_n43_n83# lowbit_0/rr1_0/a_n102_n154# 2 4 344 324
+n lowbit_0/rr1_0/a_n109_n98# Gnd lowbit_0/rr1_0/a_n43_n83# 2 4 344 320
+p lowbit_0/rr1_0/a_n109_n98# Vdd lowbit_0/rr1_0/a_n102_n154# 2 4 330 316
+p notclk lowbit_0/rr1_0/a_n109_n98# lowbit_0/rr1_0/a_n102_n98# 2 4 291 293
+p lowbit_0/rr1_0/a_n102_n154# Vdd lowbit_0/rr1_0/a_n102_n98# 2 4 330 294
+n lowbit_0/rr1_0/a_n102_n154# Gnd lowbit_0/rr1_0/a_n102_n98# 2 4 344 294
+p clk lowbit_0/rr1_0/a_n109_n126# lowbit_0/rr1_0/a_n109_n154# 2 4 283 279
+n notclk lowbit_0/rr1_0/a_n109_n126# lowbit_0/rr1_0/a_n109_n154# 2 4 291 265
+p lowbit_0/rr1_0/a_n59_n133# lowbit_0/rr1_0/a_n109_n126# Vdd 2 4 330 272
+n lowbit_0/rr1_0/a_n59_n133# lowbit_0/rr1_0/a_n42_n135# lowbit_0/rr1_0/a_n109_n126# 2 4 345 272
+n quo7 Gnd lowbit_0/rr1_0/a_n42_n135# 2 4 345 268
+n clk lowbit_0/rr1_0/a_n109_n154# lowbit_0/rr1_0/a_n102_n154# 2 4 283 251
+p quo7 Vdd lowbit_0/rr1_0/a_n109_n126# 2 4 330 264
+p lowbit_0/rr1_0/a_n109_n154# Vdd quo7 2 4 330 248
+n lowbit_0/rr1_0/a_n109_n154# Gnd quo7 2 4 344 248
+p notclk lowbit_0/rr1_0/a_n109_n154# lowbit_0/rr1_0/a_n102_n154# 2 4 291 237
+n dp1v4_0/shift1_0/addsub_0/a_n97_n15# dp1v4_1/C Gnd 2 6 11 197
+n dp1v4_0/shift1_0/addsub_0/a_n75_3# dp1v4_0/shift1_0/addsub_0/Z Gnd 2 6 32 197
+n rem8 dp1v4_0/shift1_0/addsub_0/a_n62_43# dp1v4_0/shift1_0/addsub_0/a_n51_43# 2 6 54 197
+n Add dp1v4_0/shift1_0/addsub_0/a_n51_43# Gnd 2 6 71 197
+n dp1v4_0/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_0/shift1_0/addsub_0/a_n24_43# 2 6 81 197
+n dp1v4_0/reg1_0/Q dp1v4_0/shift1_0/addsub_0/a_n24_43# dp1v4_0/shift1_0/addsub_0/a_n20_43# 2 6 85 197
+n Add dp1v4_0/shift1_0/addsub_0/a_n20_43# dp1v4_0/shift1_0/addsub_0/a_n75_3# 2 6 89 197
+n dp1v4_0/shift1_0/addsub_0/a_n97_n15# dp1v4_0/shift1_0/addsub_0/a_n75_3# dp1v4_0/shift1_0/addsub_0/a_1_43# 2 6 106 197
+n Add dp1v4_0/shift1_0/addsub_0/a_1_43# Gnd 2 6 115 197
+n dp1v4_0/reg1_0/Q Gnd dp1v4_0/shift1_0/addsub_0/a_1_43# 2 6 126 197
+n dp1v4_0/shift1_0/addsub_0/a_n62_43# dp1v4_0/shift1_0/addsub_0/a_1_43# Gnd 2 6 136 197
+n dp1v4_0/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_0/shift1_0/addsub_0/a_41_43# 2 6 146 197
+n dp1v4_0/reg1_0/Q dp1v4_0/shift1_0/addsub_0/a_41_43# dp1v4_0/shift1_0/addsub_0/a_n97_n15# 2 6 150 197
+n Add dp1v4_0/shift1_0/addsub_0/a_n97_n15# dp1v4_0/shift1_0/addsub_0/a_56_43# 2 6 161 197
+n dp1v4_0/reg1_0/Q dp1v4_0/shift1_0/addsub_0/a_56_43# Gnd 2 6 172 197
+n dp1v4_0/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_0/shift1_0/addsub_0/a_56_43# 2 6 184 197
+p rem8 Add dp1v4_0/shift1_0/addsub_0/a_n62_43# 2 4 44 183
+p dp1v4_0/shift1_0/addsub_0/a_n97_n15# dp1v4_1/C Vdd 2 6 11 123
+p dp1v4_0/shift1_0/addsub_0/a_n75_3# dp1v4_0/shift1_0/addsub_0/Z Vdd 2 6 43 123
+p Add dp1v4_0/shift1_0/addsub_0/a_n51_43# Vdd 2 6 71 123
+p dp1v4_0/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_0/shift1_0/addsub_0/a_n24_n31# 2 6 81 123
+p dp1v4_0/reg1_0/Q dp1v4_0/shift1_0/addsub_0/a_n24_n31# dp1v4_0/shift1_0/addsub_0/a_n20_n31# 2 6 85 123
+p Add dp1v4_0/shift1_0/addsub_0/a_n20_n31# dp1v4_0/shift1_0/addsub_0/a_n75_3# 2 6 89 123
+p dp1v4_0/shift1_0/addsub_0/a_n97_n15# dp1v4_0/shift1_0/addsub_0/a_n75_3# dp1v4_0/shift1_0/addsub_0/a_1_n31# 2 6 106 123
+p Add dp1v4_0/shift1_0/addsub_0/a_1_n31# Vdd 2 6 115 123
+p dp1v4_0/reg1_0/Q Vdd dp1v4_0/shift1_0/addsub_0/a_1_n31# 2 6 126 123
+p dp1v4_0/shift1_0/addsub_0/a_n62_43# dp1v4_0/shift1_0/addsub_0/a_1_n31# Vdd 2 6 136 123
+p dp1v4_0/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_0/shift1_0/addsub_0/a_41_n31# 2 6 146 123
+p dp1v4_0/reg1_0/Q dp1v4_0/shift1_0/addsub_0/a_41_n31# dp1v4_0/shift1_0/addsub_0/a_n97_n15# 2 6 150 123
+p Add dp1v4_0/shift1_0/addsub_0/a_n97_n15# dp1v4_0/shift1_0/addsub_0/a_56_n31# 2 6 161 123
+p dp1v4_0/reg1_0/Q dp1v4_0/shift1_0/addsub_0/a_56_n31# Vdd 2 6 172 123
+p dp1v4_0/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_0/shift1_0/addsub_0/a_56_n31# 2 6 184 123
+n notshift dp1v4_0/shift1_0/a_n6_n203# dp1v4_1/inbit 2 4 43 23
+n dp1v4_0/shift1_0/a_n6_n203# Gnd dp1v4_0/shift1_0/a_40_n213# 2 4 87 21
+n dp1v4_0/shift1_0/a_40_n213# Gnd dp1v4_0/rr1_0/D 2 4 107 21
+n shift dp1v4_0/inbit dp1v4_0/shift1_0/a_n6_n203# 2 4 43 15
+p dp1v4_0/shift1_0/a_n6_n203# Vdd dp1v4_0/shift1_0/a_40_n213# 2 4 87 7
+p dp1v4_0/shift1_0/a_40_n213# Vdd dp1v4_0/rr1_0/D 2 4 107 7
+p S1n dp1v4_0/shift1_0/addsub_0/Z dp1v4_0/mux1_0/a_n90_n12# 2 4 48 79
+p S1 dp1v4_0/mux1_0/a_n90_n12# Gnd 2 4 56 79
+p S0n dp1v4_0/mux1_0/a_n90_n12# dp1v4_1/inbit 2 4 90 81
+p S0 dp1v4_1/inbit rem8 2 4 98 81
+n S1 dp1v4_0/shift1_0/addsub_0/Z dp1v4_0/mux1_0/a_n90_n12# 2 4 48 59
+n S1n dp1v4_0/mux1_0/a_n90_n12# Gnd 2 4 56 59
+n S0 dp1v4_0/mux1_0/a_n90_n12# dp1v4_1/inbit 2 4 90 61
+n S0n dp1v4_1/inbit rem8 2 4 98 61
+p clk dp1v4_0/rr1_0/D dp1v4_0/rr1_0/a_n109_n98# 2 4 131 335
+p reset Vdd dp1v4_0/rr1_0/a_n59_n133# 2 4 178 340
+n reset Gnd dp1v4_0/rr1_0/a_n59_n133# 2 4 192 340
+n notclk dp1v4_0/rr1_0/D dp1v4_0/rr1_0/a_n109_n98# 2 4 139 321
+n clk dp1v4_0/rr1_0/a_n109_n98# dp1v4_0/rr1_0/a_n102_n98# 2 4 131 307
+p dp1v4_0/rr1_0/a_n59_n133# dp1v4_0/rr1_0/a_n102_n154# Vdd 2 4 178 324
+n dp1v4_0/rr1_0/a_n59_n133# dp1v4_0/rr1_0/a_n43_n83# dp1v4_0/rr1_0/a_n102_n154# 2 4 192 324
+n dp1v4_0/rr1_0/a_n109_n98# Gnd dp1v4_0/rr1_0/a_n43_n83# 2 4 192 320
+p dp1v4_0/rr1_0/a_n109_n98# Vdd dp1v4_0/rr1_0/a_n102_n154# 2 4 178 316
+p notclk dp1v4_0/rr1_0/a_n109_n98# dp1v4_0/rr1_0/a_n102_n98# 2 4 139 293
+p dp1v4_0/rr1_0/a_n102_n154# Vdd dp1v4_0/rr1_0/a_n102_n98# 2 4 178 294
+n dp1v4_0/rr1_0/a_n102_n154# Gnd dp1v4_0/rr1_0/a_n102_n98# 2 4 192 294
+p clk dp1v4_0/rr1_0/a_n109_n126# dp1v4_0/rr1_0/a_n109_n154# 2 4 131 279
+n notclk dp1v4_0/rr1_0/a_n109_n126# dp1v4_0/rr1_0/a_n109_n154# 2 4 139 265
+p dp1v4_0/rr1_0/a_n59_n133# dp1v4_0/rr1_0/a_n109_n126# Vdd 2 4 178 272
+n dp1v4_0/rr1_0/a_n59_n133# dp1v4_0/rr1_0/a_n42_n135# dp1v4_0/rr1_0/a_n109_n126# 2 4 193 272
+n rem8 Gnd dp1v4_0/rr1_0/a_n42_n135# 2 4 193 268
+n clk dp1v4_0/rr1_0/a_n109_n154# dp1v4_0/rr1_0/a_n102_n154# 2 4 131 251
+p rem8 Vdd dp1v4_0/rr1_0/a_n109_n126# 2 4 178 264
+p dp1v4_0/rr1_0/a_n109_n154# Vdd rem8 2 4 178 248
+n dp1v4_0/rr1_0/a_n109_n154# Gnd rem8 2 4 192 248
+p notclk dp1v4_0/rr1_0/a_n109_n154# dp1v4_0/rr1_0/a_n102_n154# 2 4 139 237
+p clockload divin0 dp1v4_0/reg1_0/a_n109_n98# 2 4 40 335
+p reset Vdd dp1v4_0/reg1_0/a_n59_n133# 2 4 87 340
+n reset Gnd dp1v4_0/reg1_0/a_n59_n133# 2 4 101 340
+n notclockload divin0 dp1v4_0/reg1_0/a_n109_n98# 2 4 48 321
+n clockload dp1v4_0/reg1_0/a_n109_n98# dp1v4_0/reg1_0/a_n102_n98# 2 4 40 307
+p dp1v4_0/reg1_0/a_n59_n133# dp1v4_0/reg1_0/a_n102_n154# Vdd 2 4 87 324
+n dp1v4_0/reg1_0/a_n59_n133# dp1v4_0/reg1_0/a_n43_n83# dp1v4_0/reg1_0/a_n102_n154# 2 4 101 324
+n dp1v4_0/reg1_0/a_n109_n98# Gnd dp1v4_0/reg1_0/a_n43_n83# 2 4 101 320
+p dp1v4_0/reg1_0/a_n109_n98# Vdd dp1v4_0/reg1_0/a_n102_n154# 2 4 87 316
+p notclockload dp1v4_0/reg1_0/a_n109_n98# dp1v4_0/reg1_0/a_n102_n98# 2 4 48 293
+p dp1v4_0/reg1_0/a_n102_n154# Vdd dp1v4_0/reg1_0/a_n102_n98# 2 4 87 294
+n dp1v4_0/reg1_0/a_n102_n154# Gnd dp1v4_0/reg1_0/a_n102_n98# 2 4 101 294
+p clockload dp1v4_0/reg1_0/a_n109_n126# dp1v4_0/reg1_0/a_n109_n154# 2 4 40 279
+n notclockload dp1v4_0/reg1_0/a_n109_n126# dp1v4_0/reg1_0/a_n109_n154# 2 4 48 265
+p dp1v4_0/reg1_0/a_n59_n133# dp1v4_0/reg1_0/a_n109_n126# Vdd 2 4 87 272
+n dp1v4_0/reg1_0/a_n59_n133# dp1v4_0/reg1_0/a_n42_n135# dp1v4_0/reg1_0/a_n109_n126# 2 4 102 272
+n dp1v4_0/reg1_0/Q Gnd dp1v4_0/reg1_0/a_n42_n135# 2 4 102 268
+n clockload dp1v4_0/reg1_0/a_n109_n154# dp1v4_0/reg1_0/a_n102_n154# 2 4 40 251
+p dp1v4_0/reg1_0/Q Vdd dp1v4_0/reg1_0/a_n109_n126# 2 4 87 264
+p dp1v4_0/reg1_0/a_n109_n154# Vdd dp1v4_0/reg1_0/Q 2 4 87 248
+n dp1v4_0/reg1_0/a_n109_n154# Gnd dp1v4_0/reg1_0/Q 2 4 101 248
+p notclockload dp1v4_0/reg1_0/a_n109_n154# dp1v4_0/reg1_0/a_n102_n154# 2 4 48 237
+n dp1v4_1/shift1_0/addsub_0/a_n97_n15# dp1v4_2/C Gnd 2 6 -202 197
+n dp1v4_1/shift1_0/addsub_0/a_n75_3# dp1v4_1/shift1_0/addsub_0/Z Gnd 2 6 -181 197
+n rem9 dp1v4_1/shift1_0/addsub_0/a_n62_43# dp1v4_1/shift1_0/addsub_0/a_n51_43# 2 6 -159 197
+n Add dp1v4_1/shift1_0/addsub_0/a_n51_43# Gnd 2 6 -142 197
+n dp1v4_1/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_1/shift1_0/addsub_0/a_n24_43# 2 6 -132 197
+n dp1v4_1/reg1_0/Q dp1v4_1/shift1_0/addsub_0/a_n24_43# dp1v4_1/shift1_0/addsub_0/a_n20_43# 2 6 -128 197
+n dp1v4_1/C dp1v4_1/shift1_0/addsub_0/a_n20_43# dp1v4_1/shift1_0/addsub_0/a_n75_3# 2 6 -124 197
+n dp1v4_1/shift1_0/addsub_0/a_n97_n15# dp1v4_1/shift1_0/addsub_0/a_n75_3# dp1v4_1/shift1_0/addsub_0/a_1_43# 2 6 -107 197
+n dp1v4_1/C dp1v4_1/shift1_0/addsub_0/a_1_43# Gnd 2 6 -98 197
+n dp1v4_1/reg1_0/Q Gnd dp1v4_1/shift1_0/addsub_0/a_1_43# 2 6 -87 197
+n dp1v4_1/shift1_0/addsub_0/a_n62_43# dp1v4_1/shift1_0/addsub_0/a_1_43# Gnd 2 6 -77 197
+n dp1v4_1/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_1/shift1_0/addsub_0/a_41_43# 2 6 -67 197
+n dp1v4_1/reg1_0/Q dp1v4_1/shift1_0/addsub_0/a_41_43# dp1v4_1/shift1_0/addsub_0/a_n97_n15# 2 6 -63 197
+n dp1v4_1/C dp1v4_1/shift1_0/addsub_0/a_n97_n15# dp1v4_1/shift1_0/addsub_0/a_56_43# 2 6 -52 197
+n dp1v4_1/reg1_0/Q dp1v4_1/shift1_0/addsub_0/a_56_43# Gnd 2 6 -41 197
+n dp1v4_1/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_1/shift1_0/addsub_0/a_56_43# 2 6 -29 197
+p rem9 Add dp1v4_1/shift1_0/addsub_0/a_n62_43# 2 4 -169 183
+p dp1v4_1/shift1_0/addsub_0/a_n97_n15# dp1v4_2/C Vdd 2 6 -202 123
+p dp1v4_1/shift1_0/addsub_0/a_n75_3# dp1v4_1/shift1_0/addsub_0/Z Vdd 2 6 -170 123
+p Add dp1v4_1/shift1_0/addsub_0/a_n51_43# Vdd 2 6 -142 123
+p dp1v4_1/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_1/shift1_0/addsub_0/a_n24_n31# 2 6 -132 123
+p dp1v4_1/reg1_0/Q dp1v4_1/shift1_0/addsub_0/a_n24_n31# dp1v4_1/shift1_0/addsub_0/a_n20_n31# 2 6 -128 123
+p dp1v4_1/C dp1v4_1/shift1_0/addsub_0/a_n20_n31# dp1v4_1/shift1_0/addsub_0/a_n75_3# 2 6 -124 123
+p dp1v4_1/shift1_0/addsub_0/a_n97_n15# dp1v4_1/shift1_0/addsub_0/a_n75_3# dp1v4_1/shift1_0/addsub_0/a_1_n31# 2 6 -107 123
+p dp1v4_1/C dp1v4_1/shift1_0/addsub_0/a_1_n31# Vdd 2 6 -98 123
+p dp1v4_1/reg1_0/Q Vdd dp1v4_1/shift1_0/addsub_0/a_1_n31# 2 6 -87 123
+p dp1v4_1/shift1_0/addsub_0/a_n62_43# dp1v4_1/shift1_0/addsub_0/a_1_n31# Vdd 2 6 -77 123
+p dp1v4_1/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_1/shift1_0/addsub_0/a_41_n31# 2 6 -67 123
+p dp1v4_1/reg1_0/Q dp1v4_1/shift1_0/addsub_0/a_41_n31# dp1v4_1/shift1_0/addsub_0/a_n97_n15# 2 6 -63 123
+p dp1v4_1/C dp1v4_1/shift1_0/addsub_0/a_n97_n15# dp1v4_1/shift1_0/addsub_0/a_56_n31# 2 6 -52 123
+p dp1v4_1/reg1_0/Q dp1v4_1/shift1_0/addsub_0/a_56_n31# Vdd 2 6 -41 123
+p dp1v4_1/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_1/shift1_0/addsub_0/a_56_n31# 2 6 -29 123
+n notshift dp1v4_1/shift1_0/a_n6_n203# dp1v4_2/inbit 2 4 -170 23
+n dp1v4_1/shift1_0/a_n6_n203# Gnd dp1v4_1/shift1_0/a_40_n213# 2 4 -126 21
+n dp1v4_1/shift1_0/a_40_n213# Gnd dp1v4_1/rr1_0/D 2 4 -106 21
+n shift dp1v4_1/inbit dp1v4_1/shift1_0/a_n6_n203# 2 4 -170 15
+p dp1v4_1/shift1_0/a_n6_n203# Vdd dp1v4_1/shift1_0/a_40_n213# 2 4 -126 7
+p dp1v4_1/shift1_0/a_40_n213# Vdd dp1v4_1/rr1_0/D 2 4 -106 7
+p S1n dp1v4_1/shift1_0/addsub_0/Z dp1v4_1/mux1_0/a_n90_n12# 2 4 -165 79
+p S1 dp1v4_1/mux1_0/a_n90_n12# Gnd 2 4 -157 79
+p S0n dp1v4_1/mux1_0/a_n90_n12# dp1v4_2/inbit 2 4 -123 81
+p S0 dp1v4_2/inbit rem9 2 4 -115 81
+n S1 dp1v4_1/shift1_0/addsub_0/Z dp1v4_1/mux1_0/a_n90_n12# 2 4 -165 59
+n S1n dp1v4_1/mux1_0/a_n90_n12# Gnd 2 4 -157 59
+n S0 dp1v4_1/mux1_0/a_n90_n12# dp1v4_2/inbit 2 4 -123 61
+n S0n dp1v4_2/inbit rem9 2 4 -115 61
+p clk dp1v4_1/rr1_0/D dp1v4_1/rr1_0/a_n109_n98# 2 4 -82 335
+p reset Vdd dp1v4_1/rr1_0/a_n59_n133# 2 4 -35 340
+n reset Gnd dp1v4_1/rr1_0/a_n59_n133# 2 4 -21 340
+n notclk dp1v4_1/rr1_0/D dp1v4_1/rr1_0/a_n109_n98# 2 4 -74 321
+n clk dp1v4_1/rr1_0/a_n109_n98# dp1v4_1/rr1_0/a_n102_n98# 2 4 -82 307
+p dp1v4_1/rr1_0/a_n59_n133# dp1v4_1/rr1_0/a_n102_n154# Vdd 2 4 -35 324
+n dp1v4_1/rr1_0/a_n59_n133# dp1v4_1/rr1_0/a_n43_n83# dp1v4_1/rr1_0/a_n102_n154# 2 4 -21 324
+n dp1v4_1/rr1_0/a_n109_n98# Gnd dp1v4_1/rr1_0/a_n43_n83# 2 4 -21 320
+p dp1v4_1/rr1_0/a_n109_n98# Vdd dp1v4_1/rr1_0/a_n102_n154# 2 4 -35 316
+p notclk dp1v4_1/rr1_0/a_n109_n98# dp1v4_1/rr1_0/a_n102_n98# 2 4 -74 293
+p dp1v4_1/rr1_0/a_n102_n154# Vdd dp1v4_1/rr1_0/a_n102_n98# 2 4 -35 294
+n dp1v4_1/rr1_0/a_n102_n154# Gnd dp1v4_1/rr1_0/a_n102_n98# 2 4 -21 294
+p clk dp1v4_1/rr1_0/a_n109_n126# dp1v4_1/rr1_0/a_n109_n154# 2 4 -82 279
+n notclk dp1v4_1/rr1_0/a_n109_n126# dp1v4_1/rr1_0/a_n109_n154# 2 4 -74 265
+p dp1v4_1/rr1_0/a_n59_n133# dp1v4_1/rr1_0/a_n109_n126# Vdd 2 4 -35 272
+n dp1v4_1/rr1_0/a_n59_n133# dp1v4_1/rr1_0/a_n42_n135# dp1v4_1/rr1_0/a_n109_n126# 2 4 -20 272
+n rem9 Gnd dp1v4_1/rr1_0/a_n42_n135# 2 4 -20 268
+n clk dp1v4_1/rr1_0/a_n109_n154# dp1v4_1/rr1_0/a_n102_n154# 2 4 -82 251
+p rem9 Vdd dp1v4_1/rr1_0/a_n109_n126# 2 4 -35 264
+p dp1v4_1/rr1_0/a_n109_n154# Vdd rem9 2 4 -35 248
+n dp1v4_1/rr1_0/a_n109_n154# Gnd rem9 2 4 -21 248
+p notclk dp1v4_1/rr1_0/a_n109_n154# dp1v4_1/rr1_0/a_n102_n154# 2 4 -74 237
+p clockload divin1 dp1v4_1/reg1_0/a_n109_n98# 2 4 -173 335
+p reset Vdd dp1v4_1/reg1_0/a_n59_n133# 2 4 -126 340
+n reset Gnd dp1v4_1/reg1_0/a_n59_n133# 2 4 -112 340
+n notclockload divin1 dp1v4_1/reg1_0/a_n109_n98# 2 4 -165 321
+n clockload dp1v4_1/reg1_0/a_n109_n98# dp1v4_1/reg1_0/a_n102_n98# 2 4 -173 307
+p dp1v4_1/reg1_0/a_n59_n133# dp1v4_1/reg1_0/a_n102_n154# Vdd 2 4 -126 324
+n dp1v4_1/reg1_0/a_n59_n133# dp1v4_1/reg1_0/a_n43_n83# dp1v4_1/reg1_0/a_n102_n154# 2 4 -112 324
+n dp1v4_1/reg1_0/a_n109_n98# Gnd dp1v4_1/reg1_0/a_n43_n83# 2 4 -112 320
+p dp1v4_1/reg1_0/a_n109_n98# Vdd dp1v4_1/reg1_0/a_n102_n154# 2 4 -126 316
+p notclockload dp1v4_1/reg1_0/a_n109_n98# dp1v4_1/reg1_0/a_n102_n98# 2 4 -165 293
+p dp1v4_1/reg1_0/a_n102_n154# Vdd dp1v4_1/reg1_0/a_n102_n98# 2 4 -126 294
+n dp1v4_1/reg1_0/a_n102_n154# Gnd dp1v4_1/reg1_0/a_n102_n98# 2 4 -112 294
+p clockload dp1v4_1/reg1_0/a_n109_n126# dp1v4_1/reg1_0/a_n109_n154# 2 4 -173 279
+n notclockload dp1v4_1/reg1_0/a_n109_n126# dp1v4_1/reg1_0/a_n109_n154# 2 4 -165 265
+p dp1v4_1/reg1_0/a_n59_n133# dp1v4_1/reg1_0/a_n109_n126# Vdd 2 4 -126 272
+n dp1v4_1/reg1_0/a_n59_n133# dp1v4_1/reg1_0/a_n42_n135# dp1v4_1/reg1_0/a_n109_n126# 2 4 -111 272
+n dp1v4_1/reg1_0/Q Gnd dp1v4_1/reg1_0/a_n42_n135# 2 4 -111 268
+n clockload dp1v4_1/reg1_0/a_n109_n154# dp1v4_1/reg1_0/a_n102_n154# 2 4 -173 251
+p dp1v4_1/reg1_0/Q Vdd dp1v4_1/reg1_0/a_n109_n126# 2 4 -126 264
+p dp1v4_1/reg1_0/a_n109_n154# Vdd dp1v4_1/reg1_0/Q 2 4 -126 248
+n dp1v4_1/reg1_0/a_n109_n154# Gnd dp1v4_1/reg1_0/Q 2 4 -112 248
+p notclockload dp1v4_1/reg1_0/a_n109_n154# dp1v4_1/reg1_0/a_n102_n154# 2 4 -165 237
+n dp1v4_2/shift1_0/addsub_0/a_n97_n15# dp1v4_3/C Gnd 2 6 -415 197
+n dp1v4_2/shift1_0/addsub_0/a_n75_3# dp1v4_2/shift1_0/addsub_0/Z Gnd 2 6 -394 197
+n rem10 dp1v4_2/shift1_0/addsub_0/a_n62_43# dp1v4_2/shift1_0/addsub_0/a_n51_43# 2 6 -372 197
+n Add dp1v4_2/shift1_0/addsub_0/a_n51_43# Gnd 2 6 -355 197
+n dp1v4_2/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_2/shift1_0/addsub_0/a_n24_43# 2 6 -345 197
+n dp1v4_2/reg1_0/Q dp1v4_2/shift1_0/addsub_0/a_n24_43# dp1v4_2/shift1_0/addsub_0/a_n20_43# 2 6 -341 197
+n dp1v4_2/C dp1v4_2/shift1_0/addsub_0/a_n20_43# dp1v4_2/shift1_0/addsub_0/a_n75_3# 2 6 -337 197
+n dp1v4_2/shift1_0/addsub_0/a_n97_n15# dp1v4_2/shift1_0/addsub_0/a_n75_3# dp1v4_2/shift1_0/addsub_0/a_1_43# 2 6 -320 197
+n dp1v4_2/C dp1v4_2/shift1_0/addsub_0/a_1_43# Gnd 2 6 -311 197
+n dp1v4_2/reg1_0/Q Gnd dp1v4_2/shift1_0/addsub_0/a_1_43# 2 6 -300 197
+n dp1v4_2/shift1_0/addsub_0/a_n62_43# dp1v4_2/shift1_0/addsub_0/a_1_43# Gnd 2 6 -290 197
+n dp1v4_2/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_2/shift1_0/addsub_0/a_41_43# 2 6 -280 197
+n dp1v4_2/reg1_0/Q dp1v4_2/shift1_0/addsub_0/a_41_43# dp1v4_2/shift1_0/addsub_0/a_n97_n15# 2 6 -276 197
+n dp1v4_2/C dp1v4_2/shift1_0/addsub_0/a_n97_n15# dp1v4_2/shift1_0/addsub_0/a_56_43# 2 6 -265 197
+n dp1v4_2/reg1_0/Q dp1v4_2/shift1_0/addsub_0/a_56_43# Gnd 2 6 -254 197
+n dp1v4_2/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_2/shift1_0/addsub_0/a_56_43# 2 6 -242 197
+p rem10 Add dp1v4_2/shift1_0/addsub_0/a_n62_43# 2 4 -382 183
+p dp1v4_2/shift1_0/addsub_0/a_n97_n15# dp1v4_3/C Vdd 2 6 -415 123
+p dp1v4_2/shift1_0/addsub_0/a_n75_3# dp1v4_2/shift1_0/addsub_0/Z Vdd 2 6 -383 123
+p Add dp1v4_2/shift1_0/addsub_0/a_n51_43# Vdd 2 6 -355 123
+p dp1v4_2/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_2/shift1_0/addsub_0/a_n24_n31# 2 6 -345 123
+p dp1v4_2/reg1_0/Q dp1v4_2/shift1_0/addsub_0/a_n24_n31# dp1v4_2/shift1_0/addsub_0/a_n20_n31# 2 6 -341 123
+p dp1v4_2/C dp1v4_2/shift1_0/addsub_0/a_n20_n31# dp1v4_2/shift1_0/addsub_0/a_n75_3# 2 6 -337 123
+p dp1v4_2/shift1_0/addsub_0/a_n97_n15# dp1v4_2/shift1_0/addsub_0/a_n75_3# dp1v4_2/shift1_0/addsub_0/a_1_n31# 2 6 -320 123
+p dp1v4_2/C dp1v4_2/shift1_0/addsub_0/a_1_n31# Vdd 2 6 -311 123
+p dp1v4_2/reg1_0/Q Vdd dp1v4_2/shift1_0/addsub_0/a_1_n31# 2 6 -300 123
+p dp1v4_2/shift1_0/addsub_0/a_n62_43# dp1v4_2/shift1_0/addsub_0/a_1_n31# Vdd 2 6 -290 123
+p dp1v4_2/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_2/shift1_0/addsub_0/a_41_n31# 2 6 -280 123
+p dp1v4_2/reg1_0/Q dp1v4_2/shift1_0/addsub_0/a_41_n31# dp1v4_2/shift1_0/addsub_0/a_n97_n15# 2 6 -276 123
+p dp1v4_2/C dp1v4_2/shift1_0/addsub_0/a_n97_n15# dp1v4_2/shift1_0/addsub_0/a_56_n31# 2 6 -265 123
+p dp1v4_2/reg1_0/Q dp1v4_2/shift1_0/addsub_0/a_56_n31# Vdd 2 6 -254 123
+p dp1v4_2/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_2/shift1_0/addsub_0/a_56_n31# 2 6 -242 123
+n notshift dp1v4_2/shift1_0/a_n6_n203# dp1v4_3/inbit 2 4 -383 23
+n dp1v4_2/shift1_0/a_n6_n203# Gnd dp1v4_2/shift1_0/a_40_n213# 2 4 -339 21
+n dp1v4_2/shift1_0/a_40_n213# Gnd dp1v4_2/rr1_0/D 2 4 -319 21
+n shift dp1v4_2/inbit dp1v4_2/shift1_0/a_n6_n203# 2 4 -383 15
+p dp1v4_2/shift1_0/a_n6_n203# Vdd dp1v4_2/shift1_0/a_40_n213# 2 4 -339 7
+p dp1v4_2/shift1_0/a_40_n213# Vdd dp1v4_2/rr1_0/D 2 4 -319 7
+p S1n dp1v4_2/shift1_0/addsub_0/Z dp1v4_2/mux1_0/a_n90_n12# 2 4 -378 79
+p S1 dp1v4_2/mux1_0/a_n90_n12# Gnd 2 4 -370 79
+p S0n dp1v4_2/mux1_0/a_n90_n12# dp1v4_3/inbit 2 4 -336 81
+p S0 dp1v4_3/inbit rem10 2 4 -328 81
+n S1 dp1v4_2/shift1_0/addsub_0/Z dp1v4_2/mux1_0/a_n90_n12# 2 4 -378 59
+n S1n dp1v4_2/mux1_0/a_n90_n12# Gnd 2 4 -370 59
+n S0 dp1v4_2/mux1_0/a_n90_n12# dp1v4_3/inbit 2 4 -336 61
+n S0n dp1v4_3/inbit rem10 2 4 -328 61
+p clk dp1v4_2/rr1_0/D dp1v4_2/rr1_0/a_n109_n98# 2 4 -295 335
+p reset Vdd dp1v4_2/rr1_0/a_n59_n133# 2 4 -248 340
+n reset Gnd dp1v4_2/rr1_0/a_n59_n133# 2 4 -234 340
+n notclk dp1v4_2/rr1_0/D dp1v4_2/rr1_0/a_n109_n98# 2 4 -287 321
+n clk dp1v4_2/rr1_0/a_n109_n98# dp1v4_2/rr1_0/a_n102_n98# 2 4 -295 307
+p dp1v4_2/rr1_0/a_n59_n133# dp1v4_2/rr1_0/a_n102_n154# Vdd 2 4 -248 324
+n dp1v4_2/rr1_0/a_n59_n133# dp1v4_2/rr1_0/a_n43_n83# dp1v4_2/rr1_0/a_n102_n154# 2 4 -234 324
+n dp1v4_2/rr1_0/a_n109_n98# Gnd dp1v4_2/rr1_0/a_n43_n83# 2 4 -234 320
+p dp1v4_2/rr1_0/a_n109_n98# Vdd dp1v4_2/rr1_0/a_n102_n154# 2 4 -248 316
+p notclk dp1v4_2/rr1_0/a_n109_n98# dp1v4_2/rr1_0/a_n102_n98# 2 4 -287 293
+p dp1v4_2/rr1_0/a_n102_n154# Vdd dp1v4_2/rr1_0/a_n102_n98# 2 4 -248 294
+n dp1v4_2/rr1_0/a_n102_n154# Gnd dp1v4_2/rr1_0/a_n102_n98# 2 4 -234 294
+p clk dp1v4_2/rr1_0/a_n109_n126# dp1v4_2/rr1_0/a_n109_n154# 2 4 -295 279
+n notclk dp1v4_2/rr1_0/a_n109_n126# dp1v4_2/rr1_0/a_n109_n154# 2 4 -287 265
+p dp1v4_2/rr1_0/a_n59_n133# dp1v4_2/rr1_0/a_n109_n126# Vdd 2 4 -248 272
+n dp1v4_2/rr1_0/a_n59_n133# dp1v4_2/rr1_0/a_n42_n135# dp1v4_2/rr1_0/a_n109_n126# 2 4 -233 272
+n rem10 Gnd dp1v4_2/rr1_0/a_n42_n135# 2 4 -233 268
+n clk dp1v4_2/rr1_0/a_n109_n154# dp1v4_2/rr1_0/a_n102_n154# 2 4 -295 251
+p rem10 Vdd dp1v4_2/rr1_0/a_n109_n126# 2 4 -248 264
+p dp1v4_2/rr1_0/a_n109_n154# Vdd rem10 2 4 -248 248
+n dp1v4_2/rr1_0/a_n109_n154# Gnd rem10 2 4 -234 248
+p notclk dp1v4_2/rr1_0/a_n109_n154# dp1v4_2/rr1_0/a_n102_n154# 2 4 -287 237
+p clockload divin2 dp1v4_2/reg1_0/a_n109_n98# 2 4 -386 335
+p reset Vdd dp1v4_2/reg1_0/a_n59_n133# 2 4 -339 340
+n reset Gnd dp1v4_2/reg1_0/a_n59_n133# 2 4 -325 340
+n notclockload divin2 dp1v4_2/reg1_0/a_n109_n98# 2 4 -378 321
+n clockload dp1v4_2/reg1_0/a_n109_n98# dp1v4_2/reg1_0/a_n102_n98# 2 4 -386 307
+p dp1v4_2/reg1_0/a_n59_n133# dp1v4_2/reg1_0/a_n102_n154# Vdd 2 4 -339 324
+n dp1v4_2/reg1_0/a_n59_n133# dp1v4_2/reg1_0/a_n43_n83# dp1v4_2/reg1_0/a_n102_n154# 2 4 -325 324
+n dp1v4_2/reg1_0/a_n109_n98# Gnd dp1v4_2/reg1_0/a_n43_n83# 2 4 -325 320
+p dp1v4_2/reg1_0/a_n109_n98# Vdd dp1v4_2/reg1_0/a_n102_n154# 2 4 -339 316
+p notclockload dp1v4_2/reg1_0/a_n109_n98# dp1v4_2/reg1_0/a_n102_n98# 2 4 -378 293
+p dp1v4_2/reg1_0/a_n102_n154# Vdd dp1v4_2/reg1_0/a_n102_n98# 2 4 -339 294
+n dp1v4_2/reg1_0/a_n102_n154# Gnd dp1v4_2/reg1_0/a_n102_n98# 2 4 -325 294
+p clockload dp1v4_2/reg1_0/a_n109_n126# dp1v4_2/reg1_0/a_n109_n154# 2 4 -386 279
+n notclockload dp1v4_2/reg1_0/a_n109_n126# dp1v4_2/reg1_0/a_n109_n154# 2 4 -378 265
+p dp1v4_2/reg1_0/a_n59_n133# dp1v4_2/reg1_0/a_n109_n126# Vdd 2 4 -339 272
+n dp1v4_2/reg1_0/a_n59_n133# dp1v4_2/reg1_0/a_n42_n135# dp1v4_2/reg1_0/a_n109_n126# 2 4 -324 272
+n dp1v4_2/reg1_0/Q Gnd dp1v4_2/reg1_0/a_n42_n135# 2 4 -324 268
+n clockload dp1v4_2/reg1_0/a_n109_n154# dp1v4_2/reg1_0/a_n102_n154# 2 4 -386 251
+p dp1v4_2/reg1_0/Q Vdd dp1v4_2/reg1_0/a_n109_n126# 2 4 -339 264
+p dp1v4_2/reg1_0/a_n109_n154# Vdd dp1v4_2/reg1_0/Q 2 4 -339 248
+n dp1v4_2/reg1_0/a_n109_n154# Gnd dp1v4_2/reg1_0/Q 2 4 -325 248
+p notclockload dp1v4_2/reg1_0/a_n109_n154# dp1v4_2/reg1_0/a_n102_n154# 2 4 -378 237
+n dp1v4_3/shift1_0/addsub_0/a_n97_n15# dp1v4_4/C Gnd 2 6 -628 197
+n dp1v4_3/shift1_0/addsub_0/a_n75_3# dp1v4_3/shift1_0/addsub_0/Z Gnd 2 6 -607 197
+n rem11 dp1v4_3/shift1_0/addsub_0/a_n62_43# dp1v4_3/shift1_0/addsub_0/a_n51_43# 2 6 -585 197
+n Add dp1v4_3/shift1_0/addsub_0/a_n51_43# Gnd 2 6 -568 197
+n dp1v4_3/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_3/shift1_0/addsub_0/a_n24_43# 2 6 -558 197
+n dp1v4_3/reg1_0/Q dp1v4_3/shift1_0/addsub_0/a_n24_43# dp1v4_3/shift1_0/addsub_0/a_n20_43# 2 6 -554 197
+n dp1v4_3/C dp1v4_3/shift1_0/addsub_0/a_n20_43# dp1v4_3/shift1_0/addsub_0/a_n75_3# 2 6 -550 197
+n dp1v4_3/shift1_0/addsub_0/a_n97_n15# dp1v4_3/shift1_0/addsub_0/a_n75_3# dp1v4_3/shift1_0/addsub_0/a_1_43# 2 6 -533 197
+n dp1v4_3/C dp1v4_3/shift1_0/addsub_0/a_1_43# Gnd 2 6 -524 197
+n dp1v4_3/reg1_0/Q Gnd dp1v4_3/shift1_0/addsub_0/a_1_43# 2 6 -513 197
+n dp1v4_3/shift1_0/addsub_0/a_n62_43# dp1v4_3/shift1_0/addsub_0/a_1_43# Gnd 2 6 -503 197
+n dp1v4_3/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_3/shift1_0/addsub_0/a_41_43# 2 6 -493 197
+n dp1v4_3/reg1_0/Q dp1v4_3/shift1_0/addsub_0/a_41_43# dp1v4_3/shift1_0/addsub_0/a_n97_n15# 2 6 -489 197
+n dp1v4_3/C dp1v4_3/shift1_0/addsub_0/a_n97_n15# dp1v4_3/shift1_0/addsub_0/a_56_43# 2 6 -478 197
+n dp1v4_3/reg1_0/Q dp1v4_3/shift1_0/addsub_0/a_56_43# Gnd 2 6 -467 197
+n dp1v4_3/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_3/shift1_0/addsub_0/a_56_43# 2 6 -455 197
+p rem11 Add dp1v4_3/shift1_0/addsub_0/a_n62_43# 2 4 -595 183
+p dp1v4_3/shift1_0/addsub_0/a_n97_n15# dp1v4_4/C Vdd 2 6 -628 123
+p dp1v4_3/shift1_0/addsub_0/a_n75_3# dp1v4_3/shift1_0/addsub_0/Z Vdd 2 6 -596 123
+p Add dp1v4_3/shift1_0/addsub_0/a_n51_43# Vdd 2 6 -568 123
+p dp1v4_3/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_3/shift1_0/addsub_0/a_n24_n31# 2 6 -558 123
+p dp1v4_3/reg1_0/Q dp1v4_3/shift1_0/addsub_0/a_n24_n31# dp1v4_3/shift1_0/addsub_0/a_n20_n31# 2 6 -554 123
+p dp1v4_3/C dp1v4_3/shift1_0/addsub_0/a_n20_n31# dp1v4_3/shift1_0/addsub_0/a_n75_3# 2 6 -550 123
+p dp1v4_3/shift1_0/addsub_0/a_n97_n15# dp1v4_3/shift1_0/addsub_0/a_n75_3# dp1v4_3/shift1_0/addsub_0/a_1_n31# 2 6 -533 123
+p dp1v4_3/C dp1v4_3/shift1_0/addsub_0/a_1_n31# Vdd 2 6 -524 123
+p dp1v4_3/reg1_0/Q Vdd dp1v4_3/shift1_0/addsub_0/a_1_n31# 2 6 -513 123
+p dp1v4_3/shift1_0/addsub_0/a_n62_43# dp1v4_3/shift1_0/addsub_0/a_1_n31# Vdd 2 6 -503 123
+p dp1v4_3/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_3/shift1_0/addsub_0/a_41_n31# 2 6 -493 123
+p dp1v4_3/reg1_0/Q dp1v4_3/shift1_0/addsub_0/a_41_n31# dp1v4_3/shift1_0/addsub_0/a_n97_n15# 2 6 -489 123
+p dp1v4_3/C dp1v4_3/shift1_0/addsub_0/a_n97_n15# dp1v4_3/shift1_0/addsub_0/a_56_n31# 2 6 -478 123
+p dp1v4_3/reg1_0/Q dp1v4_3/shift1_0/addsub_0/a_56_n31# Vdd 2 6 -467 123
+p dp1v4_3/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_3/shift1_0/addsub_0/a_56_n31# 2 6 -455 123
+n notshift dp1v4_3/shift1_0/a_n6_n203# dp1v4_4/inbit 2 4 -596 23
+n dp1v4_3/shift1_0/a_n6_n203# Gnd dp1v4_3/shift1_0/a_40_n213# 2 4 -552 21
+n dp1v4_3/shift1_0/a_40_n213# Gnd dp1v4_3/rr1_0/D 2 4 -532 21
+n shift dp1v4_3/inbit dp1v4_3/shift1_0/a_n6_n203# 2 4 -596 15
+p dp1v4_3/shift1_0/a_n6_n203# Vdd dp1v4_3/shift1_0/a_40_n213# 2 4 -552 7
+p dp1v4_3/shift1_0/a_40_n213# Vdd dp1v4_3/rr1_0/D 2 4 -532 7
+p S1n dp1v4_3/shift1_0/addsub_0/Z dp1v4_3/mux1_0/a_n90_n12# 2 4 -591 79
+p S1 dp1v4_3/mux1_0/a_n90_n12# Gnd 2 4 -583 79
+p S0n dp1v4_3/mux1_0/a_n90_n12# dp1v4_4/inbit 2 4 -549 81
+p S0 dp1v4_4/inbit rem11 2 4 -541 81
+n S1 dp1v4_3/shift1_0/addsub_0/Z dp1v4_3/mux1_0/a_n90_n12# 2 4 -591 59
+n S1n dp1v4_3/mux1_0/a_n90_n12# Gnd 2 4 -583 59
+n S0 dp1v4_3/mux1_0/a_n90_n12# dp1v4_4/inbit 2 4 -549 61
+n S0n dp1v4_4/inbit rem11 2 4 -541 61
+p clk dp1v4_3/rr1_0/D dp1v4_3/rr1_0/a_n109_n98# 2 4 -508 335
+p reset Vdd dp1v4_3/rr1_0/a_n59_n133# 2 4 -461 340
+n reset Gnd dp1v4_3/rr1_0/a_n59_n133# 2 4 -447 340
+n notclk dp1v4_3/rr1_0/D dp1v4_3/rr1_0/a_n109_n98# 2 4 -500 321
+n clk dp1v4_3/rr1_0/a_n109_n98# dp1v4_3/rr1_0/a_n102_n98# 2 4 -508 307
+p dp1v4_3/rr1_0/a_n59_n133# dp1v4_3/rr1_0/a_n102_n154# Vdd 2 4 -461 324
+n dp1v4_3/rr1_0/a_n59_n133# dp1v4_3/rr1_0/a_n43_n83# dp1v4_3/rr1_0/a_n102_n154# 2 4 -447 324
+n dp1v4_3/rr1_0/a_n109_n98# Gnd dp1v4_3/rr1_0/a_n43_n83# 2 4 -447 320
+p dp1v4_3/rr1_0/a_n109_n98# Vdd dp1v4_3/rr1_0/a_n102_n154# 2 4 -461 316
+p notclk dp1v4_3/rr1_0/a_n109_n98# dp1v4_3/rr1_0/a_n102_n98# 2 4 -500 293
+p dp1v4_3/rr1_0/a_n102_n154# Vdd dp1v4_3/rr1_0/a_n102_n98# 2 4 -461 294
+n dp1v4_3/rr1_0/a_n102_n154# Gnd dp1v4_3/rr1_0/a_n102_n98# 2 4 -447 294
+p clk dp1v4_3/rr1_0/a_n109_n126# dp1v4_3/rr1_0/a_n109_n154# 2 4 -508 279
+n notclk dp1v4_3/rr1_0/a_n109_n126# dp1v4_3/rr1_0/a_n109_n154# 2 4 -500 265
+p dp1v4_3/rr1_0/a_n59_n133# dp1v4_3/rr1_0/a_n109_n126# Vdd 2 4 -461 272
+n dp1v4_3/rr1_0/a_n59_n133# dp1v4_3/rr1_0/a_n42_n135# dp1v4_3/rr1_0/a_n109_n126# 2 4 -446 272
+n rem11 Gnd dp1v4_3/rr1_0/a_n42_n135# 2 4 -446 268
+n clk dp1v4_3/rr1_0/a_n109_n154# dp1v4_3/rr1_0/a_n102_n154# 2 4 -508 251
+p rem11 Vdd dp1v4_3/rr1_0/a_n109_n126# 2 4 -461 264
+p dp1v4_3/rr1_0/a_n109_n154# Vdd rem11 2 4 -461 248
+n dp1v4_3/rr1_0/a_n109_n154# Gnd rem11 2 4 -447 248
+p notclk dp1v4_3/rr1_0/a_n109_n154# dp1v4_3/rr1_0/a_n102_n154# 2 4 -500 237
+p clockload divin3 dp1v4_3/reg1_0/a_n109_n98# 2 4 -599 335
+p reset Vdd dp1v4_3/reg1_0/a_n59_n133# 2 4 -552 340
+n reset Gnd dp1v4_3/reg1_0/a_n59_n133# 2 4 -538 340
+n notclockload divin3 dp1v4_3/reg1_0/a_n109_n98# 2 4 -591 321
+n clockload dp1v4_3/reg1_0/a_n109_n98# dp1v4_3/reg1_0/a_n102_n98# 2 4 -599 307
+p dp1v4_3/reg1_0/a_n59_n133# dp1v4_3/reg1_0/a_n102_n154# Vdd 2 4 -552 324
+n dp1v4_3/reg1_0/a_n59_n133# dp1v4_3/reg1_0/a_n43_n83# dp1v4_3/reg1_0/a_n102_n154# 2 4 -538 324
+n dp1v4_3/reg1_0/a_n109_n98# Gnd dp1v4_3/reg1_0/a_n43_n83# 2 4 -538 320
+p dp1v4_3/reg1_0/a_n109_n98# Vdd dp1v4_3/reg1_0/a_n102_n154# 2 4 -552 316
+p notclockload dp1v4_3/reg1_0/a_n109_n98# dp1v4_3/reg1_0/a_n102_n98# 2 4 -591 293
+p dp1v4_3/reg1_0/a_n102_n154# Vdd dp1v4_3/reg1_0/a_n102_n98# 2 4 -552 294
+n dp1v4_3/reg1_0/a_n102_n154# Gnd dp1v4_3/reg1_0/a_n102_n98# 2 4 -538 294
+p clockload dp1v4_3/reg1_0/a_n109_n126# dp1v4_3/reg1_0/a_n109_n154# 2 4 -599 279
+n notclockload dp1v4_3/reg1_0/a_n109_n126# dp1v4_3/reg1_0/a_n109_n154# 2 4 -591 265
+p dp1v4_3/reg1_0/a_n59_n133# dp1v4_3/reg1_0/a_n109_n126# Vdd 2 4 -552 272
+n dp1v4_3/reg1_0/a_n59_n133# dp1v4_3/reg1_0/a_n42_n135# dp1v4_3/reg1_0/a_n109_n126# 2 4 -537 272
+n dp1v4_3/reg1_0/Q Gnd dp1v4_3/reg1_0/a_n42_n135# 2 4 -537 268
+n clockload dp1v4_3/reg1_0/a_n109_n154# dp1v4_3/reg1_0/a_n102_n154# 2 4 -599 251
+p dp1v4_3/reg1_0/Q Vdd dp1v4_3/reg1_0/a_n109_n126# 2 4 -552 264
+p dp1v4_3/reg1_0/a_n109_n154# Vdd dp1v4_3/reg1_0/Q 2 4 -552 248
+n dp1v4_3/reg1_0/a_n109_n154# Gnd dp1v4_3/reg1_0/Q 2 4 -538 248
+p notclockload dp1v4_3/reg1_0/a_n109_n154# dp1v4_3/reg1_0/a_n102_n154# 2 4 -591 237
+n dp1v4_4/shift1_0/addsub_0/a_n97_n15# dp1v4_5/C Gnd 2 6 -841 197
+n dp1v4_4/shift1_0/addsub_0/a_n75_3# dp1v4_4/shift1_0/addsub_0/Z Gnd 2 6 -820 197
+n rem12 dp1v4_4/shift1_0/addsub_0/a_n62_43# dp1v4_4/shift1_0/addsub_0/a_n51_43# 2 6 -798 197
+n Add dp1v4_4/shift1_0/addsub_0/a_n51_43# Gnd 2 6 -781 197
+n dp1v4_4/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_4/shift1_0/addsub_0/a_n24_43# 2 6 -771 197
+n dp1v4_4/reg1_0/Q dp1v4_4/shift1_0/addsub_0/a_n24_43# dp1v4_4/shift1_0/addsub_0/a_n20_43# 2 6 -767 197
+n dp1v4_4/C dp1v4_4/shift1_0/addsub_0/a_n20_43# dp1v4_4/shift1_0/addsub_0/a_n75_3# 2 6 -763 197
+n dp1v4_4/shift1_0/addsub_0/a_n97_n15# dp1v4_4/shift1_0/addsub_0/a_n75_3# dp1v4_4/shift1_0/addsub_0/a_1_43# 2 6 -746 197
+n dp1v4_4/C dp1v4_4/shift1_0/addsub_0/a_1_43# Gnd 2 6 -737 197
+n dp1v4_4/reg1_0/Q Gnd dp1v4_4/shift1_0/addsub_0/a_1_43# 2 6 -726 197
+n dp1v4_4/shift1_0/addsub_0/a_n62_43# dp1v4_4/shift1_0/addsub_0/a_1_43# Gnd 2 6 -716 197
+n dp1v4_4/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_4/shift1_0/addsub_0/a_41_43# 2 6 -706 197
+n dp1v4_4/reg1_0/Q dp1v4_4/shift1_0/addsub_0/a_41_43# dp1v4_4/shift1_0/addsub_0/a_n97_n15# 2 6 -702 197
+n dp1v4_4/C dp1v4_4/shift1_0/addsub_0/a_n97_n15# dp1v4_4/shift1_0/addsub_0/a_56_43# 2 6 -691 197
+n dp1v4_4/reg1_0/Q dp1v4_4/shift1_0/addsub_0/a_56_43# Gnd 2 6 -680 197
+n dp1v4_4/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_4/shift1_0/addsub_0/a_56_43# 2 6 -668 197
+p rem12 Add dp1v4_4/shift1_0/addsub_0/a_n62_43# 2 4 -808 183
+p dp1v4_4/shift1_0/addsub_0/a_n97_n15# dp1v4_5/C Vdd 2 6 -841 123
+p dp1v4_4/shift1_0/addsub_0/a_n75_3# dp1v4_4/shift1_0/addsub_0/Z Vdd 2 6 -809 123
+p Add dp1v4_4/shift1_0/addsub_0/a_n51_43# Vdd 2 6 -781 123
+p dp1v4_4/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_4/shift1_0/addsub_0/a_n24_n31# 2 6 -771 123
+p dp1v4_4/reg1_0/Q dp1v4_4/shift1_0/addsub_0/a_n24_n31# dp1v4_4/shift1_0/addsub_0/a_n20_n31# 2 6 -767 123
+p dp1v4_4/C dp1v4_4/shift1_0/addsub_0/a_n20_n31# dp1v4_4/shift1_0/addsub_0/a_n75_3# 2 6 -763 123
+p dp1v4_4/shift1_0/addsub_0/a_n97_n15# dp1v4_4/shift1_0/addsub_0/a_n75_3# dp1v4_4/shift1_0/addsub_0/a_1_n31# 2 6 -746 123
+p dp1v4_4/C dp1v4_4/shift1_0/addsub_0/a_1_n31# Vdd 2 6 -737 123
+p dp1v4_4/reg1_0/Q Vdd dp1v4_4/shift1_0/addsub_0/a_1_n31# 2 6 -726 123
+p dp1v4_4/shift1_0/addsub_0/a_n62_43# dp1v4_4/shift1_0/addsub_0/a_1_n31# Vdd 2 6 -716 123
+p dp1v4_4/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_4/shift1_0/addsub_0/a_41_n31# 2 6 -706 123
+p dp1v4_4/reg1_0/Q dp1v4_4/shift1_0/addsub_0/a_41_n31# dp1v4_4/shift1_0/addsub_0/a_n97_n15# 2 6 -702 123
+p dp1v4_4/C dp1v4_4/shift1_0/addsub_0/a_n97_n15# dp1v4_4/shift1_0/addsub_0/a_56_n31# 2 6 -691 123
+p dp1v4_4/reg1_0/Q dp1v4_4/shift1_0/addsub_0/a_56_n31# Vdd 2 6 -680 123
+p dp1v4_4/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_4/shift1_0/addsub_0/a_56_n31# 2 6 -668 123
+n notshift dp1v4_4/shift1_0/a_n6_n203# dp1v4_5/inbit 2 4 -809 23
+n dp1v4_4/shift1_0/a_n6_n203# Gnd dp1v4_4/shift1_0/a_40_n213# 2 4 -765 21
+n dp1v4_4/shift1_0/a_40_n213# Gnd dp1v4_4/rr1_0/D 2 4 -745 21
+n shift dp1v4_4/inbit dp1v4_4/shift1_0/a_n6_n203# 2 4 -809 15
+p dp1v4_4/shift1_0/a_n6_n203# Vdd dp1v4_4/shift1_0/a_40_n213# 2 4 -765 7
+p dp1v4_4/shift1_0/a_40_n213# Vdd dp1v4_4/rr1_0/D 2 4 -745 7
+p S1n dp1v4_4/shift1_0/addsub_0/Z dp1v4_4/mux1_0/a_n90_n12# 2 4 -804 79
+p S1 dp1v4_4/mux1_0/a_n90_n12# Gnd 2 4 -796 79
+p S0n dp1v4_4/mux1_0/a_n90_n12# dp1v4_5/inbit 2 4 -762 81
+p S0 dp1v4_5/inbit rem12 2 4 -754 81
+n S1 dp1v4_4/shift1_0/addsub_0/Z dp1v4_4/mux1_0/a_n90_n12# 2 4 -804 59
+n S1n dp1v4_4/mux1_0/a_n90_n12# Gnd 2 4 -796 59
+n S0 dp1v4_4/mux1_0/a_n90_n12# dp1v4_5/inbit 2 4 -762 61
+n S0n dp1v4_5/inbit rem12 2 4 -754 61
+p clk dp1v4_4/rr1_0/D dp1v4_4/rr1_0/a_n109_n98# 2 4 -721 335
+p reset Vdd dp1v4_4/rr1_0/a_n59_n133# 2 4 -674 340
+n reset Gnd dp1v4_4/rr1_0/a_n59_n133# 2 4 -660 340
+n notclk dp1v4_4/rr1_0/D dp1v4_4/rr1_0/a_n109_n98# 2 4 -713 321
+n clk dp1v4_4/rr1_0/a_n109_n98# dp1v4_4/rr1_0/a_n102_n98# 2 4 -721 307
+p dp1v4_4/rr1_0/a_n59_n133# dp1v4_4/rr1_0/a_n102_n154# Vdd 2 4 -674 324
+n dp1v4_4/rr1_0/a_n59_n133# dp1v4_4/rr1_0/a_n43_n83# dp1v4_4/rr1_0/a_n102_n154# 2 4 -660 324
+n dp1v4_4/rr1_0/a_n109_n98# Gnd dp1v4_4/rr1_0/a_n43_n83# 2 4 -660 320
+p dp1v4_4/rr1_0/a_n109_n98# Vdd dp1v4_4/rr1_0/a_n102_n154# 2 4 -674 316
+p notclk dp1v4_4/rr1_0/a_n109_n98# dp1v4_4/rr1_0/a_n102_n98# 2 4 -713 293
+p dp1v4_4/rr1_0/a_n102_n154# Vdd dp1v4_4/rr1_0/a_n102_n98# 2 4 -674 294
+n dp1v4_4/rr1_0/a_n102_n154# Gnd dp1v4_4/rr1_0/a_n102_n98# 2 4 -660 294
+p clk dp1v4_4/rr1_0/a_n109_n126# dp1v4_4/rr1_0/a_n109_n154# 2 4 -721 279
+n notclk dp1v4_4/rr1_0/a_n109_n126# dp1v4_4/rr1_0/a_n109_n154# 2 4 -713 265
+p dp1v4_4/rr1_0/a_n59_n133# dp1v4_4/rr1_0/a_n109_n126# Vdd 2 4 -674 272
+n dp1v4_4/rr1_0/a_n59_n133# dp1v4_4/rr1_0/a_n42_n135# dp1v4_4/rr1_0/a_n109_n126# 2 4 -659 272
+n rem12 Gnd dp1v4_4/rr1_0/a_n42_n135# 2 4 -659 268
+n clk dp1v4_4/rr1_0/a_n109_n154# dp1v4_4/rr1_0/a_n102_n154# 2 4 -721 251
+p rem12 Vdd dp1v4_4/rr1_0/a_n109_n126# 2 4 -674 264
+p dp1v4_4/rr1_0/a_n109_n154# Vdd rem12 2 4 -674 248
+n dp1v4_4/rr1_0/a_n109_n154# Gnd rem12 2 4 -660 248
+p notclk dp1v4_4/rr1_0/a_n109_n154# dp1v4_4/rr1_0/a_n102_n154# 2 4 -713 237
+p clockload divin4 dp1v4_4/reg1_0/a_n109_n98# 2 4 -812 335
+p reset Vdd dp1v4_4/reg1_0/a_n59_n133# 2 4 -765 340
+n reset Gnd dp1v4_4/reg1_0/a_n59_n133# 2 4 -751 340
+n notclockload divin4 dp1v4_4/reg1_0/a_n109_n98# 2 4 -804 321
+n clockload dp1v4_4/reg1_0/a_n109_n98# dp1v4_4/reg1_0/a_n102_n98# 2 4 -812 307
+p dp1v4_4/reg1_0/a_n59_n133# dp1v4_4/reg1_0/a_n102_n154# Vdd 2 4 -765 324
+n dp1v4_4/reg1_0/a_n59_n133# dp1v4_4/reg1_0/a_n43_n83# dp1v4_4/reg1_0/a_n102_n154# 2 4 -751 324
+n dp1v4_4/reg1_0/a_n109_n98# Gnd dp1v4_4/reg1_0/a_n43_n83# 2 4 -751 320
+p dp1v4_4/reg1_0/a_n109_n98# Vdd dp1v4_4/reg1_0/a_n102_n154# 2 4 -765 316
+p notclockload dp1v4_4/reg1_0/a_n109_n98# dp1v4_4/reg1_0/a_n102_n98# 2 4 -804 293
+p dp1v4_4/reg1_0/a_n102_n154# Vdd dp1v4_4/reg1_0/a_n102_n98# 2 4 -765 294
+n dp1v4_4/reg1_0/a_n102_n154# Gnd dp1v4_4/reg1_0/a_n102_n98# 2 4 -751 294
+p clockload dp1v4_4/reg1_0/a_n109_n126# dp1v4_4/reg1_0/a_n109_n154# 2 4 -812 279
+n notclockload dp1v4_4/reg1_0/a_n109_n126# dp1v4_4/reg1_0/a_n109_n154# 2 4 -804 265
+p dp1v4_4/reg1_0/a_n59_n133# dp1v4_4/reg1_0/a_n109_n126# Vdd 2 4 -765 272
+n dp1v4_4/reg1_0/a_n59_n133# dp1v4_4/reg1_0/a_n42_n135# dp1v4_4/reg1_0/a_n109_n126# 2 4 -750 272
+n dp1v4_4/reg1_0/Q Gnd dp1v4_4/reg1_0/a_n42_n135# 2 4 -750 268
+n clockload dp1v4_4/reg1_0/a_n109_n154# dp1v4_4/reg1_0/a_n102_n154# 2 4 -812 251
+p dp1v4_4/reg1_0/Q Vdd dp1v4_4/reg1_0/a_n109_n126# 2 4 -765 264
+p dp1v4_4/reg1_0/a_n109_n154# Vdd dp1v4_4/reg1_0/Q 2 4 -765 248
+n dp1v4_4/reg1_0/a_n109_n154# Gnd dp1v4_4/reg1_0/Q 2 4 -751 248
+p notclockload dp1v4_4/reg1_0/a_n109_n154# dp1v4_4/reg1_0/a_n102_n154# 2 4 -804 237
+n dp1v4_5/shift1_0/addsub_0/a_n97_n15# dp1v4_6/C Gnd 2 6 -1054 197
+n dp1v4_5/shift1_0/addsub_0/a_n75_3# dp1v4_5/shift1_0/addsub_0/Z Gnd 2 6 -1033 197
+n rem13 dp1v4_5/shift1_0/addsub_0/a_n62_43# dp1v4_5/shift1_0/addsub_0/a_n51_43# 2 6 -1011 197
+n Add dp1v4_5/shift1_0/addsub_0/a_n51_43# Gnd 2 6 -994 197
+n dp1v4_5/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_5/shift1_0/addsub_0/a_n24_43# 2 6 -984 197
+n dp1v4_5/reg1_0/Q dp1v4_5/shift1_0/addsub_0/a_n24_43# dp1v4_5/shift1_0/addsub_0/a_n20_43# 2 6 -980 197
+n dp1v4_5/C dp1v4_5/shift1_0/addsub_0/a_n20_43# dp1v4_5/shift1_0/addsub_0/a_n75_3# 2 6 -976 197
+n dp1v4_5/shift1_0/addsub_0/a_n97_n15# dp1v4_5/shift1_0/addsub_0/a_n75_3# dp1v4_5/shift1_0/addsub_0/a_1_43# 2 6 -959 197
+n dp1v4_5/C dp1v4_5/shift1_0/addsub_0/a_1_43# Gnd 2 6 -950 197
+n dp1v4_5/reg1_0/Q Gnd dp1v4_5/shift1_0/addsub_0/a_1_43# 2 6 -939 197
+n dp1v4_5/shift1_0/addsub_0/a_n62_43# dp1v4_5/shift1_0/addsub_0/a_1_43# Gnd 2 6 -929 197
+n dp1v4_5/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_5/shift1_0/addsub_0/a_41_43# 2 6 -919 197
+n dp1v4_5/reg1_0/Q dp1v4_5/shift1_0/addsub_0/a_41_43# dp1v4_5/shift1_0/addsub_0/a_n97_n15# 2 6 -915 197
+n dp1v4_5/C dp1v4_5/shift1_0/addsub_0/a_n97_n15# dp1v4_5/shift1_0/addsub_0/a_56_43# 2 6 -904 197
+n dp1v4_5/reg1_0/Q dp1v4_5/shift1_0/addsub_0/a_56_43# Gnd 2 6 -893 197
+n dp1v4_5/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_5/shift1_0/addsub_0/a_56_43# 2 6 -881 197
+p rem13 Add dp1v4_5/shift1_0/addsub_0/a_n62_43# 2 4 -1021 183
+p dp1v4_5/shift1_0/addsub_0/a_n97_n15# dp1v4_6/C Vdd 2 6 -1054 123
+p dp1v4_5/shift1_0/addsub_0/a_n75_3# dp1v4_5/shift1_0/addsub_0/Z Vdd 2 6 -1022 123
+p Add dp1v4_5/shift1_0/addsub_0/a_n51_43# Vdd 2 6 -994 123
+p dp1v4_5/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_5/shift1_0/addsub_0/a_n24_n31# 2 6 -984 123
+p dp1v4_5/reg1_0/Q dp1v4_5/shift1_0/addsub_0/a_n24_n31# dp1v4_5/shift1_0/addsub_0/a_n20_n31# 2 6 -980 123
+p dp1v4_5/C dp1v4_5/shift1_0/addsub_0/a_n20_n31# dp1v4_5/shift1_0/addsub_0/a_n75_3# 2 6 -976 123
+p dp1v4_5/shift1_0/addsub_0/a_n97_n15# dp1v4_5/shift1_0/addsub_0/a_n75_3# dp1v4_5/shift1_0/addsub_0/a_1_n31# 2 6 -959 123
+p dp1v4_5/C dp1v4_5/shift1_0/addsub_0/a_1_n31# Vdd 2 6 -950 123
+p dp1v4_5/reg1_0/Q Vdd dp1v4_5/shift1_0/addsub_0/a_1_n31# 2 6 -939 123
+p dp1v4_5/shift1_0/addsub_0/a_n62_43# dp1v4_5/shift1_0/addsub_0/a_1_n31# Vdd 2 6 -929 123
+p dp1v4_5/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_5/shift1_0/addsub_0/a_41_n31# 2 6 -919 123
+p dp1v4_5/reg1_0/Q dp1v4_5/shift1_0/addsub_0/a_41_n31# dp1v4_5/shift1_0/addsub_0/a_n97_n15# 2 6 -915 123
+p dp1v4_5/C dp1v4_5/shift1_0/addsub_0/a_n97_n15# dp1v4_5/shift1_0/addsub_0/a_56_n31# 2 6 -904 123
+p dp1v4_5/reg1_0/Q dp1v4_5/shift1_0/addsub_0/a_56_n31# Vdd 2 6 -893 123
+p dp1v4_5/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_5/shift1_0/addsub_0/a_56_n31# 2 6 -881 123
+n notshift dp1v4_5/shift1_0/a_n6_n203# dp1v4_6/inbit 2 4 -1022 23
+n dp1v4_5/shift1_0/a_n6_n203# Gnd dp1v4_5/shift1_0/a_40_n213# 2 4 -978 21
+n dp1v4_5/shift1_0/a_40_n213# Gnd dp1v4_5/rr1_0/D 2 4 -958 21
+n shift dp1v4_5/inbit dp1v4_5/shift1_0/a_n6_n203# 2 4 -1022 15
+p dp1v4_5/shift1_0/a_n6_n203# Vdd dp1v4_5/shift1_0/a_40_n213# 2 4 -978 7
+p dp1v4_5/shift1_0/a_40_n213# Vdd dp1v4_5/rr1_0/D 2 4 -958 7
+p S1n dp1v4_5/shift1_0/addsub_0/Z dp1v4_5/mux1_0/a_n90_n12# 2 4 -1017 79
+p S1 dp1v4_5/mux1_0/a_n90_n12# Gnd 2 4 -1009 79
+p S0n dp1v4_5/mux1_0/a_n90_n12# dp1v4_6/inbit 2 4 -975 81
+p S0 dp1v4_6/inbit rem13 2 4 -967 81
+n S1 dp1v4_5/shift1_0/addsub_0/Z dp1v4_5/mux1_0/a_n90_n12# 2 4 -1017 59
+n S1n dp1v4_5/mux1_0/a_n90_n12# Gnd 2 4 -1009 59
+n S0 dp1v4_5/mux1_0/a_n90_n12# dp1v4_6/inbit 2 4 -975 61
+n S0n dp1v4_6/inbit rem13 2 4 -967 61
+p clk dp1v4_5/rr1_0/D dp1v4_5/rr1_0/a_n109_n98# 2 4 -934 335
+p reset Vdd dp1v4_5/rr1_0/a_n59_n133# 2 4 -887 340
+n reset Gnd dp1v4_5/rr1_0/a_n59_n133# 2 4 -873 340
+n notclk dp1v4_5/rr1_0/D dp1v4_5/rr1_0/a_n109_n98# 2 4 -926 321
+n clk dp1v4_5/rr1_0/a_n109_n98# dp1v4_5/rr1_0/a_n102_n98# 2 4 -934 307
+p dp1v4_5/rr1_0/a_n59_n133# dp1v4_5/rr1_0/a_n102_n154# Vdd 2 4 -887 324
+n dp1v4_5/rr1_0/a_n59_n133# dp1v4_5/rr1_0/a_n43_n83# dp1v4_5/rr1_0/a_n102_n154# 2 4 -873 324
+n dp1v4_5/rr1_0/a_n109_n98# Gnd dp1v4_5/rr1_0/a_n43_n83# 2 4 -873 320
+p dp1v4_5/rr1_0/a_n109_n98# Vdd dp1v4_5/rr1_0/a_n102_n154# 2 4 -887 316
+p notclk dp1v4_5/rr1_0/a_n109_n98# dp1v4_5/rr1_0/a_n102_n98# 2 4 -926 293
+p dp1v4_5/rr1_0/a_n102_n154# Vdd dp1v4_5/rr1_0/a_n102_n98# 2 4 -887 294
+n dp1v4_5/rr1_0/a_n102_n154# Gnd dp1v4_5/rr1_0/a_n102_n98# 2 4 -873 294
+p clk dp1v4_5/rr1_0/a_n109_n126# dp1v4_5/rr1_0/a_n109_n154# 2 4 -934 279
+n notclk dp1v4_5/rr1_0/a_n109_n126# dp1v4_5/rr1_0/a_n109_n154# 2 4 -926 265
+p dp1v4_5/rr1_0/a_n59_n133# dp1v4_5/rr1_0/a_n109_n126# Vdd 2 4 -887 272
+n dp1v4_5/rr1_0/a_n59_n133# dp1v4_5/rr1_0/a_n42_n135# dp1v4_5/rr1_0/a_n109_n126# 2 4 -872 272
+n rem13 Gnd dp1v4_5/rr1_0/a_n42_n135# 2 4 -872 268
+n clk dp1v4_5/rr1_0/a_n109_n154# dp1v4_5/rr1_0/a_n102_n154# 2 4 -934 251
+p rem13 Vdd dp1v4_5/rr1_0/a_n109_n126# 2 4 -887 264
+p dp1v4_5/rr1_0/a_n109_n154# Vdd rem13 2 4 -887 248
+n dp1v4_5/rr1_0/a_n109_n154# Gnd rem13 2 4 -873 248
+p notclk dp1v4_5/rr1_0/a_n109_n154# dp1v4_5/rr1_0/a_n102_n154# 2 4 -926 237
+p clockload divin5 dp1v4_5/reg1_0/a_n109_n98# 2 4 -1025 335
+p reset Vdd dp1v4_5/reg1_0/a_n59_n133# 2 4 -978 340
+n reset Gnd dp1v4_5/reg1_0/a_n59_n133# 2 4 -964 340
+n notclockload divin5 dp1v4_5/reg1_0/a_n109_n98# 2 4 -1017 321
+n clockload dp1v4_5/reg1_0/a_n109_n98# dp1v4_5/reg1_0/a_n102_n98# 2 4 -1025 307
+p dp1v4_5/reg1_0/a_n59_n133# dp1v4_5/reg1_0/a_n102_n154# Vdd 2 4 -978 324
+n dp1v4_5/reg1_0/a_n59_n133# dp1v4_5/reg1_0/a_n43_n83# dp1v4_5/reg1_0/a_n102_n154# 2 4 -964 324
+n dp1v4_5/reg1_0/a_n109_n98# Gnd dp1v4_5/reg1_0/a_n43_n83# 2 4 -964 320
+p dp1v4_5/reg1_0/a_n109_n98# Vdd dp1v4_5/reg1_0/a_n102_n154# 2 4 -978 316
+p notclockload dp1v4_5/reg1_0/a_n109_n98# dp1v4_5/reg1_0/a_n102_n98# 2 4 -1017 293
+p dp1v4_5/reg1_0/a_n102_n154# Vdd dp1v4_5/reg1_0/a_n102_n98# 2 4 -978 294
+n dp1v4_5/reg1_0/a_n102_n154# Gnd dp1v4_5/reg1_0/a_n102_n98# 2 4 -964 294
+p clockload dp1v4_5/reg1_0/a_n109_n126# dp1v4_5/reg1_0/a_n109_n154# 2 4 -1025 279
+n notclockload dp1v4_5/reg1_0/a_n109_n126# dp1v4_5/reg1_0/a_n109_n154# 2 4 -1017 265
+p dp1v4_5/reg1_0/a_n59_n133# dp1v4_5/reg1_0/a_n109_n126# Vdd 2 4 -978 272
+n dp1v4_5/reg1_0/a_n59_n133# dp1v4_5/reg1_0/a_n42_n135# dp1v4_5/reg1_0/a_n109_n126# 2 4 -963 272
+n dp1v4_5/reg1_0/Q Gnd dp1v4_5/reg1_0/a_n42_n135# 2 4 -963 268
+n clockload dp1v4_5/reg1_0/a_n109_n154# dp1v4_5/reg1_0/a_n102_n154# 2 4 -1025 251
+p dp1v4_5/reg1_0/Q Vdd dp1v4_5/reg1_0/a_n109_n126# 2 4 -978 264
+p dp1v4_5/reg1_0/a_n109_n154# Vdd dp1v4_5/reg1_0/Q 2 4 -978 248
+n dp1v4_5/reg1_0/a_n109_n154# Gnd dp1v4_5/reg1_0/Q 2 4 -964 248
+p notclockload dp1v4_5/reg1_0/a_n109_n154# dp1v4_5/reg1_0/a_n102_n154# 2 4 -1017 237
+n dp1v4_6/shift1_0/addsub_0/a_n97_n15# dp1v4_7/C Gnd 2 6 -1267 197
+n dp1v4_6/shift1_0/addsub_0/a_n75_3# dp1v4_6/shift1_0/addsub_0/Z Gnd 2 6 -1246 197
+n rem14 dp1v4_6/shift1_0/addsub_0/a_n62_43# dp1v4_6/shift1_0/addsub_0/a_n51_43# 2 6 -1224 197
+n Add dp1v4_6/shift1_0/addsub_0/a_n51_43# Gnd 2 6 -1207 197
+n dp1v4_6/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_6/shift1_0/addsub_0/a_n24_43# 2 6 -1197 197
+n dp1v4_6/reg1_0/Q dp1v4_6/shift1_0/addsub_0/a_n24_43# dp1v4_6/shift1_0/addsub_0/a_n20_43# 2 6 -1193 197
+n dp1v4_6/C dp1v4_6/shift1_0/addsub_0/a_n20_43# dp1v4_6/shift1_0/addsub_0/a_n75_3# 2 6 -1189 197
+n dp1v4_6/shift1_0/addsub_0/a_n97_n15# dp1v4_6/shift1_0/addsub_0/a_n75_3# dp1v4_6/shift1_0/addsub_0/a_1_43# 2 6 -1172 197
+n dp1v4_6/C dp1v4_6/shift1_0/addsub_0/a_1_43# Gnd 2 6 -1163 197
+n dp1v4_6/reg1_0/Q Gnd dp1v4_6/shift1_0/addsub_0/a_1_43# 2 6 -1152 197
+n dp1v4_6/shift1_0/addsub_0/a_n62_43# dp1v4_6/shift1_0/addsub_0/a_1_43# Gnd 2 6 -1142 197
+n dp1v4_6/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_6/shift1_0/addsub_0/a_41_43# 2 6 -1132 197
+n dp1v4_6/reg1_0/Q dp1v4_6/shift1_0/addsub_0/a_41_43# dp1v4_6/shift1_0/addsub_0/a_n97_n15# 2 6 -1128 197
+n dp1v4_6/C dp1v4_6/shift1_0/addsub_0/a_n97_n15# dp1v4_6/shift1_0/addsub_0/a_56_43# 2 6 -1117 197
+n dp1v4_6/reg1_0/Q dp1v4_6/shift1_0/addsub_0/a_56_43# Gnd 2 6 -1106 197
+n dp1v4_6/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_6/shift1_0/addsub_0/a_56_43# 2 6 -1094 197
+p rem14 Add dp1v4_6/shift1_0/addsub_0/a_n62_43# 2 4 -1234 183
+p dp1v4_6/shift1_0/addsub_0/a_n97_n15# dp1v4_7/C Vdd 2 6 -1267 123
+p dp1v4_6/shift1_0/addsub_0/a_n75_3# dp1v4_6/shift1_0/addsub_0/Z Vdd 2 6 -1235 123
+p Add dp1v4_6/shift1_0/addsub_0/a_n51_43# Vdd 2 6 -1207 123
+p dp1v4_6/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_6/shift1_0/addsub_0/a_n24_n31# 2 6 -1197 123
+p dp1v4_6/reg1_0/Q dp1v4_6/shift1_0/addsub_0/a_n24_n31# dp1v4_6/shift1_0/addsub_0/a_n20_n31# 2 6 -1193 123
+p dp1v4_6/C dp1v4_6/shift1_0/addsub_0/a_n20_n31# dp1v4_6/shift1_0/addsub_0/a_n75_3# 2 6 -1189 123
+p dp1v4_6/shift1_0/addsub_0/a_n97_n15# dp1v4_6/shift1_0/addsub_0/a_n75_3# dp1v4_6/shift1_0/addsub_0/a_1_n31# 2 6 -1172 123
+p dp1v4_6/C dp1v4_6/shift1_0/addsub_0/a_1_n31# Vdd 2 6 -1163 123
+p dp1v4_6/reg1_0/Q Vdd dp1v4_6/shift1_0/addsub_0/a_1_n31# 2 6 -1152 123
+p dp1v4_6/shift1_0/addsub_0/a_n62_43# dp1v4_6/shift1_0/addsub_0/a_1_n31# Vdd 2 6 -1142 123
+p dp1v4_6/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_6/shift1_0/addsub_0/a_41_n31# 2 6 -1132 123
+p dp1v4_6/reg1_0/Q dp1v4_6/shift1_0/addsub_0/a_41_n31# dp1v4_6/shift1_0/addsub_0/a_n97_n15# 2 6 -1128 123
+p dp1v4_6/C dp1v4_6/shift1_0/addsub_0/a_n97_n15# dp1v4_6/shift1_0/addsub_0/a_56_n31# 2 6 -1117 123
+p dp1v4_6/reg1_0/Q dp1v4_6/shift1_0/addsub_0/a_56_n31# Vdd 2 6 -1106 123
+p dp1v4_6/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_6/shift1_0/addsub_0/a_56_n31# 2 6 -1094 123
+n notshift dp1v4_6/shift1_0/a_n6_n203# dp1v4_7/inbit 2 4 -1235 23
+n dp1v4_6/shift1_0/a_n6_n203# Gnd dp1v4_6/shift1_0/a_40_n213# 2 4 -1191 21
+n dp1v4_6/shift1_0/a_40_n213# Gnd dp1v4_6/rr1_0/D 2 4 -1171 21
+n shift dp1v4_6/inbit dp1v4_6/shift1_0/a_n6_n203# 2 4 -1235 15
+p dp1v4_6/shift1_0/a_n6_n203# Vdd dp1v4_6/shift1_0/a_40_n213# 2 4 -1191 7
+p dp1v4_6/shift1_0/a_40_n213# Vdd dp1v4_6/rr1_0/D 2 4 -1171 7
+p S1n dp1v4_6/shift1_0/addsub_0/Z dp1v4_6/mux1_0/a_n90_n12# 2 4 -1230 79
+p S1 dp1v4_6/mux1_0/a_n90_n12# Gnd 2 4 -1222 79
+p S0n dp1v4_6/mux1_0/a_n90_n12# dp1v4_7/inbit 2 4 -1188 81
+p S0 dp1v4_7/inbit rem14 2 4 -1180 81
+n S1 dp1v4_6/shift1_0/addsub_0/Z dp1v4_6/mux1_0/a_n90_n12# 2 4 -1230 59
+n S1n dp1v4_6/mux1_0/a_n90_n12# Gnd 2 4 -1222 59
+n S0 dp1v4_6/mux1_0/a_n90_n12# dp1v4_7/inbit 2 4 -1188 61
+n S0n dp1v4_7/inbit rem14 2 4 -1180 61
+p clk dp1v4_6/rr1_0/D dp1v4_6/rr1_0/a_n109_n98# 2 4 -1147 335
+p reset Vdd dp1v4_6/rr1_0/a_n59_n133# 2 4 -1100 340
+n reset Gnd dp1v4_6/rr1_0/a_n59_n133# 2 4 -1086 340
+n notclk dp1v4_6/rr1_0/D dp1v4_6/rr1_0/a_n109_n98# 2 4 -1139 321
+n clk dp1v4_6/rr1_0/a_n109_n98# dp1v4_6/rr1_0/a_n102_n98# 2 4 -1147 307
+p dp1v4_6/rr1_0/a_n59_n133# dp1v4_6/rr1_0/a_n102_n154# Vdd 2 4 -1100 324
+n dp1v4_6/rr1_0/a_n59_n133# dp1v4_6/rr1_0/a_n43_n83# dp1v4_6/rr1_0/a_n102_n154# 2 4 -1086 324
+n dp1v4_6/rr1_0/a_n109_n98# Gnd dp1v4_6/rr1_0/a_n43_n83# 2 4 -1086 320
+p dp1v4_6/rr1_0/a_n109_n98# Vdd dp1v4_6/rr1_0/a_n102_n154# 2 4 -1100 316
+p notclk dp1v4_6/rr1_0/a_n109_n98# dp1v4_6/rr1_0/a_n102_n98# 2 4 -1139 293
+p dp1v4_6/rr1_0/a_n102_n154# Vdd dp1v4_6/rr1_0/a_n102_n98# 2 4 -1100 294
+n dp1v4_6/rr1_0/a_n102_n154# Gnd dp1v4_6/rr1_0/a_n102_n98# 2 4 -1086 294
+p clk dp1v4_6/rr1_0/a_n109_n126# dp1v4_6/rr1_0/a_n109_n154# 2 4 -1147 279
+n notclk dp1v4_6/rr1_0/a_n109_n126# dp1v4_6/rr1_0/a_n109_n154# 2 4 -1139 265
+p dp1v4_6/rr1_0/a_n59_n133# dp1v4_6/rr1_0/a_n109_n126# Vdd 2 4 -1100 272
+n dp1v4_6/rr1_0/a_n59_n133# dp1v4_6/rr1_0/a_n42_n135# dp1v4_6/rr1_0/a_n109_n126# 2 4 -1085 272
+n rem14 Gnd dp1v4_6/rr1_0/a_n42_n135# 2 4 -1085 268
+n clk dp1v4_6/rr1_0/a_n109_n154# dp1v4_6/rr1_0/a_n102_n154# 2 4 -1147 251
+p rem14 Vdd dp1v4_6/rr1_0/a_n109_n126# 2 4 -1100 264
+p dp1v4_6/rr1_0/a_n109_n154# Vdd rem14 2 4 -1100 248
+n dp1v4_6/rr1_0/a_n109_n154# Gnd rem14 2 4 -1086 248
+p notclk dp1v4_6/rr1_0/a_n109_n154# dp1v4_6/rr1_0/a_n102_n154# 2 4 -1139 237
+p clockload divin6 dp1v4_6/reg1_0/a_n109_n98# 2 4 -1238 335
+p reset Vdd dp1v4_6/reg1_0/a_n59_n133# 2 4 -1191 340
+n reset Gnd dp1v4_6/reg1_0/a_n59_n133# 2 4 -1177 340
+n notclockload divin6 dp1v4_6/reg1_0/a_n109_n98# 2 4 -1230 321
+n clockload dp1v4_6/reg1_0/a_n109_n98# dp1v4_6/reg1_0/a_n102_n98# 2 4 -1238 307
+p dp1v4_6/reg1_0/a_n59_n133# dp1v4_6/reg1_0/a_n102_n154# Vdd 2 4 -1191 324
+n dp1v4_6/reg1_0/a_n59_n133# dp1v4_6/reg1_0/a_n43_n83# dp1v4_6/reg1_0/a_n102_n154# 2 4 -1177 324
+n dp1v4_6/reg1_0/a_n109_n98# Gnd dp1v4_6/reg1_0/a_n43_n83# 2 4 -1177 320
+p dp1v4_6/reg1_0/a_n109_n98# Vdd dp1v4_6/reg1_0/a_n102_n154# 2 4 -1191 316
+p notclockload dp1v4_6/reg1_0/a_n109_n98# dp1v4_6/reg1_0/a_n102_n98# 2 4 -1230 293
+p dp1v4_6/reg1_0/a_n102_n154# Vdd dp1v4_6/reg1_0/a_n102_n98# 2 4 -1191 294
+n dp1v4_6/reg1_0/a_n102_n154# Gnd dp1v4_6/reg1_0/a_n102_n98# 2 4 -1177 294
+p clockload dp1v4_6/reg1_0/a_n109_n126# dp1v4_6/reg1_0/a_n109_n154# 2 4 -1238 279
+n notclockload dp1v4_6/reg1_0/a_n109_n126# dp1v4_6/reg1_0/a_n109_n154# 2 4 -1230 265
+p dp1v4_6/reg1_0/a_n59_n133# dp1v4_6/reg1_0/a_n109_n126# Vdd 2 4 -1191 272
+n dp1v4_6/reg1_0/a_n59_n133# dp1v4_6/reg1_0/a_n42_n135# dp1v4_6/reg1_0/a_n109_n126# 2 4 -1176 272
+n dp1v4_6/reg1_0/Q Gnd dp1v4_6/reg1_0/a_n42_n135# 2 4 -1176 268
+n clockload dp1v4_6/reg1_0/a_n109_n154# dp1v4_6/reg1_0/a_n102_n154# 2 4 -1238 251
+p dp1v4_6/reg1_0/Q Vdd dp1v4_6/reg1_0/a_n109_n126# 2 4 -1191 264
+p dp1v4_6/reg1_0/a_n109_n154# Vdd dp1v4_6/reg1_0/Q 2 4 -1191 248
+n dp1v4_6/reg1_0/a_n109_n154# Gnd dp1v4_6/reg1_0/Q 2 4 -1177 248
+p notclockload dp1v4_6/reg1_0/a_n109_n154# dp1v4_6/reg1_0/a_n102_n154# 2 4 -1230 237
+n dp1v4_7/shift1_0/addsub_0/a_n97_n15# Cout Gnd 2 6 -1480 197
+n dp1v4_7/shift1_0/addsub_0/a_n75_3# sign Gnd 2 6 -1459 197
+n rem15 dp1v4_7/shift1_0/addsub_0/a_n62_43# dp1v4_7/shift1_0/addsub_0/a_n51_43# 2 6 -1437 197
+n Add dp1v4_7/shift1_0/addsub_0/a_n51_43# Gnd 2 6 -1420 197
+n dp1v4_7/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_7/shift1_0/addsub_0/a_n24_43# 2 6 -1410 197
+n dp1v4_7/reg1_0/Q dp1v4_7/shift1_0/addsub_0/a_n24_43# dp1v4_7/shift1_0/addsub_0/a_n20_43# 2 6 -1406 197
+n dp1v4_7/C dp1v4_7/shift1_0/addsub_0/a_n20_43# dp1v4_7/shift1_0/addsub_0/a_n75_3# 2 6 -1402 197
+n dp1v4_7/shift1_0/addsub_0/a_n97_n15# dp1v4_7/shift1_0/addsub_0/a_n75_3# dp1v4_7/shift1_0/addsub_0/a_1_43# 2 6 -1385 197
+n dp1v4_7/C dp1v4_7/shift1_0/addsub_0/a_1_43# Gnd 2 6 -1376 197
+n dp1v4_7/reg1_0/Q Gnd dp1v4_7/shift1_0/addsub_0/a_1_43# 2 6 -1365 197
+n dp1v4_7/shift1_0/addsub_0/a_n62_43# dp1v4_7/shift1_0/addsub_0/a_1_43# Gnd 2 6 -1355 197
+n dp1v4_7/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_7/shift1_0/addsub_0/a_41_43# 2 6 -1345 197
+n dp1v4_7/reg1_0/Q dp1v4_7/shift1_0/addsub_0/a_41_43# dp1v4_7/shift1_0/addsub_0/a_n97_n15# 2 6 -1341 197
+n dp1v4_7/C dp1v4_7/shift1_0/addsub_0/a_n97_n15# dp1v4_7/shift1_0/addsub_0/a_56_43# 2 6 -1330 197
+n dp1v4_7/reg1_0/Q dp1v4_7/shift1_0/addsub_0/a_56_43# Gnd 2 6 -1319 197
+n dp1v4_7/shift1_0/addsub_0/a_n62_43# Gnd dp1v4_7/shift1_0/addsub_0/a_56_43# 2 6 -1307 197
+p rem15 Add dp1v4_7/shift1_0/addsub_0/a_n62_43# 2 4 -1447 183
+p dp1v4_7/shift1_0/addsub_0/a_n97_n15# Cout Vdd 2 6 -1480 123
+p dp1v4_7/shift1_0/addsub_0/a_n75_3# sign Vdd 2 6 -1448 123
+p Add dp1v4_7/shift1_0/addsub_0/a_n51_43# Vdd 2 6 -1420 123
+p dp1v4_7/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_7/shift1_0/addsub_0/a_n24_n31# 2 6 -1410 123
+p dp1v4_7/reg1_0/Q dp1v4_7/shift1_0/addsub_0/a_n24_n31# dp1v4_7/shift1_0/addsub_0/a_n20_n31# 2 6 -1406 123
+p dp1v4_7/C dp1v4_7/shift1_0/addsub_0/a_n20_n31# dp1v4_7/shift1_0/addsub_0/a_n75_3# 2 6 -1402 123
+p dp1v4_7/shift1_0/addsub_0/a_n97_n15# dp1v4_7/shift1_0/addsub_0/a_n75_3# dp1v4_7/shift1_0/addsub_0/a_1_n31# 2 6 -1385 123
+p dp1v4_7/C dp1v4_7/shift1_0/addsub_0/a_1_n31# Vdd 2 6 -1376 123
+p dp1v4_7/reg1_0/Q Vdd dp1v4_7/shift1_0/addsub_0/a_1_n31# 2 6 -1365 123
+p dp1v4_7/shift1_0/addsub_0/a_n62_43# dp1v4_7/shift1_0/addsub_0/a_1_n31# Vdd 2 6 -1355 123
+p dp1v4_7/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_7/shift1_0/addsub_0/a_41_n31# 2 6 -1345 123
+p dp1v4_7/reg1_0/Q dp1v4_7/shift1_0/addsub_0/a_41_n31# dp1v4_7/shift1_0/addsub_0/a_n97_n15# 2 6 -1341 123
+p dp1v4_7/C dp1v4_7/shift1_0/addsub_0/a_n97_n15# dp1v4_7/shift1_0/addsub_0/a_56_n31# 2 6 -1330 123
+p dp1v4_7/reg1_0/Q dp1v4_7/shift1_0/addsub_0/a_56_n31# Vdd 2 6 -1319 123
+p dp1v4_7/shift1_0/addsub_0/a_n62_43# Vdd dp1v4_7/shift1_0/addsub_0/a_56_n31# 2 6 -1307 123
+n notshift dp1v4_7/shift1_0/a_n6_n203# dp1v4_7/shift1_0/IN0 2 4 -1448 23
+n dp1v4_7/shift1_0/a_n6_n203# Gnd dp1v4_7/shift1_0/a_40_n213# 2 4 -1404 21
+n dp1v4_7/shift1_0/a_40_n213# Gnd dp1v4_7/rr1_0/D 2 4 -1384 21
+n shift dp1v4_7/inbit dp1v4_7/shift1_0/a_n6_n203# 2 4 -1448 15
+p dp1v4_7/shift1_0/a_n6_n203# Vdd dp1v4_7/shift1_0/a_40_n213# 2 4 -1404 7
+p dp1v4_7/shift1_0/a_40_n213# Vdd dp1v4_7/rr1_0/D 2 4 -1384 7
+p S1n sign dp1v4_7/mux1_0/a_n90_n12# 2 4 -1443 79
+p S1 dp1v4_7/mux1_0/a_n90_n12# Gnd 2 4 -1435 79
+p S0n dp1v4_7/mux1_0/a_n90_n12# dp1v4_7/shift1_0/IN0 2 4 -1401 81
+p S0 dp1v4_7/shift1_0/IN0 rem15 2 4 -1393 81
+n S1 sign dp1v4_7/mux1_0/a_n90_n12# 2 4 -1443 59
+n S1n dp1v4_7/mux1_0/a_n90_n12# Gnd 2 4 -1435 59
+n S0 dp1v4_7/mux1_0/a_n90_n12# dp1v4_7/shift1_0/IN0 2 4 -1401 61
+n S0n dp1v4_7/shift1_0/IN0 rem15 2 4 -1393 61
+p clk dp1v4_7/rr1_0/D dp1v4_7/rr1_0/a_n109_n98# 2 4 -1360 335
+p reset Vdd dp1v4_7/rr1_0/a_n59_n133# 2 4 -1313 340
+n reset Gnd dp1v4_7/rr1_0/a_n59_n133# 2 4 -1299 340
+n notclk dp1v4_7/rr1_0/D dp1v4_7/rr1_0/a_n109_n98# 2 4 -1352 321
+n clk dp1v4_7/rr1_0/a_n109_n98# dp1v4_7/rr1_0/a_n102_n98# 2 4 -1360 307
+p dp1v4_7/rr1_0/a_n59_n133# dp1v4_7/rr1_0/a_n102_n154# Vdd 2 4 -1313 324
+n dp1v4_7/rr1_0/a_n59_n133# dp1v4_7/rr1_0/a_n43_n83# dp1v4_7/rr1_0/a_n102_n154# 2 4 -1299 324
+n dp1v4_7/rr1_0/a_n109_n98# Gnd dp1v4_7/rr1_0/a_n43_n83# 2 4 -1299 320
+p dp1v4_7/rr1_0/a_n109_n98# Vdd dp1v4_7/rr1_0/a_n102_n154# 2 4 -1313 316
+p notclk dp1v4_7/rr1_0/a_n109_n98# dp1v4_7/rr1_0/a_n102_n98# 2 4 -1352 293
+p dp1v4_7/rr1_0/a_n102_n154# Vdd dp1v4_7/rr1_0/a_n102_n98# 2 4 -1313 294
+n dp1v4_7/rr1_0/a_n102_n154# Gnd dp1v4_7/rr1_0/a_n102_n98# 2 4 -1299 294
+p clk dp1v4_7/rr1_0/a_n109_n126# dp1v4_7/rr1_0/a_n109_n154# 2 4 -1360 279
+n notclk dp1v4_7/rr1_0/a_n109_n126# dp1v4_7/rr1_0/a_n109_n154# 2 4 -1352 265
+p dp1v4_7/rr1_0/a_n59_n133# dp1v4_7/rr1_0/a_n109_n126# Vdd 2 4 -1313 272
+n dp1v4_7/rr1_0/a_n59_n133# dp1v4_7/rr1_0/a_n42_n135# dp1v4_7/rr1_0/a_n109_n126# 2 4 -1298 272
+n rem15 Gnd dp1v4_7/rr1_0/a_n42_n135# 2 4 -1298 268
+n clk dp1v4_7/rr1_0/a_n109_n154# dp1v4_7/rr1_0/a_n102_n154# 2 4 -1360 251
+p rem15 Vdd dp1v4_7/rr1_0/a_n109_n126# 2 4 -1313 264
+p dp1v4_7/rr1_0/a_n109_n154# Vdd rem15 2 4 -1313 248
+n dp1v4_7/rr1_0/a_n109_n154# Gnd rem15 2 4 -1299 248
+p notclk dp1v4_7/rr1_0/a_n109_n154# dp1v4_7/rr1_0/a_n102_n154# 2 4 -1352 237
+p clockload Gnd dp1v4_7/reg1_0/a_n109_n98# 2 4 -1451 335
+p reset Vdd dp1v4_7/reg1_0/a_n59_n133# 2 4 -1404 340
+n reset Gnd dp1v4_7/reg1_0/a_n59_n133# 2 4 -1390 340
+n notclockload Gnd dp1v4_7/reg1_0/a_n109_n98# 2 4 -1443 321
+n clockload dp1v4_7/reg1_0/a_n109_n98# dp1v4_7/reg1_0/a_n102_n98# 2 4 -1451 307
+p dp1v4_7/reg1_0/a_n59_n133# dp1v4_7/reg1_0/a_n102_n154# Vdd 2 4 -1404 324
+n dp1v4_7/reg1_0/a_n59_n133# dp1v4_7/reg1_0/a_n43_n83# dp1v4_7/reg1_0/a_n102_n154# 2 4 -1390 324
+n dp1v4_7/reg1_0/a_n109_n98# Gnd dp1v4_7/reg1_0/a_n43_n83# 2 4 -1390 320
+p dp1v4_7/reg1_0/a_n109_n98# Vdd dp1v4_7/reg1_0/a_n102_n154# 2 4 -1404 316
+p notclockload dp1v4_7/reg1_0/a_n109_n98# dp1v4_7/reg1_0/a_n102_n98# 2 4 -1443 293
+p dp1v4_7/reg1_0/a_n102_n154# Vdd dp1v4_7/reg1_0/a_n102_n98# 2 4 -1404 294
+n dp1v4_7/reg1_0/a_n102_n154# Gnd dp1v4_7/reg1_0/a_n102_n98# 2 4 -1390 294
+p clockload dp1v4_7/reg1_0/a_n109_n126# dp1v4_7/reg1_0/a_n109_n154# 2 4 -1451 279
+n notclockload dp1v4_7/reg1_0/a_n109_n126# dp1v4_7/reg1_0/a_n109_n154# 2 4 -1443 265
+p dp1v4_7/reg1_0/a_n59_n133# dp1v4_7/reg1_0/a_n109_n126# Vdd 2 4 -1404 272
+n dp1v4_7/reg1_0/a_n59_n133# dp1v4_7/reg1_0/a_n42_n135# dp1v4_7/reg1_0/a_n109_n126# 2 4 -1389 272
+n dp1v4_7/reg1_0/Q Gnd dp1v4_7/reg1_0/a_n42_n135# 2 4 -1389 268
+n clockload dp1v4_7/reg1_0/a_n109_n154# dp1v4_7/reg1_0/a_n102_n154# 2 4 -1451 251
+p dp1v4_7/reg1_0/Q Vdd dp1v4_7/reg1_0/a_n109_n126# 2 4 -1404 264
+p dp1v4_7/reg1_0/a_n109_n154# Vdd dp1v4_7/reg1_0/Q 2 4 -1404 248
+n dp1v4_7/reg1_0/a_n109_n154# Gnd dp1v4_7/reg1_0/Q 2 4 -1390 248
+p notclockload dp1v4_7/reg1_0/a_n109_n154# dp1v4_7/reg1_0/a_n102_n154# 2 4 -1443 237
+C S1n dp1v4_4/mux1_0/w_n100_5# 2.5
+C lowbit_2/mux1_0/w_n52_n16# quo5 2.1
+C notclk reset 3.8
+C lowbit_4/rr1_0/w_n113_n158# lowbit_4/rr1_0/a_n109_n154# 7.5
+C Gnd dp1v4_6/reg1_0/a_n109_n126# 3.1
+C Gnd dp1v4_6/rr1_0/a_n59_n133# 29.8
+C Gnd dp1v4_4/rr1_0/a_n102_n154# 3.4
+C S1n dp1v4_1/mux1_0/w_n100_5# 2.5
+C dp1v4_1/shift1_0/addsub_0/a_n97_n15# dp1v4_1/shift1_0/addsub_0/a_n75_3# 2.4
+C Gnd dp1v4_6/shift1_0/a_40_n213# 2.6
+C Gnd dp1v4_5/reg1_0/Q 34.7
+C dp1v4_5/rr1_0/w_n113_n158# dp1v4_5/rr1_0/a_n102_n154# 2.6
+C lowbit_1/mux1_0/w_n52_n16# quo6 2.1
+C lowbit_3/rr1_0/w_n113_n158# lowbit_3/rr1_0/a_n109_n154# 7.5
+C lowbit_7/shift1_0/IN0 notshift 4.0
+C Gnd dp1v4_3/reg1_0/a_n109_n126# 3.1
+C Gnd dp1v4_3/rr1_0/a_n59_n133# 29.8
+C Gnd dp1v4_1/rr1_0/a_n102_n154# 3.4
+C Gnd dp1v4_7/rr1_0/a_n109_n98# 2.4
+C lowbit_0/mux1_0/w_n52_n16# quo7 2.1
+C rem11 dp1v4_3/mux1_0/w_n52_n16# 2.1
+C lowbit_2/rr1_0/w_n113_n158# lowbit_2/rr1_0/a_n109_n154# 7.5
+C Gnd dp1v4_2/reg1_0/Q 34.7
+C Vdd dp1v4_0/shift1_0/addsub_0/a_n51_43# 2.1
+C Gnd dp1v4_0/shift1_0/addsub_0/a_n62_43# 32.8
+C Vdd dp1v4_7/reg1_0/a_n109_n126# 13.7
+C Vdd dp1v4_7/rr1_0/a_n59_n133# 5.3
+C Vdd dp1v4_5/rr1_0/a_n102_n154# 21.5
+C Gnd dp1v4_0/reg1_0/a_n109_n126# 3.1
+C Gnd dp1v4_4/rr1_0/a_n109_n98# 2.4
+C Gnd dp1v4_0/rr1_0/a_n59_n133# 29.8
+C lowbit_1/rr1_0/w_n113_n158# lowbit_1/rr1_0/a_n109_n154# 7.5
+C Gnd notclockload 6.5
+C Vdd dp1v4_6/reg1_0/Q 49.4
+C dp1v4_2/rr1_0/w_n113_n158# dp1v4_2/rr1_0/a_n102_n154# 2.6
+C dp1v4_3/shift1_0/addsub_0/Z dp1v4_3/mux1_0/w_n105_n16# 2.1
+C Vdd dp1v4_4/reg1_0/a_n109_n126# 13.7
+C lowbit_0/rr1_0/w_n113_n158# lowbit_0/rr1_0/a_n109_n154# 7.5
+C Vdd dp1v4_4/rr1_0/a_n59_n133# 5.3
+C Vdd dp1v4_2/rr1_0/a_n102_n154# 21.5
+C Gnd dp1v4_1/rr1_0/a_n109_n98# 2.4
+C notclk dp1v4_7/rr1_0/w_n113_n158# 5.6
+C Vdd dp1v4_3/reg1_0/Q 49.4
+C Vdd dp1v4_1/reg1_0/a_n109_n126# 13.7
+C Vdd dp1v4_5/reg1_0/a_n102_n98# 8.2
+C Vdd dp1v4_1/rr1_0/a_n59_n133# 5.3
+C Vdd dp1v4_5/rr1_0/a_n109_n98# 9.2
+C notclk dp1v4_4/rr1_0/w_n113_n158# 5.6
+C Vdd lowbit_7/rr1_0/D 7.9
+C S0n dp1v4_7/mux1_0/w_n100_5# 2.1
+C S1 dp1v4_6/mux1_0/w_n100_5# 2.3
+C Vdd dp1v4_2/reg1_0/a_n102_n98# 8.2
+C S0 dp1v4_7/mux1_0/w_n105_n16# 4.0
+C Vdd dp1v4_2/rr1_0/a_n109_n98# 9.2
+C Vdd Shiftout 7.9
+C dp1v4_6/rr1_0/w_n113_n158# dp1v4_6/rr1_0/a_n109_n154# 7.5
+C notclk dp1v4_1/rr1_0/w_n113_n158# 5.6
+C dp1v4_6/reg1_0/w_n113_n158# dp1v4_6/reg1_0/a_n102_n154# 2.6
+C Vdd lowbit_5/rr1_0/D 7.9
+C S0n dp1v4_4/mux1_0/w_n100_5# 2.1
+C Vdd lowbit_4/rr1_0/D 7.9
+C Gnd dp1v4_5/shift1_0/addsub_0/a_n97_n15# 2.6
+C S0 dp1v4_4/mux1_0/w_n105_n16# 4.0
+C Vdd lowbit_3/rr1_0/D 7.9
+C clockload dp1v4_5/reg1_0/w_n113_n158# 5.2
+C notclockload dp1v4_5/reg1_0/w_n113_n102# 5.6
+C Vdd lowbit_2/rr1_0/D 7.9
+C Vdd dp1v4_7/rr1_0/a_n109_n154# 11.3
+C Vdd dp1v4_5/shift1_0/addsub_0/a_n75_3# 15.5
+C lowbit_7/mux1_0/w_n100_5# S0 2.5
+C S0n dp1v4_1/mux1_0/w_n100_5# 2.1
+C Gnd dp1v4_2/shift1_0/addsub_0/a_n97_n15# 2.6
+C Vdd lowbit_1/rr1_0/D 7.9
+C S0 dp1v4_1/mux1_0/w_n105_n16# 4.0
+C dp1v4_3/rr1_0/w_n113_n158# dp1v4_3/rr1_0/a_n109_n154# 7.5
+C Vdd lowbit_0/rr1_0/D 7.9
+C dp1v4_3/reg1_0/w_n113_n158# dp1v4_3/reg1_0/a_n102_n154# 2.6
+C clockload dp1v4_2/reg1_0/w_n113_n158# 5.2
+C notclockload dp1v4_2/reg1_0/w_n113_n102# 5.6
+C Vdd dp1v4_4/rr1_0/a_n109_n154# 11.3
+C rem14 dp1v4_6/mux1_0/w_n52_n16# 2.1
+C Vdd dp1v4_6/shift1_0/addsub_0/a_n97_n15# 39.3
+C Vdd dp1v4_2/shift1_0/addsub_0/a_n75_3# 15.5
+C lowbit_6/mux1_0/w_n52_n16# quo1 2.1
+C Gnd dp1v4_7/rr1_0/D 5.6
+C Vdd dp1v4_1/rr1_0/a_n109_n154# 11.3
+C Vdd dp1v4_3/shift1_0/addsub_0/a_n97_n15# 39.3
+C dp1v4_6/shift1_0/addsub_0/Z dp1v4_6/mux1_0/w_n105_n16# 2.1
+C dp1v4_0/rr1_0/w_n113_n158# dp1v4_0/rr1_0/a_n109_n154# 7.5
+C rem14 dp1v4_6/shift1_0/addsub_0/a_56_43# 2.2
+C Gnd dp1v4_4/rr1_0/D 5.6
+C Gnd reset 52.9
+C dp1v4_0/reg1_0/w_n113_n158# dp1v4_0/reg1_0/a_n102_n154# 2.6
+C Vdd dp1v4_6/shift1_0/addsub_0/Z 4.1
+C dp1v4_7/reg1_0/w_n113_n158# dp1v4_7/reg1_0/a_n109_n154# 7.5
+C Vdd lowbit_7/rr1_0/a_n102_n154# 21.5
+C dp1v4_7/rr1_0/w_n113_n102# dp1v4_7/rr1_0/a_n109_n98# 7.7
+C Vdd lowbit_6/rr1_0/a_n102_n154# 21.5
+C Gnd dp1v4_7/inbit 16.5
+C dp1v4_7/shift1_0/addsub_0/a_56_n31# rem15 2.2
+C Gnd dp1v4_7/reg1_0/a_n59_n133# 30.3
+C Gnd dp1v4_5/reg1_0/a_n102_n154# 4.6
+C Vdd dp1v4_3/shift1_0/addsub_0/Z 4.1
+C Vdd lowbit_5/rr1_0/a_n102_n154# 21.5
+C Vdd dp1v4_6/shift1_0/addsub_0/a_56_n31# 5.6
+C Vdd dp1v4_5/rr1_0/D 8.1
+C Vdd lowbit_4/rr1_0/a_n102_n154# 21.5
+C rem11 dp1v4_3/shift1_0/addsub_0/a_56_43# 2.2
+C Gnd dp1v4_5/shift1_0/addsub_0/a_n62_43# 32.8
+C Gnd dp1v4_4/inbit 16.5
+C Vdd lowbit_3/rr1_0/a_n102_n154# 21.5
+C Gnd dp1v4_2/reg1_0/a_n102_n154# 4.6
+C Gnd dp1v4_4/reg1_0/a_n59_n133# 30.3
+C notshift dp1v4_5/inbit 4.0
+C Vdd dp1v4_4/shift1_0/addsub_0/a_1_n31# 4.7
+C Vdd lowbit_2/rr1_0/a_n102_n154# 21.5
+C dp1v4_4/reg1_0/w_n113_n158# dp1v4_4/reg1_0/a_n109_n154# 7.5
+C Vdd dp1v4_5/shift1_0/addsub_0/a_n51_43# 2.1
+C dp1v4_4/rr1_0/w_n113_n102# dp1v4_4/rr1_0/a_n109_n98# 7.7
+C Vdd dp1v4_3/shift1_0/addsub_0/a_56_n31# 5.6
+C Vdd dp1v4_2/rr1_0/D 8.1
+C Vdd lowbit_7/rr1_0/a_n109_n98# 9.2
+C S1 dp1v4_7/mux1_0/w_n105_n16# 10.8
+C lowbit_0/mux1_0/w_n52_n16# dp1v4_0/inbit 2.1
+C Vdd lowbit_1/rr1_0/a_n102_n154# 21.5
+C Gnd dp1v4_2/shift1_0/addsub_0/a_n62_43# 32.8
+C Vdd dp1v4_6/reg1_0/a_n102_n154# 21.5
+C Vdd lowbit_6/rr1_0/a_n109_n98# 9.2
+C Gnd dp1v4_1/inbit 16.5
+C rem15 dp1v4_7/shift1_0/addsub_0/w_n71_25# 2.5
+C dp1v4_4/shift1_0/addsub_0/a_56_n31# rem12 2.2
+C Gnd dp1v4_5/reg1_0/a_n109_n98# 2.5
+C Gnd dp1v4_1/reg1_0/a_n59_n133# 30.3
+C notshift dp1v4_2/inbit 4.0
+C Vdd lowbit_0/rr1_0/a_n102_n154# 21.5
+C notclk dp1v4_5/rr1_0/w_n113_n102# 5.6
+C clk dp1v4_5/rr1_0/w_n113_n158# 5.2
+C Vdd dp1v4_1/shift1_0/addsub_0/a_1_n31# 4.7
+C dp1v4_3/mux1_0/w_n100_5# dp1v4_3/mux1_0/a_n90_n12# 2.5
+C Vdd lowbit_5/rr1_0/a_n109_n98# 9.2
+C Vdd dp1v4_2/shift1_0/addsub_0/a_n51_43# 2.1
+C Vdd dp1v4_6/shift1_0/addsub_0/a_n62_43# 43.6
+C S1 dp1v4_4/mux1_0/w_n105_n16# 10.8
+C S0n dp1v4_3/mux1_0/w_n52_n16# 3.3
+C Vdd lowbit_4/rr1_0/a_n109_n98# 9.2
+C lowbit_6/mux1_0/w_n100_5# S0 2.5
+C Gnd dp1v4_6/C 2.9
+C Vdd dp1v4_5/reg1_0/a_n59_n133# 5.3
+C Vdd dp1v4_3/reg1_0/a_n102_n154# 21.5
+C Vdd lowbit_3/rr1_0/a_n109_n98# 9.2
+C S0 lowbit_5/mux1_0/w_n100_5# 2.5
+C Gnd dp1v4_2/reg1_0/a_n109_n98# 2.5
+C notclk dp1v4_2/rr1_0/w_n113_n102# 5.6
+C clk dp1v4_2/rr1_0/w_n113_n158# 5.2
+C lowbit_7/mux1_0/w_n100_5# S1 2.3
+C dp1v4_1/reg1_0/w_n113_n158# dp1v4_1/reg1_0/a_n109_n154# 7.5
+C Vdd lowbit_2/rr1_0/a_n109_n98# 9.2
+C S0 lowbit_4/mux1_0/w_n100_5# 2.5
+C dp1v4_1/rr1_0/w_n113_n102# dp1v4_1/rr1_0/a_n109_n98# 7.7
+C Vdd dp1v4_3/shift1_0/addsub_0/a_n62_43# 43.6
+C S1 dp1v4_1/mux1_0/w_n105_n16# 10.8
+C Vdd clk 298.3
+C S0 dp1v4_5/mux1_0/w_n100_5# 2.5
+C S0n dp1v4_0/mux1_0/w_n52_n16# 3.3
+C Gnd dp1v4_3/C 2.9
+C Vdd lowbit_1/rr1_0/a_n109_n98# 9.2
+C S0 lowbit_3/mux1_0/w_n100_5# 2.5
+C Vdd dp1v4_2/reg1_0/a_n59_n133# 5.3
+C Vdd dp1v4_0/reg1_0/a_n102_n154# 21.5
+C Vdd dp1v4_6/reg1_0/a_n109_n98# 9.2
+C rem12 dp1v4_4/shift1_0/addsub_0/w_n71_25# 2.5
+C dp1v4_1/shift1_0/addsub_0/a_56_n31# rem9 2.2
+C Gnd dp1v4_1/rr1_0/D 5.6
+C Gnd rem15 12.9
+C S1n dp1v4_5/mux1_0/w_n105_n16# 3.3
+C Vdd lowbit_0/rr1_0/a_n109_n98# 9.2
+C S0 lowbit_2/mux1_0/w_n100_5# 2.5
+C clockload dp1v4_6/reg1_0/w_n113_n102# 5.6
+C dp1v4_0/mux1_0/w_n100_5# dp1v4_0/mux1_0/a_n90_n12# 2.5
+C S0 lowbit_1/mux1_0/w_n100_5# 2.5
+C Vdd dp1v4_7/C 39.1
+C S0 dp1v4_2/mux1_0/w_n100_5# 2.5
+C Vdd notshift 5.1
+C Vdd divin5 2.2
+C Vdd dp1v4_3/reg1_0/a_n109_n98# 9.2
+C S0 lowbit_0/mux1_0/w_n100_5# 2.5
+C Gnd rem12 12.9
+C S1n dp1v4_2/mux1_0/w_n105_n16# 3.3
+C clockload dp1v4_3/reg1_0/w_n113_n102# 5.6
+C Vdd dp1v4_5/rr1_0/a_n109_n126# 13.7
+C Vdd dp1v4_4/C 39.1
+C Gnd lowmuxout 16.5
+C Vdd divin2 2.2
+C Vdd dp1v4_0/reg1_0/a_n109_n98# 9.2
+C rem9 dp1v4_1/shift1_0/addsub_0/w_n71_25# 2.5
+C Gnd rem9 12.9
+C lowbit_7/rr1_0/w_n113_n158# lowbit_7/rr1_0/a_n102_n154# 2.6
+C Gnd lowbit_5/shift1_0/IN0 16.5
+C dp1v4_5/reg1_0/w_n113_n102# dp1v4_5/reg1_0/a_n109_n98# 7.7
+C Gnd dp1v4_7/shift1_0/a_n6_n203# 8.6
+C Gnd dp1v4_5/shift1_0/a_40_n213# 2.6
+C clockload dp1v4_0/reg1_0/w_n113_n102# 5.6
+C Vdd dp1v4_6/rr1_0/a_n102_n98# 8.2
+C Vdd dp1v4_2/rr1_0/a_n109_n126# 13.7
+C dp1v4_7/rr1_0/D dp1v4_7/rr1_0/w_n113_n102# 3.4
+C Gnd lowbit_4/shift1_0/IN0 16.5
+C Vdd lowbit_6/shift1_0/a_67_n189# 2.6
+C Vdd dp1v4_0/rr1_0/D 8.1
+C lowbit_6/rr1_0/w_n113_n158# lowbit_6/rr1_0/a_n102_n154# 2.6
+C Vdd rem13 12.1
+C Gnd lowbit_3/shift1_0/IN0 16.5
+C Vdd lowbit_5/shift1_0/a_67_n189# 2.6
+C lowbit_7/mux1_0/w_n52_n16# lowbit_7/shift1_0/IN0 2.1
+C Gnd dp1v4_4/shift1_0/a_n6_n203# 8.6
+C Gnd dp1v4_2/shift1_0/a_40_n213# 2.6
+C Gnd lowbit_2/shift1_0/IN0 16.5
+C Vdd lowbit_4/shift1_0/a_67_n189# 2.6
+C Vdd dp1v4_5/reg1_0/a_n109_n154# 11.3
+C Vdd dp1v4_3/rr1_0/a_n102_n98# 8.2
+C lowbit_5/rr1_0/w_n113_n158# lowbit_5/rr1_0/a_n102_n154# 2.6
+C Gnd lowbit_1/shift1_0/IN0 16.5
+C Vdd lowbit_3/shift1_0/a_67_n189# 2.6
+C S0 lowbit_5/mux1_0/w_n105_n16# 4.0
+C Vdd rem10 12.1
+C rem8 dp1v4_0/shift1_0/addsub_0/a_56_43# 2.2
+C Vdd lowbit_2/shift1_0/a_67_n189# 2.6
+C S0 lowbit_4/mux1_0/w_n105_n16# 4.0
+C dp1v4_2/reg1_0/w_n113_n102# dp1v4_2/reg1_0/a_n109_n98# 7.7
+C Vdd dp1v4_7/shift1_0/addsub_0/a_1_n31# 4.7
+C Gnd dp1v4_1/shift1_0/a_n6_n203# 8.6
+C lowbit_4/rr1_0/w_n113_n158# lowbit_4/rr1_0/a_n102_n154# 2.6
+C Vdd dp1v4_2/reg1_0/a_n109_n154# 11.3
+C Vdd lowbit_1/shift1_0/a_67_n189# 2.6
+C S0 lowbit_3/mux1_0/w_n105_n16# 4.0
+C dp1v4_4/rr1_0/D dp1v4_4/rr1_0/w_n113_n102# 3.4
+C Vdd dp1v4_0/rr1_0/a_n102_n98# 8.2
+C Gnd S1 3.1
+C Vdd lowbit_0/shift1_0/a_67_n189# 2.6
+C S0 lowbit_2/mux1_0/w_n105_n16# 4.0
+C Vdd dp1v4_0/shift1_0/addsub_0/a_56_n31# 5.6
+C lowbit_7/shift1_0/a_67_n189# Vdd 2.6
+C Vdd dp1v4_3/shift1_0/a_40_n213# 2.6
+C lowbit_3/rr1_0/w_n113_n158# lowbit_3/rr1_0/a_n102_n154# 2.6
+C Vdd dp1v4_0/shift1_0/addsub_0/a_n75_3# 15.5
+C S0 lowbit_1/mux1_0/w_n105_n16# 4.0
+C dp1v4_6/inbit dp1v4_5/mux1_0/w_n52_n16# 2.1
+C Gnd shift 417.4
+C S0 lowbit_0/mux1_0/w_n105_n16# 4.0
+C S0n dp1v4_6/mux1_0/w_n52_n16# 3.3
+C lowbit_2/rr1_0/w_n113_n158# lowbit_2/rr1_0/a_n102_n154# 2.6
+C lowbit_6/mux1_0/w_n100_5# S1 2.3
+C S0 dp1v4_7/mux1_0/w_n52_n16# 8.7
+C Vdd dp1v4_0/shift1_0/a_40_n213# 2.6
+C S1 lowbit_5/mux1_0/w_n100_5# 2.3
+C lowbit_7/mux1_0/w_n52_n16# S0n 3.3
+C lowbit_7/rr1_0/w_n113_n102# notclk 5.6
+C lowbit_7/rr1_0/w_n113_n158# clk 5.2
+C S0n lowbit_5/mux1_0/w_n52_n16# 3.3
+C S1 lowbit_4/mux1_0/w_n100_5# 2.3
+C clk dp1v4_6/rr1_0/w_n113_n102# 5.6
+C lowbit_1/rr1_0/w_n113_n158# lowbit_1/rr1_0/a_n102_n154# 2.6
+C notclk lowbit_6/rr1_0/w_n113_n102# 5.6
+C clk lowbit_6/rr1_0/w_n113_n158# 5.2
+C S0n lowbit_4/mux1_0/w_n52_n16# 3.3
+C S1 dp1v4_5/mux1_0/w_n100_5# 2.3
+C S1 lowbit_3/mux1_0/w_n100_5# 2.3
+C notclk lowbit_5/rr1_0/w_n113_n102# 5.6
+C clk lowbit_5/rr1_0/w_n113_n158# 5.2
+C notclockload dp1v4_6/reg1_0/w_n113_n158# 5.6
+C S0n lowbit_3/mux1_0/w_n52_n16# 3.3
+C S0 dp1v4_4/mux1_0/w_n52_n16# 8.7
+C Vdd dp1v4_0/shift1_0/addsub_0/a_n97_n15# 39.3
+C dp1v4_3/inbit dp1v4_2/mux1_0/w_n52_n16# 2.1
+C lowbit_0/rr1_0/w_n113_n158# lowbit_0/rr1_0/a_n102_n154# 2.6
+C S1 lowbit_2/mux1_0/w_n100_5# 2.3
+C notclk lowbit_4/rr1_0/w_n113_n102# 5.6
+C clk lowbit_4/rr1_0/w_n113_n158# 5.2
+C dp1v4_5/shift1_0/addsub_0/a_n97_n15# dp1v4_5/shift1_0/addsub_0/a_n75_3# 2.4
+C S0n lowbit_2/mux1_0/w_n52_n16# 3.3
+C clk dp1v4_3/rr1_0/w_n113_n102# 5.6
+C S1 lowbit_1/mux1_0/w_n100_5# 2.3
+C notclk lowbit_3/rr1_0/w_n113_n102# 5.6
+C clk lowbit_3/rr1_0/w_n113_n158# 5.2
+C S1 dp1v4_2/mux1_0/w_n100_5# 2.3
+C S0n lowbit_1/mux1_0/w_n52_n16# 3.3
+C notclockload dp1v4_3/reg1_0/w_n113_n158# 5.6
+C S1 lowbit_0/mux1_0/w_n100_5# 2.3
+C shift sign 2.2
+C S0 dp1v4_1/mux1_0/w_n52_n16# 8.7
+C notclk lowbit_2/rr1_0/w_n113_n102# 5.6
+C clk lowbit_2/rr1_0/w_n113_n158# 5.2
+C S0n lowbit_0/mux1_0/w_n52_n16# 3.3
+C rem15 dp1v4_7/mux1_0/w_n52_n16# 2.1
+C notclk lowbit_1/rr1_0/w_n113_n102# 5.6
+C clk lowbit_1/rr1_0/w_n113_n158# 5.2
+C clk dp1v4_0/rr1_0/w_n113_n102# 5.6
+C notclk lowbit_0/rr1_0/w_n113_n102# 5.6
+C clk lowbit_0/rr1_0/w_n113_n158# 5.2
+C notclockload dp1v4_0/reg1_0/w_n113_n158# 5.6
+C Gnd dp1v4_6/rr1_0/a_n102_n154# 3.4
+C S1n dp1v4_3/mux1_0/w_n100_5# 2.5
+C dp1v4_2/shift1_0/addsub_0/a_n97_n15# dp1v4_2/shift1_0/addsub_0/a_n75_3# 2.4
+C Gnd dp1v4_7/reg1_0/Q 34.7
+C Vdd lowbit_7/rr1_0/a_n109_n126# 13.7
+C dp1v4_6/rr1_0/w_n113_n158# dp1v4_6/rr1_0/a_n102_n154# 2.6
+C Vdd lowbit_6/rr1_0/a_n109_n126# 13.7
+C Gnd dp1v4_5/reg1_0/a_n109_n126# 3.1
+C dp1v4_0/shift1_0/addsub_0/a_n97_n15# dp1v4_0/shift1_0/addsub_0/a_n75_3# 2.4
+C Gnd dp1v4_5/rr1_0/a_n59_n133# 29.8
+C Gnd dp1v4_3/rr1_0/a_n102_n154# 3.4
+C Vdd lowbit_5/rr1_0/a_n109_n126# 13.7
+C S1n dp1v4_0/mux1_0/w_n100_5# 2.5
+C rem12 dp1v4_4/mux1_0/w_n52_n16# 2.1
+C Gnd dp1v4_4/reg1_0/Q 34.7
+C Vdd lowbit_4/rr1_0/a_n109_n126# 13.7
+C dp1v4_1/rr1_0/D dp1v4_1/rr1_0/w_n113_n102# 3.4
+C S1 lowbit_5/mux1_0/w_n105_n16# 10.8
+C Vdd dp1v4_7/rr1_0/a_n102_n154# 21.5
+C Vdd lowbit_3/rr1_0/a_n109_n126# 13.7
+C Gnd dp1v4_2/reg1_0/a_n109_n126# 3.1
+C Gnd dp1v4_2/rr1_0/a_n59_n133# 29.8
+C Gnd dp1v4_0/rr1_0/a_n102_n154# 3.4
+C Gnd dp1v4_6/rr1_0/a_n109_n98# 2.4
+C S1 lowbit_4/mux1_0/w_n105_n16# 10.8
+C S1n dend1 5.7
+C Vdd lowbit_2/rr1_0/a_n109_n126# 13.7
+C Gnd dp1v4_1/reg1_0/Q 34.7
+C dp1v4_3/rr1_0/w_n113_n158# dp1v4_3/rr1_0/a_n102_n154# 2.6
+C lowbit_6/mux1_0/w_n105_n16# S0 4.0
+C dp1v4_4/shift1_0/addsub_0/Z dp1v4_4/mux1_0/w_n105_n16# 2.1
+C S1 lowbit_3/mux1_0/w_n105_n16# 10.8
+C Vdd lowbit_1/rr1_0/a_n109_n126# 13.7
+C S1n dend2 5.7
+C dp1v4_0/rr1_0/D dp1v4_0/rr1_0/w_n113_n102# 3.4
+C Vdd dp1v4_6/reg1_0/a_n109_n126# 13.7
+C Vdd dp1v4_6/rr1_0/a_n59_n133# 5.3
+C Vdd dp1v4_4/rr1_0/a_n102_n154# 21.5
+C S1 lowbit_2/mux1_0/w_n105_n16# 10.8
+C Vdd lowbit_0/rr1_0/a_n109_n126# 13.7
+C S1n dend3 5.7
+C Gnd dp1v4_3/rr1_0/a_n109_n98# 2.4
+C Vdd dp1v4_6/shift1_0/a_40_n213# 2.6
+C Vdd dp1v4_5/reg1_0/Q 49.4
+C S1 lowbit_1/mux1_0/w_n105_n16# 10.8
+C rem9 dp1v4_1/mux1_0/w_n52_n16# 2.1
+C S1n dend4 5.7
+C dp1v4_6/mux1_0/w_n100_5# dp1v4_6/mux1_0/a_n90_n12# 2.5
+C S1 lowbit_0/mux1_0/w_n105_n16# 10.8
+C Gnd notclk 6.5
+C dp1v4_0/shift1_0/addsub_0/Z dp1v4_0/mux1_0/w_n105_n16# 2.1
+C S1n dend5 5.7
+C Vdd dp1v4_7/reg1_0/a_n102_n98# 8.2
+C Vdd dp1v4_3/reg1_0/a_n109_n126# 13.7
+C Vdd dp1v4_7/rr1_0/a_n109_n98# 9.2
+C Vdd dp1v4_3/rr1_0/a_n59_n133# 5.3
+C Vdd dp1v4_1/rr1_0/a_n102_n154# 21.5
+C Gnd dp1v4_0/rr1_0/a_n109_n98# 2.4
+C notclk dp1v4_6/rr1_0/w_n113_n158# 5.6
+C S1n dend6 5.7
+C Vdd dp1v4_2/reg1_0/Q 49.4
+C Gnd quo0 7.0
+C dp1v4_0/rr1_0/w_n113_n158# dp1v4_0/rr1_0/a_n102_n154# 2.6
+C dp1v4_1/shift1_0/addsub_0/Z dp1v4_1/mux1_0/w_n105_n16# 2.1
+C Vdd dp1v4_0/shift1_0/addsub_0/a_n62_43# 43.6
+C S1n dend7 5.7
+C Gnd quo1 7.0
+C Vdd dp1v4_0/reg1_0/a_n109_n126# 13.7
+C Vdd dp1v4_4/reg1_0/a_n102_n98# 8.2
+C Vdd dp1v4_0/rr1_0/a_n59_n133# 5.3
+C Vdd dp1v4_4/rr1_0/a_n109_n98# 9.2
+C Gnd quo2 7.0
+C Vdd notclockload 259.3
+C dp1v4_7/rr1_0/w_n113_n158# dp1v4_7/rr1_0/a_n109_n154# 7.5
+C notclk dp1v4_3/rr1_0/w_n113_n158# 5.6
+C dp1v4_7/reg1_0/w_n113_n158# dp1v4_7/reg1_0/a_n102_n154# 2.6
+C Gnd quo3 7.0
+C Gnd quo4 7.0
+C Gnd dp1v4_7/shift1_0/addsub_0/a_n97_n15# 2.6
+C Vdd dp1v4_1/reg1_0/a_n102_n98# 8.2
+C Vdd dp1v4_1/rr1_0/a_n109_n98# 9.2
+C Gnd quo5 7.0
+C notclk dp1v4_0/rr1_0/w_n113_n158# 5.6
+C clockload dp1v4_7/reg1_0/w_n113_n158# 5.2
+C notclockload dp1v4_7/reg1_0/w_n113_n102# 5.6
+C Gnd quo6 7.0
+C Vdd dp1v4_7/shift1_0/addsub_0/a_n75_3# 15.5
+C lowbit_7/mux1_0/w_n105_n16# S0 4.0
+C S0n dp1v4_3/mux1_0/w_n100_5# 2.1
+C Gnd dp1v4_4/shift1_0/addsub_0/a_n97_n15# 2.6
+C Gnd quo7 7.0
+C S0 dp1v4_3/mux1_0/w_n105_n16# 4.0
+C dp1v4_4/rr1_0/w_n113_n158# dp1v4_4/rr1_0/a_n109_n154# 7.5
+C dp1v4_4/reg1_0/w_n113_n158# dp1v4_4/reg1_0/a_n102_n154# 2.6
+C clockload dp1v4_4/reg1_0/w_n113_n158# 5.2
+C notclockload dp1v4_4/reg1_0/w_n113_n102# 5.6
+C S1n dp1v4_6/mux1_0/w_n100_5# 2.5
+C Vdd dp1v4_6/rr1_0/a_n109_n154# 11.3
+C Vdd dp1v4_4/shift1_0/addsub_0/a_n75_3# 15.5
+C S0n dp1v4_0/mux1_0/w_n100_5# 2.1
+C Gnd dp1v4_1/shift1_0/addsub_0/a_n97_n15# 2.6
+C S0 dp1v4_0/mux1_0/w_n105_n16# 4.0
+C lowbit_6/mux1_0/w_n52_n16# S0n 3.3
+C clockload dp1v4_1/reg1_0/w_n113_n158# 5.2
+C notclockload dp1v4_1/reg1_0/w_n113_n102# 5.6
+C Vdd dp1v4_3/rr1_0/a_n109_n154# 11.3
+C Vdd dp1v4_5/shift1_0/addsub_0/a_n97_n15# 39.3
+C Vdd dp1v4_1/shift1_0/addsub_0/a_n75_3# 15.5
+C sign dp1v4_7/mux1_0/w_n105_n16# 2.3
+C S0n dend1 2.3
+C dp1v4_1/rr1_0/w_n113_n158# dp1v4_1/rr1_0/a_n109_n154# 7.5
+C S0n dend2 2.3
+C rem15 dp1v4_7/shift1_0/addsub_0/a_56_43# 2.2
+C Gnd dp1v4_6/rr1_0/D 5.6
+C clk reset 3.8
+C Gnd lowbit_7/rr1_0/a_n59_n133# 29.8
+C dp1v4_1/reg1_0/w_n113_n158# dp1v4_1/reg1_0/a_n102_n154# 2.6
+C S0n dend3 2.3
+C Vdd dp1v4_0/rr1_0/a_n109_n154# 11.3
+C Gnd lowbit_6/rr1_0/a_n59_n133# 29.8
+C Vdd dp1v4_2/shift1_0/addsub_0/a_n97_n15# 39.3
+C lowbit_6/mux1_0/w_n105_n16# S1 10.8
+C S0n dend4 2.3
+C Gnd lowbit_5/rr1_0/a_n59_n133# 29.8
+C dend0 S1n 5.7
+C Gnd dp1v4_3/rr1_0/D 5.6
+C S0n dend5 2.3
+C Gnd lowbit_4/rr1_0/a_n59_n133# 29.8
+C Gnd dp1v4_7/reg1_0/a_n102_n154# 4.6
+C Vdd dp1v4_5/shift1_0/addsub_0/Z 4.1
+C S0n dend6 2.3
+C Gnd lowbit_3/rr1_0/a_n59_n133# 29.8
+C dp1v4_7/mux1_0/w_n100_5# dp1v4_7/mux1_0/a_n90_n12# 2.5
+C Vdd dp1v4_0/shift1_0/addsub_0/Z 4.1
+C S0n dend7 2.3
+C Vdd dp1v4_7/rr1_0/D 8.1
+C Gnd lowbit_2/rr1_0/a_n59_n133# 29.8
+C lowbit_5/mux1_0/w_n105_n16# quo2 2.1
+C rem12 dp1v4_4/shift1_0/addsub_0/a_56_43# 2.2
+C Gnd rem8 12.9
+C Gnd dp1v4_7/shift1_0/addsub_0/a_n62_43# 32.8
+C Gnd lowbit_1/rr1_0/a_n59_n133# 29.8
+C Gnd dp1v4_6/inbit 16.5
+C Gnd dp1v4_6/reg1_0/a_n59_n133# 30.3
+C Gnd dp1v4_4/reg1_0/a_n102_n154# 4.6
+C notshift dp1v4_7/inbit 4.0
+C Vdd dp1v4_2/shift1_0/addsub_0/Z 4.1
+C Vdd dp1v4_6/shift1_0/addsub_0/a_1_n31# 4.7
+C Gnd clockload 6.7
+C Gnd lowbit_0/rr1_0/a_n59_n133# 29.8
+C lowbit_4/mux1_0/w_n105_n16# quo3 2.1
+C dp1v4_5/reg1_0/w_n113_n158# dp1v4_5/reg1_0/a_n109_n154# 7.5
+C Vdd dp1v4_7/shift1_0/addsub_0/a_n51_43# 2.1
+C dp1v4_5/rr1_0/w_n113_n102# dp1v4_5/rr1_0/a_n109_n98# 7.7
+C Vdd dp1v4_5/shift1_0/addsub_0/a_56_n31# 5.6
+C Vdd dp1v4_4/rr1_0/D 8.1
+C Vdd reset 388.8
+C Gnd dp1v4_4/shift1_0/addsub_0/a_n62_43# 32.8
+C Gnd dp1v4_3/inbit 16.5
+C dp1v4_5/shift1_0/addsub_0/a_56_n31# rem13 2.2
+C Gnd dp1v4_1/reg1_0/a_n102_n154# 4.6
+C Gnd dp1v4_7/reg1_0/a_n109_n98# 2.5
+C Gnd dp1v4_3/reg1_0/a_n59_n133# 30.3
+C notshift dp1v4_4/inbit 4.0
+C lowbit_3/mux1_0/w_n105_n16# quo4 2.1
+C notclk dp1v4_7/rr1_0/w_n113_n102# 5.6
+C clk dp1v4_7/rr1_0/w_n113_n158# 5.2
+C Vdd dp1v4_3/shift1_0/addsub_0/a_1_n31# 4.7
+C dp1v4_4/mux1_0/w_n100_5# dp1v4_4/mux1_0/a_n90_n12# 2.5
+C Vdd dp1v4_4/shift1_0/addsub_0/a_n51_43# 2.1
+C Vdd dp1v4_2/shift1_0/addsub_0/a_56_n31# 5.6
+C S0n dp1v4_5/mux1_0/w_n52_n16# 3.3
+C rem9 dp1v4_1/shift1_0/addsub_0/a_56_43# 2.2
+C Gnd dp1v4_1/shift1_0/addsub_0/a_n62_43# 32.8
+C lowbit_2/mux1_0/w_n105_n16# quo5 2.1
+C Vdd dp1v4_7/reg1_0/a_n59_n133# 5.3
+C Vdd dp1v4_5/reg1_0/a_n102_n154# 21.5
+C Gnd dp1v4_4/reg1_0/a_n109_n98# 2.5
+C Gnd dp1v4_0/reg1_0/a_n59_n133# 30.3
+C notshift dp1v4_1/inbit 4.0
+C notclk dp1v4_4/rr1_0/w_n113_n102# 5.6
+C clk dp1v4_4/rr1_0/w_n113_n158# 5.2
+C lowbit_7/mux1_0/w_n105_n16# S1 10.8
+C dp1v4_2/reg1_0/w_n113_n158# dp1v4_2/reg1_0/a_n109_n154# 7.5
+C S0n dp1v4_6/mux1_0/w_n100_5# 2.1
+C dp1v4_2/rr1_0/w_n113_n102# dp1v4_2/rr1_0/a_n109_n98# 7.7
+C Vdd dp1v4_1/shift1_0/addsub_0/a_n51_43# 2.1
+C Vdd dp1v4_5/shift1_0/addsub_0/a_n62_43# 43.6
+C S1 dp1v4_3/mux1_0/w_n105_n16# 10.8
+C lowbit_1/mux1_0/w_n105_n16# quo6 2.1
+C S0 dp1v4_7/mux1_0/w_n100_5# 2.5
+C S0 dp1v4_6/mux1_0/w_n105_n16# 4.0
+C S0n dp1v4_2/mux1_0/w_n52_n16# 3.3
+C Gnd dp1v4_5/C 2.9
+C Vdd dp1v4_4/reg1_0/a_n59_n133# 5.3
+C Vdd dp1v4_2/reg1_0/a_n102_n154# 21.5
+C rem13 dp1v4_5/shift1_0/addsub_0/w_n71_25# 2.5
+C dp1v4_2/shift1_0/addsub_0/a_56_n31# rem10 2.2
+C Gnd dp1v4_1/reg1_0/a_n109_n98# 2.5
+C S1n dp1v4_7/mux1_0/w_n105_n16# 3.3
+C notclk dp1v4_1/rr1_0/w_n113_n102# 5.6
+C clk dp1v4_1/rr1_0/w_n113_n158# 5.2
+C Add rem8 2.4
+C lowbit_0/mux1_0/w_n105_n16# quo7 2.1
+C dp1v4_1/mux1_0/w_n100_5# dp1v4_1/mux1_0/a_n90_n12# 2.5
+C Vdd dp1v4_2/shift1_0/addsub_0/a_n62_43# 43.6
+C S1 dp1v4_0/mux1_0/w_n105_n16# 10.8
+C S0 dp1v4_4/mux1_0/w_n100_5# 2.5
+C Gnd dp1v4_2/C 2.9
+C Vdd dp1v4_1/reg1_0/a_n59_n133# 5.3
+C Vdd dp1v4_5/reg1_0/a_n109_n98# 9.2
+C Gnd rem14 12.9
+C S1n dp1v4_4/mux1_0/w_n105_n16# 3.3
+C clockload dp1v4_5/reg1_0/w_n113_n102# 5.6
+C Vdd dp1v4_7/rr1_0/a_n109_n126# 13.7
+C Vdd dp1v4_6/C 39.1
+C S0 dp1v4_1/mux1_0/w_n100_5# 2.5
+C lowbit_7/mux1_0/w_n100_5# S1n 2.5
+C Vdd divin4 2.2
+C Vdd dp1v4_2/reg1_0/a_n109_n98# 9.2
+C Gnd rem11 12.9
+C rem10 dp1v4_2/shift1_0/addsub_0/w_n71_25# 2.5
+C dend0 S0n 2.3
+C S1n dp1v4_1/mux1_0/w_n105_n16# 3.3
+C inbit Gnd 13.2
+C dp1v4_6/reg1_0/w_n113_n102# dp1v4_6/reg1_0/a_n109_n98# 7.7
+C Gnd dp1v4_7/shift1_0/a_40_n213# 2.6
+C clockload dp1v4_2/reg1_0/w_n113_n102# 5.6
+C Gnd Add 16.3
+C Vdd dp1v4_4/rr1_0/a_n109_n126# 13.7
+C Vdd dp1v4_3/C 39.1
+C Vdd dp1v4_1/rr1_0/D 8.1
+C Vdd rem15 12.1
+C Vdd divin1 2.2
+C lowmuxout notshift 4.0
+C Gnd dp1v4_0/inbit 16.5
+C Gnd dp1v4_4/shift1_0/a_40_n213# 2.6
+C lowbit_5/shift1_0/IN0 notshift 4.0
+C Vdd dp1v4_7/reg1_0/a_n109_n154# 11.3
+C Vdd dp1v4_5/rr1_0/a_n102_n98# 8.2
+C Vdd dp1v4_1/rr1_0/a_n109_n126# 13.7
+C lowbit_4/shift1_0/IN0 notshift 4.0
+C Vdd rem12 12.1
+C lowbit_6/mux1_0/w_n105_n16# quo1 2.1
+C lowbit_3/shift1_0/IN0 notshift 4.0
+C lowbit_7/shift1_0/a_21_n179# Gnd 8.6
+C dp1v4_3/reg1_0/w_n113_n102# dp1v4_3/reg1_0/a_n109_n98# 7.7
+C Gnd dp1v4_3/shift1_0/a_n6_n203# 8.6
+C Gnd dp1v4_1/shift1_0/a_40_n213# 2.6
+C Vdd dp1v4_4/reg1_0/a_n109_n154# 11.3
+C Vdd dp1v4_2/rr1_0/a_n102_n98# 8.2
+C lowbit_2/shift1_0/IN0 notshift 4.0
+C dp1v4_5/rr1_0/D dp1v4_5/rr1_0/w_n113_n102# 3.4
+C lowbit_1/shift1_0/IN0 notshift 4.0
+C Vdd rem9 12.1
+C Gnd dp1v4_0/reg1_0/Q 34.7
+C Vdd dp1v4_5/shift1_0/a_40_n213# 2.6
+C Gnd dp1v4_0/shift1_0/a_n6_n203# 8.6
+C Vdd dp1v4_1/reg1_0/a_n109_n154# 11.3
+C Vdd dp1v4_2/shift1_0/a_40_n213# 2.6
+C lowbit_7/rr1_0/w_n113_n102# lowbit_7/rr1_0/D 3.4
+C dp1v4_0/reg1_0/w_n113_n102# dp1v4_0/reg1_0/a_n109_n98# 7.7
+C dp1v4_2/rr1_0/D dp1v4_2/rr1_0/w_n113_n102# 3.4
+C S1 dp1v4_7/mux1_0/w_n100_5# 2.3
+C S1 dp1v4_6/mux1_0/w_n105_n16# 10.8
+C Vdd dp1v4_0/shift1_0/addsub_0/a_1_n31# 4.7
+C lowbit_6/rr1_0/w_n113_n102# Shiftout 3.4
+C Gnd dp1v4_1/C 2.9
+C dp1v4_4/inbit dp1v4_3/mux1_0/w_n52_n16# 2.1
+C dp1v4_6/shift1_0/addsub_0/a_n97_n15# dp1v4_6/shift1_0/addsub_0/a_n75_3# 2.4
+C Gnd S1n 45.9
+C clk dp1v4_5/rr1_0/w_n113_n102# 5.6
+C lowbit_5/rr1_0/w_n113_n102# lowbit_5/rr1_0/D 3.4
+C lowbit_7/mux1_0/w_n105_n16# quo0 2.1
+C S1 dp1v4_4/mux1_0/w_n100_5# 2.3
+C notclockload dp1v4_5/reg1_0/w_n113_n158# 5.6
+C S0 dp1v4_3/mux1_0/w_n52_n16# 8.7
+C Vdd shift 114.5
+C lowbit_7/mux1_0/w_n100_5# S0n 2.1
+C lowbit_6/mux1_0/w_n100_5# S1n 2.5
+C lowbit_4/rr1_0/w_n113_n102# lowbit_4/rr1_0/D 3.4
+C clk dp1v4_2/rr1_0/w_n113_n102# 5.6
+C S1n lowbit_5/mux1_0/w_n100_5# 2.5
+C S1 dp1v4_1/mux1_0/w_n100_5# 2.3
+C notclockload dp1v4_2/reg1_0/w_n113_n158# 5.6
+C S0 dp1v4_0/mux1_0/w_n52_n16# 8.7
+C S1n lowbit_4/mux1_0/w_n100_5# 2.5
+C lowbit_3/rr1_0/w_n113_n102# lowbit_3/rr1_0/D 3.4
+C dp1v4_1/inbit dp1v4_0/mux1_0/w_n52_n16# 2.1
+C S1n dp1v4_5/mux1_0/w_n100_5# 2.5
+C dp1v4_3/shift1_0/addsub_0/a_n97_n15# dp1v4_3/shift1_0/addsub_0/a_n75_3# 2.4
+C S1n lowbit_3/mux1_0/w_n100_5# 2.5
+C dp1v4_7/rr1_0/w_n113_n158# dp1v4_7/rr1_0/a_n102_n154# 2.6
+C S1n lowbit_2/mux1_0/w_n100_5# 2.5
+C lowbit_2/rr1_0/w_n113_n102# lowbit_2/rr1_0/D 3.4
+C Gnd dp1v4_7/reg1_0/a_n109_n126# 3.1
+C Gnd dp1v4_7/rr1_0/a_n59_n133# 29.8
+C Gnd dp1v4_5/rr1_0/a_n102_n154# 3.4
+C S1n lowbit_1/mux1_0/w_n100_5# 2.5
+C S1n dp1v4_2/mux1_0/w_n100_5# 2.5
+C rem13 dp1v4_5/mux1_0/w_n52_n16# 2.1
+C Gnd dp1v4_6/reg1_0/Q 34.7
+C S1n lowbit_0/mux1_0/w_n100_5# 2.5
+C lowbit_7/shift1_0/IN0 Gnd 16.5
+C lowbit_1/rr1_0/w_n113_n102# lowbit_1/rr1_0/D 3.4
+C Gnd dp1v4_4/reg1_0/a_n109_n126# 3.1
+C Gnd dp1v4_4/rr1_0/a_n59_n133# 29.8
+C Gnd dp1v4_2/rr1_0/a_n102_n154# 3.4
+C lowbit_0/rr1_0/w_n113_n102# lowbit_0/rr1_0/D 3.4
+C Gnd dp1v4_6/shift1_0/a_n6_n203# 8.6
+C Gnd dp1v4_3/reg1_0/Q 34.7
+C dp1v4_4/rr1_0/w_n113_n158# dp1v4_4/rr1_0/a_n102_n154# 2.6
+C Vdd lowbit_7/rr1_0/a_n102_n98# 8.2
+C dp1v4_5/shift1_0/addsub_0/Z dp1v4_5/mux1_0/w_n105_n16# 2.1
+C Vdd lowbit_6/rr1_0/a_n102_n98# 8.2
+C Vdd dp1v4_6/rr1_0/a_n102_n154# 21.5
+C Gnd dp1v4_1/reg1_0/a_n109_n126# 3.1
+C Gnd dp1v4_1/rr1_0/a_n59_n133# 29.8
+C Gnd dp1v4_5/rr1_0/a_n109_n98# 2.4
+C Vdd lowbit_5/rr1_0/a_n102_n98# 8.2
+C Vdd dp1v4_7/reg1_0/Q 49.4
+C rem10 dp1v4_2/mux1_0/w_n52_n16# 2.1
+C Vdd lowbit_4/rr1_0/a_n102_n98# 8.2
+C clk notclk 3.8
+C Gnd lowbit_7/rr1_0/D 4.0
+C Vdd dp1v4_5/reg1_0/a_n109_n126# 13.7
+C Vdd dp1v4_5/rr1_0/a_n59_n133# 5.3
+C Vdd dp1v4_3/rr1_0/a_n102_n154# 21.5
+C Vdd lowbit_3/rr1_0/a_n102_n98# 8.2
+C Gnd dp1v4_2/rr1_0/a_n109_n98# 2.4
+C Gnd Shiftout 4.0
+C Vdd dp1v4_4/reg1_0/Q 49.4
+C Vdd lowbit_2/rr1_0/a_n102_n98# 8.2
+C S1n lowbit_5/mux1_0/w_n105_n16# 3.3
+C dp1v4_7/inbit dp1v4_6/mux1_0/w_n52_n16# 2.1
+C dp1v4_1/rr1_0/w_n113_n158# dp1v4_1/rr1_0/a_n102_n154# 2.6
+C dp1v4_2/shift1_0/addsub_0/Z dp1v4_2/mux1_0/w_n105_n16# 2.1
+C Gnd lowbit_5/rr1_0/D 4.0
+C lowbit_7/rr1_0/w_n113_n102# lowbit_7/rr1_0/a_n109_n98# 7.7
+C Vdd lowbit_1/rr1_0/a_n102_n98# 8.2
+C S1n lowbit_4/mux1_0/w_n105_n16# 3.3
+C Gnd S0n 18.7
+C Vdd dp1v4_2/reg1_0/a_n109_n126# 13.7
+C Vdd dp1v4_6/reg1_0/a_n102_n98# 8.2
+C Vdd dp1v4_6/rr1_0/a_n109_n98# 9.2
+C Vdd dp1v4_2/rr1_0/a_n59_n133# 5.3
+C Vdd dp1v4_0/rr1_0/a_n102_n154# 21.5
+C Gnd lowbit_4/rr1_0/D 4.0
+C S1n lowbit_3/mux1_0/w_n105_n16# 3.3
+C Vdd lowbit_0/rr1_0/a_n102_n98# 8.2
+C notclk dp1v4_5/rr1_0/w_n113_n158# 5.6
+C Vdd dp1v4_1/reg1_0/Q 49.4
+C Gnd lowbit_3/rr1_0/D 4.0
+C lowbit_6/rr1_0/w_n113_n102# lowbit_6/rr1_0/a_n109_n98# 7.7
+C S1n lowbit_2/mux1_0/w_n105_n16# 3.3
+C Gnd lowbit_2/rr1_0/D 4.0
+C lowbit_6/mux1_0/w_n100_5# S0n 2.1
+C S1n lowbit_1/mux1_0/w_n105_n16# 3.3
+C Vdd dp1v4_3/reg1_0/a_n102_n98# 8.2
+C Vdd dp1v4_3/rr1_0/a_n109_n98# 9.2
+C Gnd lowbit_1/rr1_0/D 4.0
+C lowbit_5/rr1_0/w_n113_n102# lowbit_5/rr1_0/a_n109_n98# 7.7
+C S0n lowbit_5/mux1_0/w_n100_5# 2.1
+C S0 dp1v4_6/mux1_0/w_n52_n16# 8.7
+C notclk dp1v4_2/rr1_0/w_n113_n158# 5.6
+C S1n lowbit_0/mux1_0/w_n105_n16# 3.3
+C Gnd lowbit_0/rr1_0/D 4.0
+C S0n lowbit_4/mux1_0/w_n100_5# 2.1
+C lowbit_7/mux1_0/w_n52_n16# S0 8.7
+C Vdd notclk 331.3
+C lowbit_7/rr1_0/w_n113_n102# clk 5.6
+C S0n dp1v4_5/mux1_0/w_n100_5# 2.1
+C S0 lowbit_5/mux1_0/w_n52_n16# 8.7
+C lowbit_4/rr1_0/w_n113_n102# lowbit_4/rr1_0/a_n109_n98# 7.7
+C Gnd dp1v4_6/shift1_0/addsub_0/a_n97_n15# 2.6
+C S0n lowbit_3/mux1_0/w_n100_5# 2.1
+C Vdd dp1v4_0/reg1_0/a_n102_n98# 8.2
+C S0 dp1v4_5/mux1_0/w_n105_n16# 4.0
+C Vdd dp1v4_0/rr1_0/a_n109_n98# 9.2
+C clk lowbit_6/rr1_0/w_n113_n102# 5.6
+C S0 lowbit_4/mux1_0/w_n52_n16# 8.7
+C dp1v4_5/rr1_0/w_n113_n158# dp1v4_5/rr1_0/a_n109_n154# 7.5
+C Vdd quo0 11.3
+C S0n lowbit_2/mux1_0/w_n100_5# 2.1
+C dp1v4_5/reg1_0/w_n113_n158# dp1v4_5/reg1_0/a_n102_n154# 2.6
+C clk lowbit_5/rr1_0/w_n113_n102# 5.6
+C clockload dp1v4_6/reg1_0/w_n113_n158# 5.2
+C notclockload dp1v4_6/reg1_0/w_n113_n102# 5.6
+C S0 lowbit_3/mux1_0/w_n52_n16# 8.7
+C Vdd quo1 11.3
+C S0n lowbit_1/mux1_0/w_n100_5# 2.1
+C lowbit_3/rr1_0/w_n113_n102# lowbit_3/rr1_0/a_n109_n98# 7.7
+C Vdd dp1v4_6/shift1_0/addsub_0/a_n75_3# 15.5
+C S0n dp1v4_2/mux1_0/w_n100_5# 2.1
+C clk lowbit_4/rr1_0/w_n113_n102# 5.6
+C Gnd dp1v4_3/shift1_0/addsub_0/a_n97_n15# 2.6
+C S0 lowbit_2/mux1_0/w_n52_n16# 8.7
+C Vdd quo2 11.3
+C S0 dp1v4_2/mux1_0/w_n105_n16# 4.0
+C S0n lowbit_0/mux1_0/w_n100_5# 2.1
+C clk lowbit_3/rr1_0/w_n113_n102# 5.6
+C S0 lowbit_1/mux1_0/w_n52_n16# 8.7
+C Vdd quo3 11.3
+C lowbit_2/rr1_0/w_n113_n102# lowbit_2/rr1_0/a_n109_n98# 7.7
+C clockload dp1v4_3/reg1_0/w_n113_n158# 5.2
+C notclockload dp1v4_3/reg1_0/w_n113_n102# 5.6
+C clk lowbit_2/rr1_0/w_n113_n102# 5.6
+C Vdd dp1v4_5/rr1_0/a_n109_n154# 11.3
+C S0 lowbit_0/mux1_0/w_n52_n16# 8.7
+C Vdd dp1v4_7/shift1_0/addsub_0/a_n97_n15# 39.3
+C Vdd dp1v4_3/shift1_0/addsub_0/a_n75_3# 15.5
+C Vdd quo4 11.3
+C clk lowbit_1/rr1_0/w_n113_n102# 5.6
+C Vdd quo5 11.3
+C lowbit_1/rr1_0/w_n113_n102# lowbit_1/rr1_0/a_n109_n98# 7.7
+C dp1v4_2/rr1_0/w_n113_n158# dp1v4_2/rr1_0/a_n109_n154# 7.5
+C Gnd lowbit_7/rr1_0/a_n102_n154# 3.4
+C dp1v4_2/reg1_0/w_n113_n158# dp1v4_2/reg1_0/a_n102_n154# 2.6
+C clk lowbit_0/rr1_0/w_n113_n102# 5.6
+C Vdd quo6 11.3
+C clockload dp1v4_0/reg1_0/w_n113_n158# 5.2
+C notclockload dp1v4_0/reg1_0/w_n113_n102# 5.6
+C Vdd dp1v4_2/rr1_0/a_n109_n154# 11.3
+C Gnd lowbit_6/rr1_0/a_n102_n154# 3.4
+C Vdd dp1v4_4/shift1_0/addsub_0/a_n97_n15# 39.3
+C Vdd quo7 11.3
+C lowbit_0/rr1_0/w_n113_n102# lowbit_0/rr1_0/a_n109_n98# 7.7
+C Gnd lowbit_5/rr1_0/a_n102_n154# 3.4
+C Gnd dp1v4_5/rr1_0/D 5.6
+C Gnd lowbit_4/rr1_0/a_n102_n154# 3.4
+C Vdd dp1v4_1/shift1_0/addsub_0/a_n97_n15# 39.3
+C Gnd lowbit_3/rr1_0/a_n102_n154# 3.4
+C Gnd lowbit_2/rr1_0/a_n102_n154# 3.4
+C rem13 dp1v4_5/shift1_0/addsub_0/a_56_43# 2.2
+C Gnd dp1v4_2/rr1_0/D 5.6
+C lowbit_5/mux1_0/w_n52_n16# lowbit_5/shift1_0/IN0 2.1
+C Gnd lowbit_7/rr1_0/a_n109_n98# 2.4
+C Gnd lowbit_1/rr1_0/a_n102_n154# 3.4
+C Gnd dp1v4_7/shift1_0/IN0 3.3
+C Gnd dp1v4_6/reg1_0/a_n102_n154# 4.6
+C Vdd dp1v4_4/shift1_0/addsub_0/Z 4.1
+C Gnd lowbit_6/rr1_0/a_n109_n98# 2.4
+C Gnd lowbit_0/rr1_0/a_n102_n154# 3.4
+C dp1v4_6/reg1_0/w_n113_n158# dp1v4_6/reg1_0/a_n109_n154# 7.5
+C lowbit_4/mux1_0/w_n52_n16# lowbit_4/shift1_0/IN0 2.1
+C Gnd lowbit_5/rr1_0/a_n109_n98# 2.4
+C Vdd lowbit_7/rr1_0/a_n59_n133# 5.3
+C Vdd dp1v4_7/shift1_0/addsub_0/a_56_n31# 5.6
+C dp1v4_6/rr1_0/w_n113_n102# dp1v4_6/rr1_0/a_n109_n98# 7.7
+C Vdd dp1v4_6/rr1_0/D 8.1
+C lowbit_6/mux1_0/w_n105_n16# S1n 3.3
+C Gnd dp1v4_6/shift1_0/addsub_0/a_n62_43# 32.8
+C Gnd lowbit_4/rr1_0/a_n109_n98# 2.4
+C Vdd lowbit_6/rr1_0/a_n59_n133# 5.3
+C Gnd dp1v4_5/inbit 16.5
+C dp1v4_6/shift1_0/addsub_0/a_56_n31# rem14 2.2
+C Gnd dp1v4_3/reg1_0/a_n102_n154# 4.6
+C Gnd dp1v4_5/reg1_0/a_n59_n133# 30.3
+C notshift dp1v4_6/inbit 4.0
+C Vdd dp1v4_1/shift1_0/addsub_0/Z 4.1
+C Vdd dp1v4_5/shift1_0/addsub_0/a_1_n31# 4.7
+C lowbit_3/mux1_0/w_n52_n16# lowbit_3/shift1_0/IN0 2.1
+C Gnd lowbit_3/rr1_0/a_n109_n98# 2.4
+C Vdd lowbit_5/rr1_0/a_n59_n133# 5.3
+C dp1v4_5/mux1_0/w_n100_5# dp1v4_5/mux1_0/a_n90_n12# 2.5
+C Vdd dp1v4_6/shift1_0/addsub_0/a_n51_43# 2.1
+C Vdd dp1v4_4/shift1_0/addsub_0/a_56_n31# 5.6
+C Vdd dp1v4_3/rr1_0/D 8.1
+C Gnd lowbit_2/rr1_0/a_n109_n98# 2.4
+C Vdd lowbit_4/rr1_0/a_n59_n133# 5.3
+C S0n dp1v4_7/mux1_0/w_n52_n16# 3.3
+C rem10 dp1v4_2/shift1_0/addsub_0/a_56_43# 2.2
+C Gnd dp1v4_3/shift1_0/addsub_0/a_n62_43# 32.8
+C Gnd clk 6.5
+C lowbit_7/rr1_0/w_n113_n158# notclk 5.6
+C Vdd dp1v4_7/reg1_0/a_n102_n154# 21.5
+C S0n S1n 3.8
+C Gnd dp1v4_2/inbit 16.5
+C Gnd lowbit_1/rr1_0/a_n109_n98# 2.4
+C lowbit_2/mux1_0/w_n52_n16# lowbit_2/shift1_0/IN0 2.1
+C Vdd lowbit_3/rr1_0/a_n59_n133# 5.3
+C Gnd dp1v4_0/reg1_0/a_n102_n154# 4.6
+C Gnd dp1v4_6/reg1_0/a_n109_n98# 2.5
+C Gnd dp1v4_2/reg1_0/a_n59_n133# 30.3
+C notshift dp1v4_3/inbit 4.0
+C notclk dp1v4_6/rr1_0/w_n113_n102# 5.6
+C clk dp1v4_6/rr1_0/w_n113_n158# 5.2
+C Vdd dp1v4_2/shift1_0/addsub_0/a_1_n31# 4.7
+C notclk lowbit_6/rr1_0/w_n113_n158# 5.6
+C Gnd lowbit_0/rr1_0/a_n109_n98# 2.4
+C dp1v4_3/reg1_0/w_n113_n158# dp1v4_3/reg1_0/a_n109_n154# 7.5
+C Vdd lowbit_2/rr1_0/a_n59_n133# 5.3
+C dp1v4_3/rr1_0/w_n113_n102# dp1v4_3/rr1_0/a_n109_n98# 7.7
+C Vdd dp1v4_3/shift1_0/addsub_0/a_n51_43# 2.1
+C Vdd dp1v4_1/shift1_0/addsub_0/a_56_n31# 5.6
+C Vdd rem8 12.1
+C notclk lowbit_5/rr1_0/w_n113_n158# 5.6
+C Vdd dp1v4_7/shift1_0/addsub_0/a_n62_43# 43.6
+C S1 dp1v4_5/mux1_0/w_n105_n16# 10.8
+C S0n dp1v4_4/mux1_0/w_n52_n16# 3.3
+C lowbit_1/mux1_0/w_n52_n16# lowbit_1/shift1_0/IN0 2.1
+C Vdd lowbit_1/rr1_0/a_n59_n133# 5.3
+C Gnd lowbit_6/shift1_0/a_21_n179# 8.6
+C Gnd dp1v4_7/C 2.9
+C Vdd dp1v4_6/reg1_0/a_n59_n133# 5.3
+C Vdd dp1v4_4/reg1_0/a_n102_n154# 21.5
+C notclk lowbit_4/rr1_0/w_n113_n158# 5.6
+C Gnd notshift 438.0
+C rem14 dp1v4_6/shift1_0/addsub_0/w_n71_25# 2.5
+C dp1v4_3/shift1_0/addsub_0/a_56_n31# rem11 2.2
+C Vdd clockload 242.8
+C Gnd dp1v4_3/reg1_0/a_n109_n98# 2.5
+C Vdd lowbit_0/rr1_0/a_n59_n133# 5.3
+C Gnd lowbit_5/shift1_0/a_21_n179# 8.6
+C notclk dp1v4_3/rr1_0/w_n113_n102# 5.6
+C clk dp1v4_3/rr1_0/w_n113_n158# 5.2
+C notclk lowbit_3/rr1_0/w_n113_n158# 5.6
+C dp1v4_2/mux1_0/w_n100_5# dp1v4_2/mux1_0/a_n90_n12# 2.5
+C Gnd lowbit_4/shift1_0/a_21_n179# 8.6
+C Vdd dp1v4_4/shift1_0/addsub_0/a_n62_43# 43.6
+C S1 dp1v4_2/mux1_0/w_n105_n16# 10.8
+C S0n dp1v4_1/mux1_0/w_n52_n16# 3.3
+C notclk lowbit_2/rr1_0/w_n113_n158# 5.6
+C Gnd dp1v4_4/C 2.9
+C Vdd dp1v4_3/reg1_0/a_n59_n133# 5.3
+C Vdd dp1v4_1/reg1_0/a_n102_n154# 21.5
+C Gnd lowbit_3/shift1_0/a_21_n179# 8.6
+C Vdd dp1v4_7/reg1_0/a_n109_n98# 9.2
+C notclk lowbit_1/rr1_0/w_n113_n158# 5.6
+C Gnd dp1v4_0/reg1_0/a_n109_n98# 2.5
+C notclk dp1v4_0/rr1_0/w_n113_n102# 5.6
+C clk dp1v4_0/rr1_0/w_n113_n158# 5.2
+C Gnd lowbit_2/shift1_0/a_21_n179# 8.6
+C clockload dp1v4_7/reg1_0/w_n113_n102# 5.6
+C dp1v4_0/reg1_0/w_n113_n158# dp1v4_0/reg1_0/a_n109_n154# 7.5
+C notclk lowbit_0/rr1_0/w_n113_n158# 5.6
+C dp1v4_0/rr1_0/w_n113_n102# dp1v4_0/rr1_0/a_n109_n98# 7.7
+C Vdd Cout 3.4
+C Vdd dp1v4_1/shift1_0/addsub_0/a_n62_43# 43.6
+C Gnd lowbit_1/shift1_0/a_21_n179# 8.6
+C Vdd Gnd 399.1
+C S0 dp1v4_3/mux1_0/w_n100_5# 2.5
+C Gnd lowbit_6/shift1_0/a_67_n189# 2.6
+C lowbit_7/mux1_0/w_n105_n16# S1n 3.3
+C Vdd dp1v4_0/reg1_0/a_n59_n133# 5.3
+C Vdd divin6 2.2
+C Vdd dp1v4_4/reg1_0/a_n109_n98# 9.2
+C rem11 dp1v4_3/shift1_0/addsub_0/w_n71_25# 2.5
+C rem8 dp1v4_0/shift1_0/addsub_0/a_56_n31# 2.2
+C Gnd dp1v4_0/rr1_0/D 5.6
+C Gnd lowbit_0/shift1_0/a_21_n179# 8.6
+C Gnd rem13 12.9
+C Vdd lowbit_7/rr1_0/a_n109_n154# 11.3
+C S1n dp1v4_3/mux1_0/w_n105_n16# 3.3
+C Gnd lowbit_5/shift1_0/a_67_n189# 2.6
+C dp1v4_7/reg1_0/w_n113_n102# dp1v4_7/reg1_0/a_n109_n98# 7.7
+C clockload dp1v4_4/reg1_0/w_n113_n102# 5.6
+C Vdd lowbit_6/rr1_0/a_n109_n154# 11.3
+C Vdd dp1v4_6/rr1_0/a_n109_n126# 13.7
+C Gnd lowbit_4/shift1_0/a_67_n189# 2.6
+C Vdd dp1v4_5/C 39.1
+C S0 dp1v4_0/mux1_0/w_n100_5# 2.5
+C Vdd lowbit_5/rr1_0/a_n109_n154# 11.3
+C Vdd divin3 2.2
+C Vdd dp1v4_1/reg1_0/a_n109_n98# 9.2
+C Gnd lowbit_3/shift1_0/a_67_n189# 2.6
+C Gnd rem10 12.9
+C S1n dp1v4_0/mux1_0/w_n105_n16# 3.3
+C lowbit_6/mux1_0/w_n52_n16# S0 8.7
+C Vdd lowbit_4/rr1_0/a_n109_n154# 11.3
+C Gnd lowbit_2/shift1_0/a_67_n189# 2.6
+C inbit notshift 3.7
+C clockload dp1v4_1/reg1_0/w_n113_n102# 5.6
+C Vdd dp1v4_7/rr1_0/a_n102_n98# 8.2
+C Vdd dp1v4_3/rr1_0/a_n109_n126# 13.7
+C Vdd lowbit_3/rr1_0/a_n109_n154# 11.3
+C Vdd dp1v4_2/C 39.1
+C Gnd lowbit_1/shift1_0/a_67_n189# 2.6
+C Vdd rem14 12.1
+C Vdd divin0 2.2
+C Vdd lowbit_2/rr1_0/a_n109_n154# 11.3
+C Gnd lowbit_0/shift1_0/a_67_n189# 2.6
+C dp1v4_0/shift1_0/addsub_0/w_n71_25# rem8 2.5
+C lowbit_7/shift1_0/a_67_n189# Gnd 2.6
+C dp1v4_4/reg1_0/w_n113_n102# dp1v4_4/reg1_0/a_n109_n98# 7.7
+C Vdd sign 6.3
+C Gnd dp1v4_5/shift1_0/a_n6_n203# 8.6
+C Gnd dp1v4_3/shift1_0/a_40_n213# 2.6
+C Vdd lowbit_1/rr1_0/a_n109_n154# 11.3
+C notshift dp1v4_0/inbit 4.0
+C Vdd dp1v4_6/reg1_0/a_n109_n154# 11.3
+C Vdd dp1v4_4/rr1_0/a_n102_n98# 8.2
+C Vdd dp1v4_0/rr1_0/a_n109_n126# 13.7
+C dp1v4_6/rr1_0/D dp1v4_6/rr1_0/w_n113_n102# 3.4
+C Vdd lowbit_0/rr1_0/a_n109_n154# 11.3
+C Vdd rem11 12.1
+C Vdd dp1v4_7/shift1_0/a_40_n213# 2.6
+C Vdd Add 83.3
+C dp1v4_7/shift1_0/IN0 dp1v4_7/mux1_0/w_n52_n16# 2.1
+C Gnd dp1v4_2/shift1_0/a_n6_n203# 8.6
+C Gnd dp1v4_0/shift1_0/a_40_n213# 2.6
+C Vdd dp1v4_3/reg1_0/a_n109_n154# 11.3
+C Vdd dp1v4_1/rr1_0/a_n102_n98# 8.2
+C lowbit_6/mux1_0/w_n100_5# lowbit_6/mux1_0/a_n90_n12# 2.5
+C S0 S1 7.7
+C Vdd dp1v4_4/shift1_0/a_40_n213# 2.6
+C dp1v4_1/reg1_0/w_n113_n102# dp1v4_1/reg1_0/a_n109_n98# 7.7
+C Vdd dp1v4_0/reg1_0/a_n109_n154# 11.3
+C Gnd dp1v4_0/shift1_0/addsub_0/a_n97_n15# 2.6
+C lowbit_5/mux1_0/w_n100_5# lowbit_5/mux1_0/a_n90_n12# 2.5
+C dp1v4_3/rr1_0/D dp1v4_3/rr1_0/w_n113_n102# 3.4
+C lowbit_7/mux1_0/w_n100_5# lowbit_7/mux1_0/a_n90_n12# 2.5
+C Vdd dp1v4_1/shift1_0/a_40_n213# 2.6
+C lowbit_4/mux1_0/w_n100_5# lowbit_4/mux1_0/a_n90_n12# 2.5
+C lowbit_6/mux1_0/w_n52_n16# lowmuxout 2.1
+C dp1v4_5/inbit dp1v4_4/mux1_0/w_n52_n16# 2.1
+C dp1v4_7/shift1_0/addsub_0/a_n97_n15# dp1v4_7/shift1_0/addsub_0/a_n75_3# 2.4
+C clk dp1v4_7/rr1_0/w_n113_n102# 5.6
+C lowbit_7/mux1_0/w_n52_n16# quo0 2.1
+C Vdd dp1v4_0/reg1_0/Q 49.4
+C lowbit_3/mux1_0/w_n100_5# lowbit_3/mux1_0/a_n90_n12# 2.5
+C notclockload dp1v4_7/reg1_0/w_n113_n158# 5.6
+C S0 dp1v4_5/mux1_0/w_n52_n16# 8.7
+C rem8 dp1v4_0/mux1_0/w_n52_n16# 2.1
+C clk dp1v4_4/rr1_0/w_n113_n102# 5.6
+C lowbit_5/mux1_0/w_n52_n16# quo2 2.1
+C lowbit_2/mux1_0/w_n100_5# lowbit_2/mux1_0/a_n90_n12# 2.5
+C lowbit_7/rr1_0/w_n113_n158# lowbit_7/rr1_0/a_n109_n154# 7.5
+C S1 dp1v4_3/mux1_0/w_n100_5# 2.3
+C S0 dp1v4_6/mux1_0/w_n100_5# 2.5
+C notclockload dp1v4_4/reg1_0/w_n113_n158# 5.6
+C S0 dp1v4_2/mux1_0/w_n52_n16# 8.7
+C S1n dp1v4_6/mux1_0/w_n105_n16# 3.3
+C dp1v4_2/inbit dp1v4_1/mux1_0/w_n52_n16# 2.1
+C lowbit_4/mux1_0/w_n52_n16# quo3 2.1
+C S1n dp1v4_7/mux1_0/w_n100_5# 2.5
+C dp1v4_4/shift1_0/addsub_0/a_n97_n15# dp1v4_4/shift1_0/addsub_0/a_n75_3# 2.4
+C lowbit_1/mux1_0/w_n100_5# lowbit_1/mux1_0/a_n90_n12# 2.5
+C lowbit_6/rr1_0/w_n113_n158# lowbit_6/rr1_0/a_n109_n154# 7.5
+C clk dp1v4_1/rr1_0/w_n113_n102# 5.6
+C S1 dp1v4_0/mux1_0/w_n100_5# 2.3
+C Vdd dp1v4_1/C 39.1
+C notclockload dp1v4_1/reg1_0/w_n113_n158# 5.6
+C dp1v4_0/shift1_0/addsub_0/a_n97_n15# Add 2.4
+C lowbit_3/mux1_0/w_n52_n16# quo4 2.1
+C Gnd dp1v4_7/rr1_0/a_n102_n154# 3.4
+C lowbit_0/mux1_0/w_n100_5# lowbit_0/mux1_0/a_n90_n12# 2.5
+C lowbit_5/rr1_0/w_n113_n158# lowbit_5/rr1_0/a_n109_n154# 7.5
+R dp1v4_7/reg1_0/a_n42_n135# 53
+C dp1v4_7/reg1_0/a_n109_n154# GND 4.8
+R dp1v4_7/reg1_0/a_n109_n154# 1287
+R dp1v4_7/reg1_0/a_n109_n126# 519
+R dp1v4_7/reg1_0/a_n43_n83# 53
+R dp1v4_7/reg1_0/a_n102_n98# 512
+C dp1v4_7/reg1_0/a_n102_n154# GND 9.7
+R dp1v4_7/reg1_0/a_n102_n154# 1330
+C dp1v4_7/reg1_0/a_n59_n133# GND 3.3
+R dp1v4_7/reg1_0/a_n59_n133# 1802
+C dp1v4_7/reg1_0/a_n109_n98# GND 6.5
+R dp1v4_7/reg1_0/a_n109_n98# 1287
+R dp1v4_7/rr1_0/a_n42_n135# 53
+C dp1v4_7/rr1_0/a_n109_n154# GND 4.8
+R dp1v4_7/rr1_0/a_n109_n154# 1287
+R dp1v4_7/rr1_0/a_n109_n126# 519
+R dp1v4_7/rr1_0/a_n43_n83# 53
+R dp1v4_7/rr1_0/a_n102_n98# 512
+C dp1v4_7/rr1_0/a_n102_n154# GND 9.7
+R dp1v4_7/rr1_0/a_n102_n154# 1330
+C dp1v4_7/rr1_0/a_n59_n133# GND 3.3
+R dp1v4_7/rr1_0/a_n59_n133# 1802
+C dp1v4_7/rr1_0/a_n109_n98# GND 6.5
+R dp1v4_7/rr1_0/a_n109_n98# 1287
+C dp1v4_7/mux1_0/a_n90_n12# GND 6.0
+R dp1v4_7/mux1_0/a_n90_n12# 522
+R dp1v4_7/mux1_0/w_n52_n16# 60
+R dp1v4_7/mux1_0/w_n105_n16# 60
+R dp1v4_7/mux1_0/w_n100_5# 16357
+C dp1v4_7/shift1_0/a_40_n213# GND 4.9
+R dp1v4_7/shift1_0/a_40_n213# 548
+C dp1v4_7/shift1_0/a_n6_n203# GND 4.0
+R dp1v4_7/shift1_0/a_n6_n203# 672
+C dp1v4_7/shift1_0/IN0 GND 9.7
+R dp1v4_7/shift1_0/IN0 252
+C dp1v4_7/rr1_0/D GND 13.2
+R dp1v4_7/rr1_0/D 515
+R dp1v4_7/shift1_0/addsub_0/a_56_n31# 368
+R dp1v4_7/shift1_0/addsub_0/a_41_n31# 179
+R dp1v4_7/shift1_0/addsub_0/a_1_n31# 354
+R dp1v4_7/shift1_0/addsub_0/a_n20_n31# 179
+R dp1v4_7/shift1_0/addsub_0/a_n24_n31# 179
+C dp1v4_7/shift1_0/addsub_0/a_56_43# GND 6.0
+R dp1v4_7/shift1_0/addsub_0/a_56_43# 165
+R dp1v4_7/shift1_0/addsub_0/a_41_43# 80
+C dp1v4_7/shift1_0/addsub_0/a_1_43# GND 4.7
+R dp1v4_7/shift1_0/addsub_0/a_1_43# 159
+R dp1v4_7/shift1_0/addsub_0/a_n20_43# 80
+R dp1v4_7/shift1_0/addsub_0/a_n24_43# 80
+C dp1v4_7/shift1_0/addsub_0/a_n51_43# GND 3.1
+R dp1v4_7/shift1_0/addsub_0/a_n51_43# 157
+C sign GND 585.4
+R sign 532
+C Cout GND 4.4
+R Cout 130
+C dp1v4_7/reg1_0/Q GND 49.4
+R dp1v4_7/reg1_0/Q 5646
+C dp1v4_7/shift1_0/addsub_0/a_n75_3# GND 21.0
+R dp1v4_7/shift1_0/addsub_0/a_n75_3# 1351
+C dp1v4_7/shift1_0/addsub_0/a_n97_n15# GND 34.2
+R dp1v4_7/shift1_0/addsub_0/a_n97_n15# 2125
+C rem15 GND 54.7
+R rem15 1507
+C dp1v4_7/shift1_0/addsub_0/a_n62_43# GND 24.0
+R dp1v4_7/shift1_0/addsub_0/a_n62_43# 5105
+R dp1v4_7/shift1_0/addsub_0/w_n71_25# 4100
+R dp1v4_6/reg1_0/a_n42_n135# 53
+C dp1v4_6/reg1_0/a_n109_n154# GND 4.8
+R dp1v4_6/reg1_0/a_n109_n154# 1287
+R dp1v4_6/reg1_0/a_n109_n126# 519
+R dp1v4_6/reg1_0/a_n43_n83# 53
+R dp1v4_6/reg1_0/a_n102_n98# 512
+C dp1v4_6/reg1_0/a_n102_n154# GND 9.7
+R dp1v4_6/reg1_0/a_n102_n154# 1330
+C dp1v4_6/reg1_0/a_n59_n133# GND 3.3
+R dp1v4_6/reg1_0/a_n59_n133# 1802
+C dp1v4_6/reg1_0/a_n109_n98# GND 6.5
+R dp1v4_6/reg1_0/a_n109_n98# 1287
+C divin6 GND 2.8
+R divin6 109
+R dp1v4_6/rr1_0/a_n42_n135# 53
+C dp1v4_6/rr1_0/a_n109_n154# GND 4.8
+R dp1v4_6/rr1_0/a_n109_n154# 1287
+R dp1v4_6/rr1_0/a_n109_n126# 519
+R dp1v4_6/rr1_0/a_n43_n83# 53
+R dp1v4_6/rr1_0/a_n102_n98# 512
+C dp1v4_6/rr1_0/a_n102_n154# GND 9.7
+R dp1v4_6/rr1_0/a_n102_n154# 1330
+C dp1v4_6/rr1_0/a_n59_n133# GND 3.3
+R dp1v4_6/rr1_0/a_n59_n133# 1802
+C dp1v4_6/rr1_0/a_n109_n98# GND 6.5
+R dp1v4_6/rr1_0/a_n109_n98# 1287
+C dp1v4_6/mux1_0/a_n90_n12# GND 6.0
+R dp1v4_6/mux1_0/a_n90_n12# 522
+R dp1v4_6/mux1_0/w_n52_n16# 60
+R dp1v4_6/mux1_0/w_n105_n16# 60
+R dp1v4_6/mux1_0/w_n100_5# 16357
+C dp1v4_6/shift1_0/a_40_n213# GND 4.9
+R dp1v4_6/shift1_0/a_40_n213# 548
+C dp1v4_6/shift1_0/a_n6_n203# GND 4.0
+R dp1v4_6/shift1_0/a_n6_n203# 672
+C dp1v4_7/inbit GND 24.9
+R dp1v4_7/inbit 364
+C dp1v4_6/rr1_0/D GND 13.2
+R dp1v4_6/rr1_0/D 515
+R dp1v4_6/shift1_0/addsub_0/a_56_n31# 368
+R dp1v4_6/shift1_0/addsub_0/a_41_n31# 179
+R dp1v4_6/shift1_0/addsub_0/a_1_n31# 354
+R dp1v4_6/shift1_0/addsub_0/a_n20_n31# 179
+R dp1v4_6/shift1_0/addsub_0/a_n24_n31# 179
+C dp1v4_6/shift1_0/addsub_0/a_56_43# GND 6.0
+R dp1v4_6/shift1_0/addsub_0/a_56_43# 165
+R dp1v4_6/shift1_0/addsub_0/a_41_43# 80
+C dp1v4_6/shift1_0/addsub_0/a_1_43# GND 4.7
+R dp1v4_6/shift1_0/addsub_0/a_1_43# 159
+R dp1v4_6/shift1_0/addsub_0/a_n20_43# 80
+R dp1v4_6/shift1_0/addsub_0/a_n24_43# 80
+C dp1v4_6/shift1_0/addsub_0/a_n51_43# GND 3.1
+R dp1v4_6/shift1_0/addsub_0/a_n51_43# 157
+C dp1v4_6/shift1_0/addsub_0/Z GND 7.3
+R dp1v4_6/shift1_0/addsub_0/Z 494
+C dp1v4_7/C GND 43.4
+R dp1v4_7/C 3472
+C dp1v4_6/reg1_0/Q GND 49.4
+R dp1v4_6/reg1_0/Q 5646
+C dp1v4_6/shift1_0/addsub_0/a_n75_3# GND 21.0
+R dp1v4_6/shift1_0/addsub_0/a_n75_3# 1351
+C dp1v4_6/shift1_0/addsub_0/a_n97_n15# GND 34.2
+R dp1v4_6/shift1_0/addsub_0/a_n97_n15# 2125
+C rem14 GND 54.6
+R rem14 1507
+C dp1v4_6/shift1_0/addsub_0/a_n62_43# GND 24.0
+R dp1v4_6/shift1_0/addsub_0/a_n62_43# 5105
+R dp1v4_6/shift1_0/addsub_0/w_n71_25# 4100
+R dp1v4_5/reg1_0/a_n42_n135# 53
+C dp1v4_5/reg1_0/a_n109_n154# GND 4.8
+R dp1v4_5/reg1_0/a_n109_n154# 1287
+R dp1v4_5/reg1_0/a_n109_n126# 519
+R dp1v4_5/reg1_0/a_n43_n83# 53
+R dp1v4_5/reg1_0/a_n102_n98# 512
+C dp1v4_5/reg1_0/a_n102_n154# GND 9.7
+R dp1v4_5/reg1_0/a_n102_n154# 1330
+C dp1v4_5/reg1_0/a_n59_n133# GND 3.3
+R dp1v4_5/reg1_0/a_n59_n133# 1802
+C dp1v4_5/reg1_0/a_n109_n98# GND 6.5
+R dp1v4_5/reg1_0/a_n109_n98# 1287
+C divin5 GND 2.8
+R divin5 109
+R dp1v4_5/rr1_0/a_n42_n135# 53
+C dp1v4_5/rr1_0/a_n109_n154# GND 4.8
+R dp1v4_5/rr1_0/a_n109_n154# 1287
+R dp1v4_5/rr1_0/a_n109_n126# 519
+R dp1v4_5/rr1_0/a_n43_n83# 53
+R dp1v4_5/rr1_0/a_n102_n98# 512
+C dp1v4_5/rr1_0/a_n102_n154# GND 9.7
+R dp1v4_5/rr1_0/a_n102_n154# 1330
+C dp1v4_5/rr1_0/a_n59_n133# GND 3.3
+R dp1v4_5/rr1_0/a_n59_n133# 1802
+C dp1v4_5/rr1_0/a_n109_n98# GND 6.5
+R dp1v4_5/rr1_0/a_n109_n98# 1287
+C dp1v4_5/mux1_0/a_n90_n12# GND 6.0
+R dp1v4_5/mux1_0/a_n90_n12# 522
+R dp1v4_5/mux1_0/w_n52_n16# 60
+R dp1v4_5/mux1_0/w_n105_n16# 60
+R dp1v4_5/mux1_0/w_n100_5# 16357
+C dp1v4_5/shift1_0/a_40_n213# GND 4.9
+R dp1v4_5/shift1_0/a_40_n213# 548
+C dp1v4_5/shift1_0/a_n6_n203# GND 4.0
+R dp1v4_5/shift1_0/a_n6_n203# 672
+C dp1v4_6/inbit GND 24.9
+R dp1v4_6/inbit 364
+C dp1v4_5/rr1_0/D GND 13.2
+R dp1v4_5/rr1_0/D 515
+R dp1v4_5/shift1_0/addsub_0/a_56_n31# 368
+R dp1v4_5/shift1_0/addsub_0/a_41_n31# 179
+R dp1v4_5/shift1_0/addsub_0/a_1_n31# 354
+R dp1v4_5/shift1_0/addsub_0/a_n20_n31# 179
+R dp1v4_5/shift1_0/addsub_0/a_n24_n31# 179
+C dp1v4_5/shift1_0/addsub_0/a_56_43# GND 6.0
+R dp1v4_5/shift1_0/addsub_0/a_56_43# 165
+R dp1v4_5/shift1_0/addsub_0/a_41_43# 80
+C dp1v4_5/shift1_0/addsub_0/a_1_43# GND 4.7
+R dp1v4_5/shift1_0/addsub_0/a_1_43# 159
+R dp1v4_5/shift1_0/addsub_0/a_n20_43# 80
+R dp1v4_5/shift1_0/addsub_0/a_n24_43# 80
+C dp1v4_5/shift1_0/addsub_0/a_n51_43# GND 3.1
+R dp1v4_5/shift1_0/addsub_0/a_n51_43# 157
+C dp1v4_5/shift1_0/addsub_0/Z GND 7.3
+R dp1v4_5/shift1_0/addsub_0/Z 494
+C dp1v4_6/C GND 43.4
+R dp1v4_6/C 3472
+C dp1v4_5/reg1_0/Q GND 49.4
+R dp1v4_5/reg1_0/Q 5646
+C dp1v4_5/shift1_0/addsub_0/a_n75_3# GND 21.0
+R dp1v4_5/shift1_0/addsub_0/a_n75_3# 1351
+C dp1v4_5/shift1_0/addsub_0/a_n97_n15# GND 34.2
+R dp1v4_5/shift1_0/addsub_0/a_n97_n15# 2125
+C rem13 GND 54.6
+R rem13 1507
+C dp1v4_5/shift1_0/addsub_0/a_n62_43# GND 24.0
+R dp1v4_5/shift1_0/addsub_0/a_n62_43# 5105
+R dp1v4_5/shift1_0/addsub_0/w_n71_25# 4100
+R dp1v4_4/reg1_0/a_n42_n135# 53
+C dp1v4_4/reg1_0/a_n109_n154# GND 4.8
+R dp1v4_4/reg1_0/a_n109_n154# 1287
+R dp1v4_4/reg1_0/a_n109_n126# 519
+R dp1v4_4/reg1_0/a_n43_n83# 53
+R dp1v4_4/reg1_0/a_n102_n98# 512
+C dp1v4_4/reg1_0/a_n102_n154# GND 9.7
+R dp1v4_4/reg1_0/a_n102_n154# 1330
+C dp1v4_4/reg1_0/a_n59_n133# GND 3.3
+R dp1v4_4/reg1_0/a_n59_n133# 1802
+C dp1v4_4/reg1_0/a_n109_n98# GND 6.5
+R dp1v4_4/reg1_0/a_n109_n98# 1287
+C divin4 GND 2.8
+R divin4 109
+R dp1v4_4/rr1_0/a_n42_n135# 53
+C dp1v4_4/rr1_0/a_n109_n154# GND 4.8
+R dp1v4_4/rr1_0/a_n109_n154# 1287
+R dp1v4_4/rr1_0/a_n109_n126# 519
+R dp1v4_4/rr1_0/a_n43_n83# 53
+R dp1v4_4/rr1_0/a_n102_n98# 512
+C dp1v4_4/rr1_0/a_n102_n154# GND 9.7
+R dp1v4_4/rr1_0/a_n102_n154# 1330
+C dp1v4_4/rr1_0/a_n59_n133# GND 3.3
+R dp1v4_4/rr1_0/a_n59_n133# 1802
+C dp1v4_4/rr1_0/a_n109_n98# GND 6.5
+R dp1v4_4/rr1_0/a_n109_n98# 1287
+C dp1v4_4/mux1_0/a_n90_n12# GND 6.0
+R dp1v4_4/mux1_0/a_n90_n12# 522
+R dp1v4_4/mux1_0/w_n52_n16# 60
+R dp1v4_4/mux1_0/w_n105_n16# 60
+R dp1v4_4/mux1_0/w_n100_5# 16357
+C dp1v4_4/shift1_0/a_40_n213# GND 4.9
+R dp1v4_4/shift1_0/a_40_n213# 548
+C dp1v4_4/shift1_0/a_n6_n203# GND 4.0
+R dp1v4_4/shift1_0/a_n6_n203# 672
+C dp1v4_5/inbit GND 24.9
+R dp1v4_5/inbit 364
+C dp1v4_4/rr1_0/D GND 13.2
+R dp1v4_4/rr1_0/D 515
+R dp1v4_4/shift1_0/addsub_0/a_56_n31# 368
+R dp1v4_4/shift1_0/addsub_0/a_41_n31# 179
+R dp1v4_4/shift1_0/addsub_0/a_1_n31# 354
+R dp1v4_4/shift1_0/addsub_0/a_n20_n31# 179
+R dp1v4_4/shift1_0/addsub_0/a_n24_n31# 179
+C dp1v4_4/shift1_0/addsub_0/a_56_43# GND 6.0
+R dp1v4_4/shift1_0/addsub_0/a_56_43# 165
+R dp1v4_4/shift1_0/addsub_0/a_41_43# 80
+C dp1v4_4/shift1_0/addsub_0/a_1_43# GND 4.7
+R dp1v4_4/shift1_0/addsub_0/a_1_43# 159
+R dp1v4_4/shift1_0/addsub_0/a_n20_43# 80
+R dp1v4_4/shift1_0/addsub_0/a_n24_43# 80
+C dp1v4_4/shift1_0/addsub_0/a_n51_43# GND 3.1
+R dp1v4_4/shift1_0/addsub_0/a_n51_43# 157
+C dp1v4_4/shift1_0/addsub_0/Z GND 7.3
+R dp1v4_4/shift1_0/addsub_0/Z 494
+C dp1v4_5/C GND 43.4
+R dp1v4_5/C 3472
+C dp1v4_4/reg1_0/Q GND 49.4
+R dp1v4_4/reg1_0/Q 5646
+C dp1v4_4/shift1_0/addsub_0/a_n75_3# GND 21.0
+R dp1v4_4/shift1_0/addsub_0/a_n75_3# 1351
+C dp1v4_4/shift1_0/addsub_0/a_n97_n15# GND 34.2
+R dp1v4_4/shift1_0/addsub_0/a_n97_n15# 2125
+C rem12 GND 54.6
+R rem12 1507
+C dp1v4_4/shift1_0/addsub_0/a_n62_43# GND 24.0
+R dp1v4_4/shift1_0/addsub_0/a_n62_43# 5105
+R dp1v4_4/shift1_0/addsub_0/w_n71_25# 4100
+R dp1v4_3/reg1_0/a_n42_n135# 53
+C dp1v4_3/reg1_0/a_n109_n154# GND 4.8
+R dp1v4_3/reg1_0/a_n109_n154# 1287
+R dp1v4_3/reg1_0/a_n109_n126# 519
+R dp1v4_3/reg1_0/a_n43_n83# 53
+R dp1v4_3/reg1_0/a_n102_n98# 512
+C dp1v4_3/reg1_0/a_n102_n154# GND 9.7
+R dp1v4_3/reg1_0/a_n102_n154# 1330
+C dp1v4_3/reg1_0/a_n59_n133# GND 3.3
+R dp1v4_3/reg1_0/a_n59_n133# 1802
+C dp1v4_3/reg1_0/a_n109_n98# GND 6.5
+R dp1v4_3/reg1_0/a_n109_n98# 1287
+C divin3 GND 2.8
+R divin3 109
+R dp1v4_3/rr1_0/a_n42_n135# 53
+C dp1v4_3/rr1_0/a_n109_n154# GND 4.8
+R dp1v4_3/rr1_0/a_n109_n154# 1287
+R dp1v4_3/rr1_0/a_n109_n126# 519
+R dp1v4_3/rr1_0/a_n43_n83# 53
+R dp1v4_3/rr1_0/a_n102_n98# 512
+C dp1v4_3/rr1_0/a_n102_n154# GND 9.7
+R dp1v4_3/rr1_0/a_n102_n154# 1330
+C dp1v4_3/rr1_0/a_n59_n133# GND 3.3
+R dp1v4_3/rr1_0/a_n59_n133# 1802
+C dp1v4_3/rr1_0/a_n109_n98# GND 6.5
+R dp1v4_3/rr1_0/a_n109_n98# 1287
+C dp1v4_3/mux1_0/a_n90_n12# GND 6.0
+R dp1v4_3/mux1_0/a_n90_n12# 522
+R dp1v4_3/mux1_0/w_n52_n16# 60
+R dp1v4_3/mux1_0/w_n105_n16# 60
+R dp1v4_3/mux1_0/w_n100_5# 16357
+C dp1v4_3/shift1_0/a_40_n213# GND 4.9
+R dp1v4_3/shift1_0/a_40_n213# 548
+C dp1v4_3/shift1_0/a_n6_n203# GND 4.0
+R dp1v4_3/shift1_0/a_n6_n203# 672
+C dp1v4_4/inbit GND 24.9
+R dp1v4_4/inbit 364
+C dp1v4_3/rr1_0/D GND 13.2
+R dp1v4_3/rr1_0/D 515
+R dp1v4_3/shift1_0/addsub_0/a_56_n31# 368
+R dp1v4_3/shift1_0/addsub_0/a_41_n31# 179
+R dp1v4_3/shift1_0/addsub_0/a_1_n31# 354
+R dp1v4_3/shift1_0/addsub_0/a_n20_n31# 179
+R dp1v4_3/shift1_0/addsub_0/a_n24_n31# 179
+C dp1v4_3/shift1_0/addsub_0/a_56_43# GND 6.0
+R dp1v4_3/shift1_0/addsub_0/a_56_43# 165
+R dp1v4_3/shift1_0/addsub_0/a_41_43# 80
+C dp1v4_3/shift1_0/addsub_0/a_1_43# GND 4.7
+R dp1v4_3/shift1_0/addsub_0/a_1_43# 159
+R dp1v4_3/shift1_0/addsub_0/a_n20_43# 80
+R dp1v4_3/shift1_0/addsub_0/a_n24_43# 80
+C dp1v4_3/shift1_0/addsub_0/a_n51_43# GND 3.1
+R dp1v4_3/shift1_0/addsub_0/a_n51_43# 157
+C dp1v4_3/shift1_0/addsub_0/Z GND 7.3
+R dp1v4_3/shift1_0/addsub_0/Z 494
+C dp1v4_4/C GND 43.4
+R dp1v4_4/C 3472
+C dp1v4_3/reg1_0/Q GND 49.4
+R dp1v4_3/reg1_0/Q 5646
+C dp1v4_3/shift1_0/addsub_0/a_n75_3# GND 21.0
+R dp1v4_3/shift1_0/addsub_0/a_n75_3# 1351
+C dp1v4_3/shift1_0/addsub_0/a_n97_n15# GND 34.2
+R dp1v4_3/shift1_0/addsub_0/a_n97_n15# 2125
+C rem11 GND 54.6
+R rem11 1507
+C dp1v4_3/shift1_0/addsub_0/a_n62_43# GND 24.0
+R dp1v4_3/shift1_0/addsub_0/a_n62_43# 5105
+R dp1v4_3/shift1_0/addsub_0/w_n71_25# 4100
+R dp1v4_2/reg1_0/a_n42_n135# 53
+C dp1v4_2/reg1_0/a_n109_n154# GND 4.8
+R dp1v4_2/reg1_0/a_n109_n154# 1287
+R dp1v4_2/reg1_0/a_n109_n126# 519
+R dp1v4_2/reg1_0/a_n43_n83# 53
+R dp1v4_2/reg1_0/a_n102_n98# 512
+C dp1v4_2/reg1_0/a_n102_n154# GND 9.7
+R dp1v4_2/reg1_0/a_n102_n154# 1330
+C dp1v4_2/reg1_0/a_n59_n133# GND 3.3
+R dp1v4_2/reg1_0/a_n59_n133# 1802
+C dp1v4_2/reg1_0/a_n109_n98# GND 6.5
+R dp1v4_2/reg1_0/a_n109_n98# 1287
+C divin2 GND 2.8
+R divin2 109
+R dp1v4_2/rr1_0/a_n42_n135# 53
+C dp1v4_2/rr1_0/a_n109_n154# GND 4.8
+R dp1v4_2/rr1_0/a_n109_n154# 1287
+R dp1v4_2/rr1_0/a_n109_n126# 519
+R dp1v4_2/rr1_0/a_n43_n83# 53
+R dp1v4_2/rr1_0/a_n102_n98# 512
+C dp1v4_2/rr1_0/a_n102_n154# GND 9.7
+R dp1v4_2/rr1_0/a_n102_n154# 1330
+C dp1v4_2/rr1_0/a_n59_n133# GND 3.3
+R dp1v4_2/rr1_0/a_n59_n133# 1802
+C dp1v4_2/rr1_0/a_n109_n98# GND 6.5
+R dp1v4_2/rr1_0/a_n109_n98# 1287
+C dp1v4_2/mux1_0/a_n90_n12# GND 6.0
+R dp1v4_2/mux1_0/a_n90_n12# 522
+R dp1v4_2/mux1_0/w_n52_n16# 60
+R dp1v4_2/mux1_0/w_n105_n16# 60
+R dp1v4_2/mux1_0/w_n100_5# 16357
+C dp1v4_2/shift1_0/a_40_n213# GND 4.9
+R dp1v4_2/shift1_0/a_40_n213# 548
+C dp1v4_2/shift1_0/a_n6_n203# GND 4.0
+R dp1v4_2/shift1_0/a_n6_n203# 672
+C dp1v4_3/inbit GND 24.9
+R dp1v4_3/inbit 364
+C dp1v4_2/rr1_0/D GND 13.2
+R dp1v4_2/rr1_0/D 515
+R dp1v4_2/shift1_0/addsub_0/a_56_n31# 368
+R dp1v4_2/shift1_0/addsub_0/a_41_n31# 179
+R dp1v4_2/shift1_0/addsub_0/a_1_n31# 354
+R dp1v4_2/shift1_0/addsub_0/a_n20_n31# 179
+R dp1v4_2/shift1_0/addsub_0/a_n24_n31# 179
+C dp1v4_2/shift1_0/addsub_0/a_56_43# GND 6.0
+R dp1v4_2/shift1_0/addsub_0/a_56_43# 165
+R dp1v4_2/shift1_0/addsub_0/a_41_43# 80
+C dp1v4_2/shift1_0/addsub_0/a_1_43# GND 4.7
+R dp1v4_2/shift1_0/addsub_0/a_1_43# 159
+R dp1v4_2/shift1_0/addsub_0/a_n20_43# 80
+R dp1v4_2/shift1_0/addsub_0/a_n24_43# 80
+C dp1v4_2/shift1_0/addsub_0/a_n51_43# GND 3.1
+R dp1v4_2/shift1_0/addsub_0/a_n51_43# 157
+C dp1v4_2/shift1_0/addsub_0/Z GND 7.3
+R dp1v4_2/shift1_0/addsub_0/Z 494
+C dp1v4_3/C GND 43.4
+R dp1v4_3/C 3472
+C dp1v4_2/reg1_0/Q GND 49.4
+R dp1v4_2/reg1_0/Q 5646
+C dp1v4_2/shift1_0/addsub_0/a_n75_3# GND 21.0
+R dp1v4_2/shift1_0/addsub_0/a_n75_3# 1351
+C dp1v4_2/shift1_0/addsub_0/a_n97_n15# GND 34.2
+R dp1v4_2/shift1_0/addsub_0/a_n97_n15# 2125
+C rem10 GND 54.6
+R rem10 1507
+C dp1v4_2/shift1_0/addsub_0/a_n62_43# GND 24.0
+R dp1v4_2/shift1_0/addsub_0/a_n62_43# 5105
+R dp1v4_2/shift1_0/addsub_0/w_n71_25# 4100
+R dp1v4_1/reg1_0/a_n42_n135# 53
+C dp1v4_1/reg1_0/a_n109_n154# GND 4.8
+R dp1v4_1/reg1_0/a_n109_n154# 1287
+R dp1v4_1/reg1_0/a_n109_n126# 519
+R dp1v4_1/reg1_0/a_n43_n83# 53
+R dp1v4_1/reg1_0/a_n102_n98# 512
+C dp1v4_1/reg1_0/a_n102_n154# GND 9.7
+R dp1v4_1/reg1_0/a_n102_n154# 1330
+C dp1v4_1/reg1_0/a_n59_n133# GND 3.3
+R dp1v4_1/reg1_0/a_n59_n133# 1802
+C dp1v4_1/reg1_0/a_n109_n98# GND 6.5
+R dp1v4_1/reg1_0/a_n109_n98# 1287
+C divin1 GND 2.8
+R divin1 109
+R dp1v4_1/rr1_0/a_n42_n135# 53
+C dp1v4_1/rr1_0/a_n109_n154# GND 4.8
+R dp1v4_1/rr1_0/a_n109_n154# 1287
+R dp1v4_1/rr1_0/a_n109_n126# 519
+R dp1v4_1/rr1_0/a_n43_n83# 53
+R dp1v4_1/rr1_0/a_n102_n98# 512
+C dp1v4_1/rr1_0/a_n102_n154# GND 9.7
+R dp1v4_1/rr1_0/a_n102_n154# 1330
+C dp1v4_1/rr1_0/a_n59_n133# GND 3.3
+R dp1v4_1/rr1_0/a_n59_n133# 1802
+C dp1v4_1/rr1_0/a_n109_n98# GND 6.5
+R dp1v4_1/rr1_0/a_n109_n98# 1287
+C dp1v4_1/mux1_0/a_n90_n12# GND 6.0
+R dp1v4_1/mux1_0/a_n90_n12# 522
+R dp1v4_1/mux1_0/w_n52_n16# 60
+R dp1v4_1/mux1_0/w_n105_n16# 60
+R dp1v4_1/mux1_0/w_n100_5# 16357
+C dp1v4_1/shift1_0/a_40_n213# GND 4.9
+R dp1v4_1/shift1_0/a_40_n213# 548
+C dp1v4_1/shift1_0/a_n6_n203# GND 4.0
+R dp1v4_1/shift1_0/a_n6_n203# 672
+C dp1v4_2/inbit GND 24.9
+R dp1v4_2/inbit 364
+C dp1v4_1/rr1_0/D GND 13.2
+R dp1v4_1/rr1_0/D 515
+R dp1v4_1/shift1_0/addsub_0/a_56_n31# 368
+R dp1v4_1/shift1_0/addsub_0/a_41_n31# 179
+R dp1v4_1/shift1_0/addsub_0/a_1_n31# 354
+R dp1v4_1/shift1_0/addsub_0/a_n20_n31# 179
+R dp1v4_1/shift1_0/addsub_0/a_n24_n31# 179
+C dp1v4_1/shift1_0/addsub_0/a_56_43# GND 6.0
+R dp1v4_1/shift1_0/addsub_0/a_56_43# 165
+R dp1v4_1/shift1_0/addsub_0/a_41_43# 80
+C dp1v4_1/shift1_0/addsub_0/a_1_43# GND 4.7
+R dp1v4_1/shift1_0/addsub_0/a_1_43# 159
+R dp1v4_1/shift1_0/addsub_0/a_n20_43# 80
+R dp1v4_1/shift1_0/addsub_0/a_n24_43# 80
+C dp1v4_1/shift1_0/addsub_0/a_n51_43# GND 3.1
+R dp1v4_1/shift1_0/addsub_0/a_n51_43# 157
+C dp1v4_1/shift1_0/addsub_0/Z GND 7.3
+R dp1v4_1/shift1_0/addsub_0/Z 494
+C dp1v4_2/C GND 43.4
+R dp1v4_2/C 3472
+C dp1v4_1/reg1_0/Q GND 49.4
+R dp1v4_1/reg1_0/Q 5646
+C dp1v4_1/shift1_0/addsub_0/a_n75_3# GND 21.0
+R dp1v4_1/shift1_0/addsub_0/a_n75_3# 1351
+C dp1v4_1/shift1_0/addsub_0/a_n97_n15# GND 34.2
+R dp1v4_1/shift1_0/addsub_0/a_n97_n15# 2125
+C rem9 GND 54.6
+R rem9 1507
+C dp1v4_1/shift1_0/addsub_0/a_n62_43# GND 24.0
+R dp1v4_1/shift1_0/addsub_0/a_n62_43# 5105
+R dp1v4_1/shift1_0/addsub_0/w_n71_25# 4100
+R dp1v4_0/reg1_0/a_n42_n135# 53
+C dp1v4_0/reg1_0/a_n109_n154# GND 4.8
+R dp1v4_0/reg1_0/a_n109_n154# 1287
+R dp1v4_0/reg1_0/a_n109_n126# 519
+R dp1v4_0/reg1_0/a_n43_n83# 53
+R dp1v4_0/reg1_0/a_n102_n98# 512
+C dp1v4_0/reg1_0/a_n102_n154# GND 9.7
+R dp1v4_0/reg1_0/a_n102_n154# 1330
+C dp1v4_0/reg1_0/a_n59_n133# GND 3.3
+R dp1v4_0/reg1_0/a_n59_n133# 1802
+C dp1v4_0/reg1_0/a_n109_n98# GND 6.5
+R dp1v4_0/reg1_0/a_n109_n98# 1287
+C divin0 GND 2.8
+R divin0 109
+R dp1v4_0/rr1_0/a_n42_n135# 53
+C dp1v4_0/rr1_0/a_n109_n154# GND 4.8
+R dp1v4_0/rr1_0/a_n109_n154# 1287
+R dp1v4_0/rr1_0/a_n109_n126# 519
+R dp1v4_0/rr1_0/a_n43_n83# 53
+R dp1v4_0/rr1_0/a_n102_n98# 512
+C dp1v4_0/rr1_0/a_n102_n154# GND 9.7
+R dp1v4_0/rr1_0/a_n102_n154# 1330
+C dp1v4_0/rr1_0/a_n59_n133# GND 3.3
+R dp1v4_0/rr1_0/a_n59_n133# 1802
+C dp1v4_0/rr1_0/a_n109_n98# GND 6.5
+R dp1v4_0/rr1_0/a_n109_n98# 1287
+C dp1v4_0/mux1_0/a_n90_n12# GND 6.0
+R dp1v4_0/mux1_0/a_n90_n12# 522
+R dp1v4_0/mux1_0/w_n52_n16# 60
+R dp1v4_0/mux1_0/w_n105_n16# 60
+R dp1v4_0/mux1_0/w_n100_5# 16357
+C dp1v4_0/inbit GND 20.4
+R dp1v4_0/inbit 364
+C dp1v4_0/shift1_0/a_40_n213# GND 4.9
+R dp1v4_0/shift1_0/a_40_n213# 548
+C dp1v4_0/shift1_0/a_n6_n203# GND 4.0
+R dp1v4_0/shift1_0/a_n6_n203# 672
+C shift GND 306.0
+R shift 24989
+C dp1v4_1/inbit GND 24.9
+R dp1v4_1/inbit 364
+C notshift GND 379.9
+R notshift 26513
+C dp1v4_0/rr1_0/D GND 13.2
+R dp1v4_0/rr1_0/D 515
+R dp1v4_0/shift1_0/addsub_0/a_56_n31# 368
+R dp1v4_0/shift1_0/addsub_0/a_41_n31# 179
+R dp1v4_0/shift1_0/addsub_0/a_1_n31# 354
+R dp1v4_0/shift1_0/addsub_0/a_n20_n31# 179
+R dp1v4_0/shift1_0/addsub_0/a_n24_n31# 179
+C dp1v4_0/shift1_0/addsub_0/a_56_43# GND 6.0
+R dp1v4_0/shift1_0/addsub_0/a_56_43# 165
+R dp1v4_0/shift1_0/addsub_0/a_41_43# 80
+C dp1v4_0/shift1_0/addsub_0/a_1_43# GND 4.7
+R dp1v4_0/shift1_0/addsub_0/a_1_43# 159
+R dp1v4_0/shift1_0/addsub_0/a_n20_43# 80
+R dp1v4_0/shift1_0/addsub_0/a_n24_43# 80
+C dp1v4_0/shift1_0/addsub_0/a_n51_43# GND 3.1
+R dp1v4_0/shift1_0/addsub_0/a_n51_43# 157
+C dp1v4_0/shift1_0/addsub_0/Z GND 7.3
+R dp1v4_0/shift1_0/addsub_0/Z 494
+C dp1v4_1/C GND 43.4
+R dp1v4_1/C 3472
+C Add GND 464.0
+R Add 13629
+C dp1v4_0/reg1_0/Q GND 49.4
+R dp1v4_0/reg1_0/Q 5646
+C dp1v4_0/shift1_0/addsub_0/a_n75_3# GND 21.0
+R dp1v4_0/shift1_0/addsub_0/a_n75_3# 1351
+C dp1v4_0/shift1_0/addsub_0/a_n97_n15# GND 34.2
+R dp1v4_0/shift1_0/addsub_0/a_n97_n15# 2125
+C rem8 GND 54.6
+R rem8 1507
+C dp1v4_0/shift1_0/addsub_0/a_n62_43# GND 24.0
+R dp1v4_0/shift1_0/addsub_0/a_n62_43# 5105
+R dp1v4_0/shift1_0/addsub_0/w_n71_25# 4100
+C quo7 GND 53.4
+R quo7 1325
+R lowbit_0/rr1_0/a_n42_n135# 53
+C lowbit_0/rr1_0/a_n109_n154# GND 4.8
+R lowbit_0/rr1_0/a_n109_n154# 1287
+R lowbit_0/rr1_0/a_n109_n126# 519
+R lowbit_0/rr1_0/a_n43_n83# 53
+R lowbit_0/rr1_0/a_n102_n98# 512
+C lowbit_0/rr1_0/a_n102_n154# GND 9.7
+R lowbit_0/rr1_0/a_n102_n154# 1330
+C lowbit_0/rr1_0/a_n59_n133# GND 3.3
+R lowbit_0/rr1_0/a_n59_n133# 1802
+C lowbit_0/rr1_0/a_n109_n98# GND 6.5
+R lowbit_0/rr1_0/a_n109_n98# 1287
+C lowbit_0/rr1_0/D GND 17.8
+R lowbit_0/rr1_0/D 515
+C dend7 GND 22.7
+R dend7 111
+C lowbit_0/mux1_0/a_n90_n12# GND 6.0
+R lowbit_0/mux1_0/a_n90_n12# 522
+R lowbit_0/mux1_0/w_n52_n16# 60
+R lowbit_0/mux1_0/w_n105_n16# 60
+R lowbit_0/mux1_0/w_n100_5# 16357
+C lowbit_0/shift1_0/a_67_n189# GND 4.9
+R lowbit_0/shift1_0/a_67_n189# 548
+C lowbit_0/shift1_0/a_21_n179# GND 4.0
+R lowbit_0/shift1_0/a_21_n179# 672
+C quo6 GND 53.8
+R quo6 1325
+R lowbit_1/rr1_0/a_n42_n135# 53
+C lowbit_1/rr1_0/a_n109_n154# GND 4.8
+R lowbit_1/rr1_0/a_n109_n154# 1287
+R lowbit_1/rr1_0/a_n109_n126# 519
+R lowbit_1/rr1_0/a_n43_n83# 53
+R lowbit_1/rr1_0/a_n102_n98# 512
+C lowbit_1/rr1_0/a_n102_n154# GND 9.7
+R lowbit_1/rr1_0/a_n102_n154# 1330
+C lowbit_1/rr1_0/a_n59_n133# GND 3.3
+R lowbit_1/rr1_0/a_n59_n133# 1802
+C lowbit_1/rr1_0/a_n109_n98# GND 6.5
+R lowbit_1/rr1_0/a_n109_n98# 1287
+C lowbit_1/rr1_0/D GND 17.8
+R lowbit_1/rr1_0/D 515
+C dend6 GND 22.7
+R dend6 111
+C lowbit_1/mux1_0/a_n90_n12# GND 6.0
+R lowbit_1/mux1_0/a_n90_n12# 522
+R lowbit_1/mux1_0/w_n52_n16# 60
+R lowbit_1/mux1_0/w_n105_n16# 60
+R lowbit_1/mux1_0/w_n100_5# 16357
+C lowbit_1/shift1_0/a_67_n189# GND 4.9
+R lowbit_1/shift1_0/a_67_n189# 548
+C lowbit_1/shift1_0/a_21_n179# GND 4.0
+R lowbit_1/shift1_0/a_21_n179# 672
+C lowbit_1/shift1_0/IN0 GND 18.3
+R lowbit_1/shift1_0/IN0 364
+C quo5 GND 53.4
+R quo5 1325
+R lowbit_2/rr1_0/a_n42_n135# 53
+C lowbit_2/rr1_0/a_n109_n154# GND 4.8
+R lowbit_2/rr1_0/a_n109_n154# 1287
+R lowbit_2/rr1_0/a_n109_n126# 519
+R lowbit_2/rr1_0/a_n43_n83# 53
+R lowbit_2/rr1_0/a_n102_n98# 512
+C lowbit_2/rr1_0/a_n102_n154# GND 9.7
+R lowbit_2/rr1_0/a_n102_n154# 1330
+C lowbit_2/rr1_0/a_n59_n133# GND 3.3
+R lowbit_2/rr1_0/a_n59_n133# 1802
+C lowbit_2/rr1_0/a_n109_n98# GND 6.5
+R lowbit_2/rr1_0/a_n109_n98# 1287
+C lowbit_2/rr1_0/D GND 17.8
+R lowbit_2/rr1_0/D 515
+C dend5 GND 22.7
+R dend5 111
+C lowbit_2/mux1_0/a_n90_n12# GND 6.0
+R lowbit_2/mux1_0/a_n90_n12# 522
+R lowbit_2/mux1_0/w_n52_n16# 60
+R lowbit_2/mux1_0/w_n105_n16# 60
+R lowbit_2/mux1_0/w_n100_5# 16357
+C lowbit_2/shift1_0/a_67_n189# GND 4.9
+R lowbit_2/shift1_0/a_67_n189# 548
+C lowbit_2/shift1_0/a_21_n179# GND 4.0
+R lowbit_2/shift1_0/a_21_n179# 672
+C lowbit_2/shift1_0/IN0 GND 18.5
+R lowbit_2/shift1_0/IN0 364
+C quo4 GND 53.4
+R quo4 1325
+R lowbit_3/rr1_0/a_n42_n135# 53
+C lowbit_3/rr1_0/a_n109_n154# GND 4.8
+R lowbit_3/rr1_0/a_n109_n154# 1287
+R lowbit_3/rr1_0/a_n109_n126# 519
+R lowbit_3/rr1_0/a_n43_n83# 53
+R lowbit_3/rr1_0/a_n102_n98# 512
+C lowbit_3/rr1_0/a_n102_n154# GND 9.7
+R lowbit_3/rr1_0/a_n102_n154# 1330
+C lowbit_3/rr1_0/a_n59_n133# GND 3.3
+R lowbit_3/rr1_0/a_n59_n133# 1802
+C lowbit_3/rr1_0/a_n109_n98# GND 6.5
+R lowbit_3/rr1_0/a_n109_n98# 1287
+C lowbit_3/rr1_0/D GND 17.8
+R lowbit_3/rr1_0/D 515
+C dend4 GND 22.7
+R dend4 111
+C lowbit_3/mux1_0/a_n90_n12# GND 6.0
+R lowbit_3/mux1_0/a_n90_n12# 522
+R lowbit_3/mux1_0/w_n52_n16# 60
+R lowbit_3/mux1_0/w_n105_n16# 60
+R lowbit_3/mux1_0/w_n100_5# 16357
+C lowbit_3/shift1_0/a_67_n189# GND 4.9
+R lowbit_3/shift1_0/a_67_n189# 548
+C lowbit_3/shift1_0/a_21_n179# GND 4.0
+R lowbit_3/shift1_0/a_21_n179# 672
+C lowbit_3/shift1_0/IN0 GND 18.5
+R lowbit_3/shift1_0/IN0 364
+C quo3 GND 53.4
+R quo3 1325
+R lowbit_4/rr1_0/a_n42_n135# 53
+C lowbit_4/rr1_0/a_n109_n154# GND 4.8
+R lowbit_4/rr1_0/a_n109_n154# 1287
+R lowbit_4/rr1_0/a_n109_n126# 519
+R lowbit_4/rr1_0/a_n43_n83# 53
+R lowbit_4/rr1_0/a_n102_n98# 512
+C lowbit_4/rr1_0/a_n102_n154# GND 9.7
+R lowbit_4/rr1_0/a_n102_n154# 1330
+C lowbit_4/rr1_0/a_n59_n133# GND 3.3
+R lowbit_4/rr1_0/a_n59_n133# 1802
+C lowbit_4/rr1_0/a_n109_n98# GND 6.5
+R lowbit_4/rr1_0/a_n109_n98# 1287
+C lowbit_4/rr1_0/D GND 17.8
+R lowbit_4/rr1_0/D 515
+C dend3 GND 22.7
+R dend3 111
+C lowbit_4/mux1_0/a_n90_n12# GND 6.0
+R lowbit_4/mux1_0/a_n90_n12# 522
+R lowbit_4/mux1_0/w_n52_n16# 60
+R lowbit_4/mux1_0/w_n105_n16# 60
+R lowbit_4/mux1_0/w_n100_5# 16357
+C lowbit_4/shift1_0/a_67_n189# GND 4.9
+R lowbit_4/shift1_0/a_67_n189# 548
+C lowbit_4/shift1_0/a_21_n179# GND 4.0
+R lowbit_4/shift1_0/a_21_n179# 672
+C lowbit_4/shift1_0/IN0 GND 18.3
+R lowbit_4/shift1_0/IN0 364
+C quo2 GND 53.8
+R quo2 1325
+R lowbit_5/rr1_0/a_n42_n135# 53
+C lowbit_5/rr1_0/a_n109_n154# GND 4.8
+R lowbit_5/rr1_0/a_n109_n154# 1287
+R lowbit_5/rr1_0/a_n109_n126# 519
+R lowbit_5/rr1_0/a_n43_n83# 53
+R lowbit_5/rr1_0/a_n102_n98# 512
+C lowbit_5/rr1_0/a_n102_n154# GND 9.7
+R lowbit_5/rr1_0/a_n102_n154# 1330
+C lowbit_5/rr1_0/a_n59_n133# GND 3.3
+R lowbit_5/rr1_0/a_n59_n133# 1802
+C lowbit_5/rr1_0/a_n109_n98# GND 6.5
+R lowbit_5/rr1_0/a_n109_n98# 1287
+C lowbit_5/rr1_0/D GND 17.8
+R lowbit_5/rr1_0/D 515
+C dend2 GND 22.7
+R dend2 111
+C lowbit_5/mux1_0/a_n90_n12# GND 6.0
+R lowbit_5/mux1_0/a_n90_n12# 522
+R lowbit_5/mux1_0/w_n52_n16# 60
+R lowbit_5/mux1_0/w_n105_n16# 60
+R lowbit_5/mux1_0/w_n100_5# 16357
+C lowbit_5/shift1_0/a_67_n189# GND 4.9
+R lowbit_5/shift1_0/a_67_n189# 548
+C lowbit_5/shift1_0/a_21_n179# GND 4.0
+R lowbit_5/shift1_0/a_21_n179# 672
+C lowbit_5/shift1_0/IN0 GND 18.5
+R lowbit_5/shift1_0/IN0 364
+C quo1 GND 53.4
+R quo1 1325
+R lowbit_6/rr1_0/a_n42_n135# 53
+C lowbit_6/rr1_0/a_n109_n154# GND 4.8
+R lowbit_6/rr1_0/a_n109_n154# 1287
+R lowbit_6/rr1_0/a_n109_n126# 519
+R lowbit_6/rr1_0/a_n43_n83# 53
+R lowbit_6/rr1_0/a_n102_n98# 512
+C lowbit_6/rr1_0/a_n102_n154# GND 9.7
+R lowbit_6/rr1_0/a_n102_n154# 1330
+C lowbit_6/rr1_0/a_n59_n133# GND 3.3
+R lowbit_6/rr1_0/a_n59_n133# 1802
+C lowbit_6/rr1_0/a_n109_n98# GND 6.5
+R lowbit_6/rr1_0/a_n109_n98# 1287
+C Shiftout GND 16.2
+R Shiftout 515
+C dend1 GND 22.7
+R dend1 111
+C lowbit_6/mux1_0/a_n90_n12# GND 6.0
+R lowbit_6/mux1_0/a_n90_n12# 522
+C S1 GND 738.3
+R S1 27475
+C S0 GND 836.1
+R S0 34932
+C S0n GND 720.0
+R S0n 12972
+C S1n GND 857.3
+R S1n 16633
+R lowbit_6/mux1_0/w_n52_n16# 60
+R lowbit_6/mux1_0/w_n105_n16# 60
+R lowbit_6/mux1_0/w_n100_5# 16357
+C lowbit_7/shift1_0/IN0 GND 18.5
+R lowbit_7/shift1_0/IN0 364
+C lowbit_6/shift1_0/a_67_n189# GND 4.9
+R lowbit_6/shift1_0/a_67_n189# 548
+C lowbit_6/shift1_0/a_21_n179# GND 4.0
+R lowbit_6/shift1_0/a_21_n179# 672
+C lowmuxout GND 18.7
+R lowmuxout 364
+C notclockload GND 509.0
+R notclockload 14212
+C clockload GND 526.0
+R clockload 13735
+C quo0 GND 53.4
+R quo0 1325
+R lowbit_7/rr1_0/a_n42_n135# 53
+C lowbit_7/rr1_0/a_n109_n154# GND 4.8
+R lowbit_7/rr1_0/a_n109_n154# 1287
+R lowbit_7/rr1_0/a_n109_n126# 519
+R lowbit_7/rr1_0/a_n43_n83# 53
+R lowbit_7/rr1_0/a_n102_n98# 512
+C lowbit_7/rr1_0/a_n102_n154# GND 9.7
+R lowbit_7/rr1_0/a_n102_n154# 1330
+C lowbit_7/rr1_0/a_n59_n133# GND 3.3
+R lowbit_7/rr1_0/a_n59_n133# 1802
+C reset GND 526.8
+R reset 20893
+C lowbit_7/rr1_0/a_n109_n98# GND 6.5
+R lowbit_7/rr1_0/a_n109_n98# 1287
+C lowbit_7/rr1_0/D GND 17.8
+R lowbit_7/rr1_0/D 515
+C notclk GND 549.2
+R notclk 25761
+C clk GND 572.8
+R clk 24806
+C Gnd GND 754.9
+R Gnd 37194
+C Vdd GND 850.1
+R Vdd 1229171
+C dend0 GND 22.7
+R dend0 111
+C lowbit_7/mux1_0/a_n90_n12# GND 6.0
+R lowbit_7/mux1_0/a_n90_n12# 522
+R lowbit_7/mux1_0/w_n52_n16# 60
+R lowbit_7/mux1_0/w_n105_n16# 60
+R lowbit_7/mux1_0/w_n100_5# 16357
+C inbit GND 16.9
+R inbit 36
+C lowbit_7/shift1_0/a_67_n189# GND 4.9
+R lowbit_7/shift1_0/a_67_n189# 548
+C lowbit_7/shift1_0/a_21_n179# GND 4.0
+R lowbit_7/shift1_0/a_21_n179# 672
