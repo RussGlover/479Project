@@ -1,6 +1,9 @@
 magic
 tech scmos
-timestamp 1428965811
+timestamp 1428966086
+<< error_s >>
+rect -269 -47 -267 -46
+rect -96 -47 -94 -46
 << pwell >>
 rect 554 -143 570 193
 rect 1003 162 1069 175
@@ -343,11 +346,9 @@ rect 603 -3 607 1
 rect 554 -71 558 -67
 rect 587 -71 591 -67
 rect 595 -89 599 -85
-rect 987 -34 991 -30
 rect 757 -42 761 -38
 rect 544 -107 548 -103
 rect 501 -112 505 -108
-rect 994 -86 998 -82
 rect 554 -130 558 -126
 rect 587 -130 591 -126
 rect 544 -145 548 -141
@@ -355,15 +356,15 @@ rect 657 -133 661 -129
 rect 720 -133 724 -129
 rect 491 -152 495 -148
 use dp8  dp8_0
-timestamp 1428827926
+timestamp 1428966086
 transform 1 0 -1088 0 1 -152
-box -1491 0 1623 399
+box -1491 -8 1623 399
 use andgate  andgate_0
 timestamp 1428729313
 transform 1 0 648 0 1 146
 box -96 9 -57 49
 use inputCombLogic2  inputCombLogic2_0
-timestamp 1428802844
+timestamp 1428966030
 transform 1 0 1077 0 1 -184
 box -455 90 19 333
 << labels >>

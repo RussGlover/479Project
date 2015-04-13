@@ -1,6 +1,15 @@
 magic
 tech scmos
-timestamp 1428738085
+timestamp 1428966086
+<< error_s >>
+rect 298 105 300 106
+rect 471 105 473 106
+rect 645 105 647 106
+rect 819 105 821 106
+rect 992 105 994 106
+rect 1166 105 1168 106
+rect 1341 105 1343 106
+rect 1515 105 1517 106
 << metal1 >>
 rect 213 391 1623 395
 rect 213 383 1623 387
@@ -81,67 +90,67 @@ rect 1588 147 1592 151
 rect -1456 -8 -1452 -4
 rect 1588 -8 1592 -4
 use dp1v4  dp1v4_7
-timestamp 1428734395
+timestamp 1428964578
 transform 1 0 -1453 0 1 232
 box -38 -232 175 166
 use dp1v4  dp1v4_6
-timestamp 1428734395
+timestamp 1428964578
 transform 1 0 -1240 0 1 232
 box -38 -232 175 166
 use dp1v4  dp1v4_5
-timestamp 1428734395
+timestamp 1428964578
 transform 1 0 -1027 0 1 232
 box -38 -232 175 166
 use dp1v4  dp1v4_4
-timestamp 1428734395
+timestamp 1428964578
 transform 1 0 -814 0 1 232
 box -38 -232 175 166
 use dp1v4  dp1v4_3
-timestamp 1428734395
+timestamp 1428964578
 transform 1 0 -601 0 1 232
 box -38 -232 175 166
 use dp1v4  dp1v4_2
-timestamp 1428734395
+timestamp 1428964578
 transform 1 0 -388 0 1 232
 box -38 -232 175 166
 use dp1v4  dp1v4_1
-timestamp 1428734395
+timestamp 1428964578
 transform 1 0 -175 0 1 232
 box -38 -232 175 166
 use dp1v4  dp1v4_0
-timestamp 1428734395
+timestamp 1428964578
 transform 1 0 38 0 1 232
 box -38 -232 175 166
 use lowbit  lowbit_0
-timestamp 1428734601
+timestamp 1428966086
 transform 1 0 211 0 1 304
 box -22 -304 182 95
 use lowbit  lowbit_1
-timestamp 1428734601
+timestamp 1428966086
 transform 1 0 384 0 1 304
 box -22 -304 182 95
 use lowbit  lowbit_2
-timestamp 1428734601
+timestamp 1428966086
 transform 1 0 558 0 1 304
 box -22 -304 182 95
 use lowbit  lowbit_3
-timestamp 1428734601
+timestamp 1428966086
 transform 1 0 732 0 1 304
 box -22 -304 182 95
 use lowbit  lowbit_4
-timestamp 1428734601
+timestamp 1428966086
 transform 1 0 905 0 1 304
 box -22 -304 182 95
 use lowbit  lowbit_5
-timestamp 1428734601
+timestamp 1428966086
 transform 1 0 1079 0 1 304
 box -22 -304 182 95
 use lowbit  lowbit_6
-timestamp 1428734601
+timestamp 1428966086
 transform 1 0 1254 0 1 304
 box -22 -304 182 95
 use lowbit  lowbit_7
-timestamp 1428734601
+timestamp 1428966086
 transform 1 0 1428 0 1 304
 box -22 -304 182 95
 << labels >>

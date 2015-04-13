@@ -1,6 +1,8 @@
 magic
 tech scmos
-timestamp 1428734601
+timestamp 1428966086
+<< error_s >>
+rect 87 -199 89 -198
 << metal1 >>
 rect 145 87 182 91
 rect 145 79 182 83
@@ -39,9 +41,9 @@ timestamp 1428723998
 transform 1 0 176 0 1 101
 box -113 -176 -31 -10
 use mux1  mux1_0
-timestamp 1428729551
+timestamp 1428963193
 transform 1 0 118 0 1 -233
-box -140 -27 64 31
+box -140 -31 64 31
 use shift1  shift1_0
 timestamp 1428723798
 transform 1 0 0 0 1 -108
