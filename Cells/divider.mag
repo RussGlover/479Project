@@ -1,9 +1,6 @@
 magic
 tech scmos
-timestamp 1428966086
-<< error_s >>
-rect -269 -47 -267 -46
-rect -96 -47 -94 -46
+timestamp 1428973275
 << pwell >>
 rect 554 -143 570 193
 rect 1003 162 1069 175
@@ -161,6 +158,7 @@ rect 690 -148 694 -89
 rect 720 -129 724 -90
 rect 535 -152 694 -148
 << metal2 >>
+rect -2544 246 -2540 255
 rect -2331 246 -2327 254
 rect -2118 246 -2114 254
 rect -1905 246 -1901 254
@@ -356,7 +354,7 @@ rect 657 -133 661 -129
 rect 720 -133 724 -129
 rect 491 -152 495 -148
 use dp8  dp8_0
-timestamp 1428966086
+timestamp 1428973275
 transform 1 0 -1088 0 1 -152
 box -1491 -8 1623 399
 use andgate  andgate_0
@@ -400,7 +398,8 @@ rlabel metal2 309 -156 313 -155 1 quotient_1
 rlabel metal2 483 -156 487 -155 1 quotient_0
 rlabel metal2 629 253 633 254 5 Vdd
 rlabel metal2 613 253 617 254 5 reset
-rlabel metal2 605 253 609 254 5 clk
 rlabel metal2 621 253 625 254 5 start
 rlabel metal2 637 253 641 254 5 GND
+rlabel space -2544 243 -2540 255 1 divisorin_7
+rlabel metal2 605 221 609 254 1 clk
 << end >>

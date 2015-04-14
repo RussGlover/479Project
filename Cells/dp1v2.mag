@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1428964578
+timestamp 1428973275
 << pwell >>
 rect -10 -202 84 -176
 rect -10 -214 17 -202
@@ -128,9 +128,7 @@ rect 34 -180 46 -176
 << nsubstratencontact >>
 rect 79 -220 91 -216
 use addsub  addsub_0
-timestamp 1428964344
+timestamp 1428972937
 transform 1 0 58 0 1 -66
 box -107 -58 97 79
-<< labels >>
-rlabel metal2 3 -178 3 -178 5 IN0
 << end >>

@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1428723798
+timestamp 1428972469
 << pwell >>
 rect 17 -178 111 -152
 rect 17 -190 44 -178
@@ -119,7 +119,4 @@ rect 45 -186 49 -182
 rect 61 -156 73 -152
 << nsubstratencontact >>
 rect 106 -196 118 -192
-<< labels >>
-rlabel metal2 90 -154 90 -154 5 OUT0
-rlabel metal2 30 -154 30 -154 5 IN0
 << end >>

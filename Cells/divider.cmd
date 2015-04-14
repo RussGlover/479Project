@@ -9,11 +9,13 @@ vector quotient quotient_{7:0}
 
 | An initial clock pulse to get things going
 | as in the specification (verilog) test bench
-
+h reset
 s
 h clk
+
 s
 l clk
+l reset
 s
 
 | Start the process by asserting Start and waiting one clock cycle
