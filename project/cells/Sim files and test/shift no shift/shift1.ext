@@ -1,0 +1,40 @@
+timestamp 1428367300
+version 7.5
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+node "IN1" 35 7710 21 -186 ndc 20 18 0 0 0 0 0 0 0 0 0 0 552 292 72 44 0 0
+node "OUT0" 108 752 87 -189 pdiff 20 18 20 18 0 0 0 0 0 0 0 0 92 54 72 44 0 0
+node "a_67_n189#" 548 4890 67 -189 pdiff 20 18 20 18 82 82 0 0 0 0 0 0 80 48 0 0 0 0
+node "a_21_n179#" 672 3954 21 -179 ndiff 24 20 0 0 114 114 0 0 0 0 0 0 80 48 0 0 0 0
+node "Shift" 1516 13838 12 -182 pc 0 0 0 0 270 266 0 0 0 0 0 0 364 198 0 0 0 0
+node "IN0" 34 6580 21 -171 ndiff 20 18 0 0 0 0 0 0 0 0 0 0 200 108 72 44 0 0
+node "ShiftB" 1612 18360 3 -174 pc 0 0 0 0 286 282 0 0 0 0 0 0 308 170 0 0 0 0
+node "Vdd" 12965 17672 55 -196 nw 48 32 40 36 0 0 0 0 0 0 0 0 712 364 0 0 980 168
+node "GND" 340 13160 17 -190 pw 40 36 48 32 0 0 0 0 0 0 0 0 728 388 184 108 0 0
+cap "GND" "OUT0" 2528
+cap "GND" "IN1" 13212
+cap "Vdd" "a_67_n189#" 2554
+cap "Shift" "OUT0" 152
+cap "Vdd" "ShiftB" 320
+cap "Shift" "IN1" 240
+cap "a_21_n179#" "IN1" 266
+cap "GND" "a_67_n189#" 2554
+cap "ShiftB" "GND" 27374
+cap "Vdd" "Shift" 7158
+cap "OUT0" "IN1" 720
+cap "Vdd" "a_21_n179#" 1670
+cap "ShiftB" "IN0" 266
+cap "GND" "Shift" 26090
+cap "GND" "a_21_n179#" 8558
+cap "IN0" "GND" 3282
+cap "Vdd" "OUT0" 564
+cap "Shift" "a_21_n179#" 240
+cap "ShiftB" "IN1" 3720
+device mosfet pfet 85 -189 86 -188 2 4 "Vdd" "a_67_n189#" 4 0 "Vdd" 4 0 "OUT0" 4 0
+device mosfet pfet 65 -189 66 -188 2 4 "Vdd" "a_21_n179#" 4 0 "Vdd" 4 0 "a_67_n189#" 4 0
+device mosfet nfet 21 -181 22 -180 2 4 "GND" "Shift" 4 0 "IN1" 4 0 "a_21_n179#" 4 0
+device mosfet nfet 85 -175 86 -174 2 4 "GND" "a_67_n189#" 4 0 "GND" 4 0 "OUT0" 4 0
+device mosfet nfet 65 -175 66 -174 2 4 "GND" "a_21_n179#" 4 0 "GND" 4 0 "a_67_n189#" 4 0
+device mosfet nfet 21 -173 22 -172 2 4 "GND" "ShiftB" 4 0 "a_21_n179#" 4 0 "IN0" 4 0

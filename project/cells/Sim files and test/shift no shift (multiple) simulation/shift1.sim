@@ -1,0 +1,52 @@
+| units: 100 tech: scmos format: MIT
+n ShiftB a_28_n104# IN2 2 4 28 -98
+n ShiftB a_197_n104# IN1 2 4 197 -98
+n Shift IN1 a_28_n104# 2 4 28 -106
+n a_28_n104# GND a_88_n123# 2 4 86 -107
+n a_88_n123# GND OUT1 2 4 110 -107
+n Shift IN0 a_197_n104# 2 4 197 -106
+n a_197_n104# GND a_257_n123# 2 4 255 -107
+n a_257_n123# GND OUT0 2 4 279 -107
+p a_28_n104# Vdd a_88_n123# 2 4 86 -123
+p a_88_n123# Vdd OUT1 2 4 110 -123
+p a_197_n104# Vdd a_257_n123# 2 4 255 -123
+p a_257_n123# Vdd OUT0 2 4 279 -123
+C GND OUT1 3.9
+C GND a_88_n123# 3.6
+C GND ShiftB 48.2
+C Vdd a_88_n123# 3.6
+C GND IN2 3.7
+C GND IN0 20.9
+C GND a_257_n123# 3.6
+C GND a_28_n104# 7.0
+C GND OUT0 3.9
+C Vdd a_257_n123# 3.6
+C Vdd a_28_n104# 2.1
+C GND Shift 49.4
+C GND a_197_n104# 7.0
+C Vdd a_197_n104# 2.1
+C GND IN1 24.6
+R OUT0 108
+C IN0 GND 3.8
+R IN0 35
+R OUT1 108
+C Shift GND 35.7
+R Shift 1389
+C a_257_n123# GND 4.3
+R a_257_n123# 393
+C a_88_n123# GND 4.3
+R a_88_n123# 393
+C a_197_n104# GND 8.2
+R a_197_n104# 325
+C a_28_n104# GND 8.2
+R a_28_n104# 325
+C ShiftB GND 30.1
+R ShiftB 1388
+C IN1 GND 12.6
+R IN1 161
+C IN2 GND 7.9
+R IN2 34
+C Vdd GND 42.7
+R Vdd 23925
+C GND GND 24.3
+R GND 892

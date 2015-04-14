@@ -1,0 +1,130 @@
+magic
+tech scmos
+timestamp 1428367300
+<< pwell >>
+rect 17 -178 111 -152
+rect 17 -190 44 -178
+<< nwell >>
+rect 55 -196 125 -182
+<< polysilicon >>
+rect 27 -161 105 -159
+rect 27 -171 29 -161
+rect 7 -173 21 -171
+rect 25 -173 29 -171
+rect 31 -165 99 -163
+rect 31 -179 33 -165
+rect 65 -171 67 -169
+rect 85 -171 87 -169
+rect 41 -177 48 -175
+rect 46 -178 48 -177
+rect 65 -178 67 -175
+rect 16 -181 21 -179
+rect 25 -181 33 -179
+rect 46 -180 67 -178
+rect 65 -185 67 -180
+rect 85 -179 87 -175
+rect 74 -181 87 -179
+rect 85 -185 87 -181
+rect 97 -185 99 -165
+rect 103 -178 105 -161
+rect 65 -191 67 -189
+rect 85 -191 87 -189
+<< ndiffusion >>
+rect 21 -171 25 -170
+rect 21 -174 25 -173
+rect 21 -179 25 -178
+rect 64 -175 65 -171
+rect 67 -175 68 -171
+rect 84 -175 85 -171
+rect 87 -175 88 -171
+rect 21 -182 25 -181
+<< pdiffusion >>
+rect 64 -189 65 -185
+rect 67 -189 68 -185
+rect 84 -189 85 -185
+rect 87 -189 88 -185
+<< metal1 >>
+rect -18 -156 55 -152
+rect 59 -156 61 -152
+rect 73 -156 75 -152
+rect 79 -156 146 -152
+rect -18 -163 21 -159
+rect 21 -166 25 -163
+rect 45 -163 146 -159
+rect 45 -168 49 -163
+rect 88 -171 92 -170
+rect 3 -178 7 -174
+rect 25 -178 37 -174
+rect 59 -175 60 -171
+rect 79 -175 80 -171
+rect 68 -178 72 -175
+rect -18 -182 7 -178
+rect 68 -182 70 -178
+rect 12 -185 16 -182
+rect -18 -189 16 -185
+rect 25 -186 45 -182
+rect 68 -185 72 -182
+rect 88 -185 92 -175
+rect 106 -182 146 -178
+rect 100 -189 146 -185
+rect 60 -192 64 -189
+rect 80 -192 84 -189
+rect -18 -196 106 -192
+rect 118 -196 146 -192
+<< metal2 >>
+rect 28 -159 32 -152
+rect 25 -163 32 -159
+rect 45 -182 49 -172
+rect 55 -171 59 -156
+rect 75 -171 79 -156
+rect 88 -166 92 -152
+<< ntransistor >>
+rect 21 -173 25 -171
+rect 65 -175 67 -171
+rect 85 -175 87 -171
+rect 21 -181 25 -179
+<< ptransistor >>
+rect 65 -189 67 -185
+rect 85 -189 87 -185
+<< polycontact >>
+rect 3 -174 7 -170
+rect 12 -182 16 -178
+rect 37 -178 41 -174
+rect 70 -182 74 -178
+rect 102 -182 106 -178
+rect 96 -189 100 -185
+<< ndcontact >>
+rect 21 -170 25 -166
+rect 21 -178 25 -174
+rect 60 -175 64 -171
+rect 68 -175 72 -171
+rect 80 -175 84 -171
+rect 88 -175 92 -171
+rect 21 -186 25 -182
+<< pdcontact >>
+rect 60 -189 64 -185
+rect 68 -189 72 -185
+rect 80 -189 84 -185
+rect 88 -189 92 -185
+<< m2contact >>
+rect 55 -156 59 -152
+rect 75 -156 79 -152
+rect 21 -163 25 -159
+rect 45 -172 49 -168
+rect 88 -170 92 -166
+rect 55 -175 59 -171
+rect 75 -175 79 -171
+rect 45 -186 49 -182
+<< psubstratepcontact >>
+rect 61 -156 73 -152
+<< nsubstratencontact >>
+rect 106 -196 118 -192
+<< labels >>
+rlabel metal1 144 -194 144 -194 8 Vdd
+rlabel metal1 144 -187 144 -187 7 Shift
+rlabel metal1 144 -154 144 -154 6 GND
+rlabel metal2 90 -154 90 -154 5 OUT0
+rlabel metal2 30 -154 30 -154 5 IN0
+rlabel metal1 144 -180 144 -180 7 ShiftB
+rlabel metal1 144 -161 144 -161 7 IN1
+<< end >>

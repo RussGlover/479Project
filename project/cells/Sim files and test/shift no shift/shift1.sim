@@ -1,0 +1,34 @@
+| units: 100 tech: scmos format: MIT
+n ShiftB a_21_n179# IN0 2 4 21 -173
+n a_21_n179# GND a_67_n189# 2 4 65 -175
+n a_67_n189# GND OUT0 2 4 85 -175
+n Shift IN1 a_21_n179# 2 4 21 -181
+p a_21_n179# Vdd a_67_n189# 2 4 65 -189
+p a_67_n189# Vdd OUT0 2 4 85 -189
+C GND IN1 13.2
+C GND a_21_n179# 8.6
+C ShiftB IN1 3.7
+C GND a_67_n189# 2.6
+C Vdd a_67_n189# 2.6
+C GND IN0 3.3
+C GND OUT0 2.5
+C GND Shift 26.1
+C GND ShiftB 27.4
+C Vdd Shift 7.2
+C IN1 GND 7.7
+R IN1 35
+R OUT0 108
+C a_67_n189# GND 4.9
+R a_67_n189# 548
+C a_21_n179# GND 4.0
+R a_21_n179# 672
+C Shift GND 13.8
+R Shift 1516
+C IN0 GND 6.6
+R IN0 34
+C ShiftB GND 18.4
+R ShiftB 1612
+C Vdd GND 17.7
+R Vdd 12965
+C GND GND 13.2
+R GND 340

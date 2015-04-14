@@ -1,0 +1,62 @@
+timestamp 1428304724
+version 7.5
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+node "OUT0" 108 1692 281 -123 pdiff 20 18 20 18 0 0 0 0 0 0 0 0 132 74 168 92 0 0
+node "IN0" 35 3760 197 -111 ndc 20 18 0 0 0 0 0 0 0 0 0 0 488 260 120 68 0 0
+node "OUT1" 108 1692 112 -123 pdiff 20 18 20 18 0 0 0 0 0 0 0 0 132 74 168 92 0 0
+node "Shift" 1389 35660 16 -107 pc 0 0 0 0 256 248 0 0 0 0 0 0 1204 626 0 0 0 0
+node "a_257_n123#" 393 4272 257 -123 pdiff 20 18 20 18 56 56 0 0 0 0 0 0 176 96 0 0 0 0
+node "a_88_n123#" 393 4272 88 -123 pdiff 20 18 20 18 56 56 0 0 0 0 0 0 176 96 0 0 0 0
+node "a_197_n104#" 325 8220 197 -104 ndiff 24 20 0 0 56 56 0 0 0 0 0 0 292 154 0 0 0 0
+node "a_28_n104#" 325 8220 28 -104 ndiff 24 20 0 0 56 56 0 0 0 0 0 0 292 154 0 0 0 0
+node "ShiftB" 1388 30068 8 -99 pc 0 0 0 0 256 248 0 0 0 0 0 0 1060 554 0 0 0 0
+node "IN1" 161 12596 28 -111 ndc 40 36 0 0 0 0 0 0 0 0 0 0 748 390 168 100 0 0
+node "IN2" 34 7896 28 -96 ndiff 20 18 0 0 0 0 0 0 0 0 0 0 240 128 48 32 0 0
+node "Vdd" 23925 42676 73 -131 nw 96 64 80 72 0 0 0 0 0 0 0 0 1460 738 0 0 1696 276
+node "GND" 892 24252 24 -119 pw 80 72 96 64 0 0 0 0 0 0 0 0 1476 778 544 304 0 0
+cap "IN0" "Shift" 152
+cap "GND" "Shift" 49360
+cap "ShiftB" "IN0" 152
+cap "ShiftB" "GND" 48184
+cap "IN0" "GND" 20928
+cap "a_28_n104#" "Shift" 240
+cap "a_28_n104#" "GND" 6956
+cap "OUT1" "Shift" 720
+cap "a_28_n104#" "Vdd" 2068
+cap "IN1" "Shift" 152
+cap "ShiftB" "OUT1" 720
+cap "ShiftB" "IN1" 152
+cap "OUT1" "GND" 3896
+cap "IN1" "GND" 24584
+cap "Vdd" "OUT1" 1504
+cap "GND" "a_88_n123#" 3572
+cap "a_197_n104#" "Shift" 240
+cap "GND" "a_257_n123#" 3572
+cap "Vdd" "a_88_n123#" 3572
+cap "Vdd" "a_257_n123#" 3572
+cap "OUT0" "Shift" 720
+cap "a_28_n104#" "IN1" 720
+cap "ShiftB" "OUT0" 720
+cap "a_197_n104#" "IN0" 720
+cap "a_197_n104#" "GND" 6956
+cap "OUT0" "IN0" 720
+cap "IN2" "GND" 3656
+cap "a_197_n104#" "Vdd" 2068
+cap "OUT0" "GND" 3896
+cap "IN1" "OUT1" 720
+cap "OUT0" "Vdd" 1504
+device mosfet pfet 279 -123 280 -122 2 4 "Vdd" "a_257_n123#" 4 0 "Vdd" 4 0 "OUT0" 4 0
+device mosfet pfet 255 -123 256 -122 2 4 "Vdd" "a_197_n104#" 4 0 "Vdd" 4 0 "a_257_n123#" 4 0
+device mosfet pfet 110 -123 111 -122 2 4 "Vdd" "a_88_n123#" 4 0 "Vdd" 4 0 "OUT1" 4 0
+device mosfet pfet 86 -123 87 -122 2 4 "Vdd" "a_28_n104#" 4 0 "Vdd" 4 0 "a_88_n123#" 4 0
+device mosfet nfet 279 -107 280 -106 2 4 "GND" "a_257_n123#" 4 0 "GND" 4 0 "OUT0" 4 0
+device mosfet nfet 255 -107 256 -106 2 4 "GND" "a_197_n104#" 4 0 "GND" 4 0 "a_257_n123#" 4 0
+device mosfet nfet 197 -106 198 -105 2 4 "GND" "Shift" 4 0 "IN0" 4 0 "a_197_n104#" 4 0
+device mosfet nfet 110 -107 111 -106 2 4 "GND" "a_88_n123#" 4 0 "GND" 4 0 "OUT1" 4 0
+device mosfet nfet 86 -107 87 -106 2 4 "GND" "a_28_n104#" 4 0 "GND" 4 0 "a_88_n123#" 4 0
+device mosfet nfet 28 -106 29 -105 2 4 "GND" "Shift" 4 0 "IN1" 4 0 "a_28_n104#" 4 0
+device mosfet nfet 197 -98 198 -97 2 4 "GND" "ShiftB" 4 0 "a_197_n104#" 4 0 "IN1" 4 0
+device mosfet nfet 28 -98 29 -97 2 4 "GND" "ShiftB" 4 0 "a_28_n104#" 4 0 "IN2" 4 0
