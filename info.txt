@@ -1,6 +1,6 @@
 //Team Information
 Albert Ruskey 73536062 aruskey@shaw.ca
-Russill Glover 
+Russill Glover 38520110 russillg@gmail.com
 Nat Wongimpatchi
 
 //Did it work?
@@ -16,6 +16,8 @@ In the Datapath:
 	- we have included .sim and .cmd files for the individual cells from task 5.
 
 In the Controller:
+	- In the controller we needed the settle command to fix imbalances within the regsister
+	- A test is provided which demonstrates the different states
 	- 
 
 
