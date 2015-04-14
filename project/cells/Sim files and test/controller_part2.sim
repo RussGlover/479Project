@@ -1,0 +1,151 @@
+| units: 100 tech: scmos format: MIT
+n a_n83_39# GND load 2 4 -81 39
+p a_n83_39# Vdd load 2 8 -67 39
+p A a_n89_23# Vdd 2 4 -48 39
+n A a_n89_23# GND 2 4 -34 39
+n a_n89_23# a_n81_17# a_n83_39# 2 4 -81 23
+p a_n89_23# a_n83_39# Vdd 2 4 -64 23
+p B a_n89_15# Vdd 2 4 -48 19
+n B a_n89_15# GND 2 4 -34 19
+n a_n89_15# GND a_n81_17# 2 4 -81 15
+p a_n89_15# Vdd a_n83_39# 2 4 -64 15
+n a_n83_n1# GND add 2 4 -81 -1
+p a_n83_n1# Vdd add 2 8 -67 -1
+p A a_n89_n17# Vdd 2 4 -48 -1
+n A a_n89_n17# GND 2 4 -34 -1
+n a_n89_n17# a_n81_n23# a_n83_n1# 2 4 -81 -17
+p a_n89_n17# a_n83_n1# Vdd 2 4 -64 -17
+n B GND a_n81_n23# 2 4 -81 -25
+p B Vdd a_n83_n1# 2 4 -64 -25
+p a_n113_n41# s1 Vdd 2 4 -111 -41
+n a_n113_n41# s1 GND 2 4 -96 -41
+n a_n83_n41# GND a_n113_n41# 2 4 -81 -41
+p a_n83_n41# Vdd a_n113_n41# 2 8 -67 -41
+p A a_n89_n57# Vdd 2 4 -48 -41
+n A a_n89_n57# GND 2 4 -34 -41
+n a_n89_n57# a_n81_n63# a_n83_n41# 2 4 -81 -57
+p a_n89_n57# a_n83_n41# Vdd 2 4 -64 -57
+p B a_n89_n65# Vdd 2 4 -48 -61
+n B a_n89_n65# GND 2 4 -34 -61
+n a_n89_n65# GND a_n81_n63# 2 4 -81 -65
+p a_n89_n65# Vdd a_n83_n41# 2 4 -64 -65
+p a_n113_n81# s0 Vdd 2 4 -111 -81
+n a_n113_n81# s0 GND 2 4 -96 -81
+n a_n83_n81# GND a_n113_n81# 2 4 -81 -81
+p a_n83_n81# Vdd a_n113_n81# 2 8 -67 -81
+n A a_n81_n103# a_n83_n81# 2 4 -81 -97
+p A a_n83_n81# Vdd 2 4 -64 -97
+p B a_n89_n105# Vdd 2 4 -48 -101
+n B a_n89_n105# GND 2 4 -34 -101
+n a_n89_n105# GND a_n81_n103# 2 4 -81 -105
+p a_n89_n105# Vdd a_n83_n81# 2 4 -64 -105
+p a_n113_n121# shift Vdd 2 4 -111 -121
+n a_n113_n121# shift GND 2 4 -96 -121
+n a_n83_n121# GND a_n113_n121# 2 4 -81 -121
+p a_n83_n121# Vdd a_n113_n121# 2 8 -67 -121
+n A a_n81_n143# a_n83_n121# 2 4 -81 -137
+p A a_n83_n121# Vdd 2 4 -64 -137
+n B GND a_n81_n143# 2 4 -81 -145
+p B Vdd a_n83_n121# 2 4 -64 -145
+n a_n83_n161# GND inbit 2 4 -81 -161
+p a_n83_n161# Vdd inbit 2 8 -67 -161
+n A a_n81_n183# a_n83_n161# 2 4 -81 -177
+p A a_n83_n161# Vdd 2 4 -64 -177
+p B a_n89_n185# Vdd 2 4 -48 -181
+n B a_n89_n185# GND 2 4 -34 -181
+n a_n89_n185# GND a_n81_n183# 2 4 -81 -185
+p a_n89_n185# Vdd a_n83_n161# 2 4 -64 -185
+C GND a_n83_n161# 3.8
+C w_n119_n190# s0 3.4
+C GND a_n83_n81# 3.8
+C GND a_n113_n121# 11.0
+C GND a_n89_n17# 3.6
+C a_n89_n17# Vdd 9.6
+C w_n119_n190# inbit 2.8
+C w_n119_n190# s1 3.4
+C GND a_n83_39# 3.8
+C GND a_n83_n41# 3.8
+C w_n38_n190# GND 45.9
+C GND a_n89_n65# 3.6
+C Vdd a_n89_n65# 8.5
+C B Vdd 24.5
+C GND B 8.6
+C w_n119_n190# add 2.8
+C GND a_n89_15# 3.6
+C a_n89_15# Vdd 8.5
+C w_n119_n190# load 2.8
+C w_n38_n190# B 22.2
+C w_n119_n190# shift 3.4
+C Vdd a_n89_n185# 8.4
+C GND a_n89_n185# 3.6
+C GND inbit 8.9
+C A Vdd 32.4
+C GND A 12.2
+C GND a_n83_n121# 3.8
+C GND a_n113_n81# 11.0
+C Vdd a_n89_n57# 9.6
+C GND a_n89_23# 3.6
+C GND a_n89_n57# 3.6
+C a_n89_23# Vdd 9.6
+C GND a_n89_n105# 3.6
+C Vdd a_n89_n105# 8.5
+C w_n38_n190# A 26.7
+C GND add 8.9
+C w_n119_n190# Vdd 16.1
+C GND a_n113_n41# 11.0
+C load GND 8.9
+C GND a_n83_n1# 3.8
+C a_n89_n185# GND 2.4
+R a_n89_n185# 775
+R a_n81_n183# 40
+C a_n83_n161# GND 5.4
+R a_n83_n161# 551
+C inbit GND 2.4
+R inbit 441
+R a_n81_n143# 40
+R shift 108
+C a_n83_n121# GND 5.4
+R a_n83_n121# 551
+C a_n113_n121# GND 3.7
+R a_n113_n121# 868
+C a_n89_n105# GND 2.2
+R a_n89_n105# 775
+R a_n81_n103# 40
+R s0 108
+C a_n83_n81# GND 5.4
+R a_n83_n81# 551
+C a_n113_n81# GND 3.7
+R a_n113_n81# 868
+C a_n89_n65# GND 2.2
+R a_n89_n65# 775
+R a_n81_n63# 40
+C a_n89_n57# GND 2.2
+R a_n89_n57# 823
+R s1 108
+C a_n83_n41# GND 5.4
+R a_n83_n41# 551
+R Vdd 28623
+C a_n113_n41# GND 3.7
+R a_n113_n41# 868
+R a_n81_n23# 40
+C a_n89_n17# GND 2.2
+R a_n89_n17# 823
+C a_n83_n1# GND 5.4
+R a_n83_n1# 551
+C add GND 2.4
+R add 441
+C a_n89_15# GND 2.2
+R a_n89_15# 775
+C B GND 72.0
+R B 4536
+R a_n81_17# 40
+C a_n89_23# GND 2.2
+R a_n89_23# 823
+C A GND 61.0
+R A 4823
+C a_n83_39# GND 5.4
+R a_n83_39# 551
+R GND 3638
+C load GND 2.4
+R load 441
+R w_n119_n190# 40093

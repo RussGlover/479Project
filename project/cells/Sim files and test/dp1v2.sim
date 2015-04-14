@@ -1,0 +1,128 @@
+| units: 100 tech: scmos format: MIT
+n addsub_0/a_n97_n15# addsub_0/a_n105_n31# addsub_0/w_n105_43# 2 6 -38 -23
+n addsub_0/a_n75_3# addsub_0/a_n83_43# addsub_0/w_n105_43# 2 6 -17 -23
+n addsub_0/a_n63_26# addsub_0/a_n62_43# addsub_0/a_n51_43# 2 6 5 -23
+n addsub_0/a_n69_29# addsub_0/a_n51_43# addsub_0/w_n105_43# 2 6 22 -23
+n addsub_0/a_n62_43# addsub_0/w_n105_43# addsub_0/a_n24_43# 2 6 32 -23
+n addsub_0/a_n22_n37# addsub_0/a_n24_43# addsub_0/a_n20_43# 2 6 36 -23
+n addsub_0/a_n18_n33# addsub_0/a_n20_43# addsub_0/a_n75_3# 2 6 40 -23
+n addsub_0/a_n97_n15# addsub_0/a_n75_3# addsub_0/a_1_43# 2 6 57 -23
+n addsub_0/a_n18_n33# addsub_0/a_1_43# addsub_0/w_n105_43# 2 6 66 -23
+n addsub_0/a_n22_n37# addsub_0/w_n105_43# addsub_0/a_1_43# 2 6 77 -23
+n addsub_0/a_n62_43# addsub_0/a_1_43# addsub_0/w_n105_43# 2 6 87 -23
+n addsub_0/a_n62_43# addsub_0/w_n105_43# addsub_0/a_41_43# 2 6 97 -23
+n addsub_0/a_n22_n37# addsub_0/a_41_43# addsub_0/a_n97_n15# 2 6 101 -23
+n addsub_0/a_n18_n33# addsub_0/a_n97_n15# addsub_0/a_56_43# 2 6 112 -23
+n addsub_0/a_n22_n37# addsub_0/a_56_43# addsub_0/w_n105_43# 2 6 123 -23
+n addsub_0/a_n62_43# addsub_0/w_n105_43# addsub_0/a_56_43# 2 6 135 -23
+p addsub_0/a_n63_26# addsub_0/a_n69_29# addsub_0/a_n62_43# 2 4 -5 -37
+p addsub_0/a_n97_n15# addsub_0/a_n105_n31# addsub_0/w_n107_n48# 2 6 -38 -97
+p addsub_0/a_n75_3# addsub_0/a_n83_43# addsub_0/w_n107_n48# 2 6 -6 -97
+p addsub_0/a_n69_29# addsub_0/a_n51_43# addsub_0/w_n107_n48# 2 6 22 -97
+p addsub_0/a_n62_43# addsub_0/w_n107_n48# addsub_0/a_n24_n31# 2 6 32 -97
+p addsub_0/a_n22_n37# addsub_0/a_n24_n31# addsub_0/a_n20_n31# 2 6 36 -97
+p addsub_0/a_n18_n33# addsub_0/a_n20_n31# addsub_0/a_n75_3# 2 6 40 -97
+p addsub_0/a_n97_n15# addsub_0/a_n75_3# addsub_0/a_1_n31# 2 6 57 -97
+p addsub_0/a_n18_n33# addsub_0/a_1_n31# addsub_0/w_n107_n48# 2 6 66 -97
+p addsub_0/a_n22_n37# addsub_0/w_n107_n48# addsub_0/a_1_n31# 2 6 77 -97
+p addsub_0/a_n62_43# addsub_0/a_1_n31# addsub_0/w_n107_n48# 2 6 87 -97
+p addsub_0/a_n62_43# addsub_0/w_n107_n48# addsub_0/a_41_n31# 2 6 97 -97
+p addsub_0/a_n22_n37# addsub_0/a_41_n31# addsub_0/a_n97_n15# 2 6 101 -97
+p addsub_0/a_n18_n33# addsub_0/a_n97_n15# addsub_0/a_56_n31# 2 6 112 -97
+p addsub_0/a_n22_n37# addsub_0/a_56_n31# addsub_0/w_n107_n48# 2 6 123 -97
+p addsub_0/a_n62_43# addsub_0/w_n107_n48# addsub_0/a_56_n31# 2 6 135 -97
+n a_n24_n198# a_n6_n203# a_n6_n195# 2 4 -6 -197
+n a_n6_n203# w_n10_n214# a_40_n213# 2 4 38 -199
+n a_40_n213# w_n10_n214# a_60_n213# 2 4 58 -199
+n a_n15_n206# a_n6_n210# a_n6_n203# 2 4 -6 -205
+p a_n6_n203# w_28_n220# a_40_n213# 2 4 38 -213
+p a_40_n213# w_28_n220# a_60_n213# 2 4 58 -213
+C addsub_0/w_n107_n48# addsub_0/a_n83_43# 4.1
+C addsub_0/w_n107_n48# addsub_0/a_n22_n37# 40.3
+C addsub_0/w_n107_n48# addsub_0/a_n97_n15# 39.3
+C w_n10_n214# a_40_n213# 2.6
+C w_n10_n214# a_n6_n195# 4.9
+C addsub_0/w_n71_25# addsub_0/a_n63_26# 2.5
+C addsub_0/w_n105_43# addsub_0/a_n22_n37# 24.7
+C addsub_0/a_n97_n15# addsub_0/a_n75_3# 2.4
+C addsub_0/w_n107_n48# addsub_0/a_n51_43# 2.1
+C addsub_0/w_n107_n48# addsub_0/a_n18_n33# 35.7
+C addsub_0/w_n107_n48# addsub_0/a_n75_3# 15.5
+C addsub_0/w_n107_n48# addsub_0/a_n62_43# 43.6
+C a_n24_n198# a_n6_n210# 3.7
+C w_28_n220# a_40_n213# 2.6
+C w_28_n220# a_n6_n195# 11.0
+C w_n10_n214# a_n15_n206# 26.1
+C addsub_0/a_n63_26# addsub_0/a_56_43# 2.2
+C a_60_n213# w_n10_n214# 5.0
+C addsub_0/w_n105_43# addsub_0/a_n18_n33# 2.9
+C addsub_0/w_n107_n48# a_60_n213# 3.1
+C addsub_0/w_n107_n48# addsub_0/a_56_n31# 5.6
+C addsub_0/w_n105_43# addsub_0/a_n62_43# 32.5
+C addsub_0/w_n107_n48# addsub_0/a_n105_n31# 3.4
+C addsub_0/w_n107_n48# addsub_0/a_n69_29# 6.0
+C addsub_0/w_n105_43# a_60_n213# 2.4
+C addsub_0/a_n22_n37# addsub_0/m2_n48_n56# 3.2
+C w_n10_n214# a_n6_n210# 13.2
+C w_n10_n214# a_n6_n203# 8.6
+C w_28_n220# a_n15_n206# 7.2
+C w_n10_n214# a_n24_n198# 27.4
+C addsub_0/w_n107_n48# addsub_0/m2_n48_n56# 6.7
+C addsub_0/w_n105_43# addsub_0/a_n63_26# 5.8
+C addsub_0/w_n107_n48# addsub_0/a_1_n31# 4.7
+C m1_94_n139# GND 4.5
+C a_n6_n210# GND 13.3
+R a_n6_n210# 36
+C a_40_n213# GND 4.9
+R a_40_n213# 548
+C a_n6_n203# GND 4.0
+R a_n6_n203# 672
+C a_n15_n206# GND 20.0
+R a_n15_n206# 1517
+C a_n6_n195# GND 10.9
+R a_n6_n195# 35
+C a_n24_n198# GND 24.6
+R a_n24_n198# 1612
+C w_28_n220# GND 23.9
+R w_28_n220# 12965
+C w_n10_n214# GND 19.7
+R w_n10_n214# 340
+C a_60_n213# GND 12.9
+R a_60_n213# 110
+C addsub_0/m2_n48_n56# GND 2.4
+R addsub_0/a_56_n31# 368
+R addsub_0/a_41_n31# 179
+R addsub_0/a_1_n31# 354
+R addsub_0/a_n20_n31# 179
+R addsub_0/a_n24_n31# 179
+C addsub_0/a_56_43# GND 6.0
+R addsub_0/a_56_43# 165
+R addsub_0/a_41_43# 80
+C addsub_0/a_1_43# GND 4.7
+R addsub_0/a_1_43# 159
+R addsub_0/a_n20_43# 80
+R addsub_0/a_n24_43# 80
+C addsub_0/a_n51_43# GND 3.1
+R addsub_0/a_n51_43# 157
+C addsub_0/a_n83_43# GND 5.2
+R addsub_0/a_n83_43# 156
+C addsub_0/a_n105_n31# GND 4.4
+R addsub_0/a_n105_n31# 130
+C addsub_0/a_n18_n33# GND 37.3
+R addsub_0/a_n18_n33# 3341
+C addsub_0/a_n22_n37# GND 46.0
+R addsub_0/a_n22_n37# 5036
+C addsub_0/a_n69_29# GND 48.7
+R addsub_0/a_n69_29# 1094
+C addsub_0/a_n75_3# GND 21.0
+R addsub_0/a_n75_3# 1351
+C addsub_0/a_n97_n15# GND 34.2
+R addsub_0/a_n97_n15# 2125
+C addsub_0/a_n63_26# GND 25.8
+R addsub_0/a_n63_26# 490
+C addsub_0/a_n62_43# GND 24.0
+R addsub_0/a_n62_43# 5105
+R addsub_0/w_n107_n48# 12595
+R addsub_0/w_n71_25# 4100
+C addsub_0/w_n105_43# GND 5.6
+R addsub_0/w_n105_43# 788

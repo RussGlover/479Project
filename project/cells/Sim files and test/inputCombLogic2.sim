@@ -1,0 +1,415 @@
+| units: 100 tech: scmos format: MIT
+n and3gate_2/a_n83_47# Gnd and3gate_2/out 2 4 -66 162
+p and3gate_2/a_n83_47# Vdd and3gate_2/out 2 8 -52 162
+n An and3gate_2/a_n81_25# and3gate_2/a_n83_47# 2 4 -66 146
+p An Vdd and3gate_2/a_n83_47# 2 4 -49 146
+n Bn and3gate_2/a_n81_17# and3gate_2/a_n81_25# 2 4 -66 138
+p Bn and3gate_2/a_n83_47# Vdd 2 4 -49 138
+n Startn Gnd and3gate_2/a_n81_17# 2 4 -66 130
+p Startn Vdd and3gate_2/a_n83_47# 2 4 -49 130
+n and3gate_1/a_n83_47# Gnd and3gate_1/out 2 4 -66 212
+p and3gate_1/a_n83_47# Vdd and3gate_1/out 2 8 -52 212
+n A and3gate_1/a_n81_25# and3gate_1/a_n83_47# 2 4 -66 196
+p A Vdd and3gate_1/a_n83_47# 2 4 -49 196
+n B and3gate_1/a_n81_17# and3gate_1/a_n81_25# 2 4 -66 188
+p B and3gate_1/a_n83_47# Vdd 2 4 -49 188
+n Signn Gnd and3gate_1/a_n81_17# 2 4 -66 180
+p Signn Vdd and3gate_1/a_n83_47# 2 4 -49 180
+n andgate_0/a_n88_39# Gnd Bout 2 4 -133 183
+p andgate_0/a_n88_39# Vdd2 Bout 2 8 -119 183
+n andgate_0/A andgate_0/a_n86_17# andgate_0/a_n88_39# 2 4 -133 199
+p andgate_0/A andgate_0/a_n88_39# Vdd2 2 4 -116 199
+n andgate_0/B Gnd andgate_0/a_n86_17# 2 4 -133 207
+p andgate_0/B Vdd2 andgate_0/a_n88_39# 2 4 -116 207
+n and3gate_0/a_n83_47# Gnd and3gate_0/out 2 4 -66 262
+p and3gate_0/a_n83_47# Vdd and3gate_0/out 2 8 -52 262
+n Startn and3gate_0/a_n81_25# and3gate_0/a_n83_47# 2 4 -66 246
+p Startn Vdd and3gate_0/a_n83_47# 2 4 -49 246
+n Bn and3gate_0/a_n81_17# and3gate_0/a_n81_25# 2 4 -66 238
+p Bn and3gate_0/a_n83_47# Vdd 2 4 -49 238
+n An Gnd and3gate_0/a_n81_17# 2 4 -66 230
+p An Vdd and3gate_0/a_n83_47# 2 4 -49 230
+n andgate_1/a_n88_39# Gnd Aout 2 4 -133 237
+p andgate_1/a_n88_39# Vdd2 Aout 2 8 -119 237
+n andgate_1/A andgate_1/a_n86_17# andgate_1/a_n88_39# 2 4 -133 253
+p andgate_1/A andgate_1/a_n88_39# Vdd2 2 4 -116 253
+n andgate_1/B Gnd andgate_1/a_n86_17# 2 4 -133 261
+p andgate_1/B Vdd2 andgate_1/a_n88_39# 2 4 -116 261
+n and3gate_3/a_n83_47# Gnd and3gate_3/out 2 4 -66 312
+p and3gate_3/a_n83_47# Vdd and3gate_3/out 2 8 -52 312
+n A and3gate_3/a_n81_25# and3gate_3/a_n83_47# 2 4 -66 296
+p A Vdd and3gate_3/a_n83_47# 2 4 -49 296
+n B and3gate_3/a_n81_17# and3gate_3/a_n81_25# 2 4 -66 288
+p B and3gate_3/a_n83_47# Vdd 2 4 -49 288
+n sign Gnd and3gate_3/a_n81_17# 2 4 -66 280
+p sign Vdd and3gate_3/a_n83_47# 2 4 -49 280
+p Clk Aout reg2bit2_0/reg11_1/a_n109_n98# 2 4 -233 258
+p rst Vdd reg2bit2_0/reg11_1/a_n59_n133# 2 4 -186 263
+n rst Gnd reg2bit2_0/reg11_1/a_n59_n133# 2 4 -172 263
+n Clkn Aout reg2bit2_0/reg11_1/a_n109_n98# 2 4 -225 244
+n Clk reg2bit2_0/reg11_1/a_n109_n98# reg2bit2_0/reg11_1/a_n102_n98# 2 4 -233 230
+p reg2bit2_0/reg11_1/a_n59_n133# reg2bit2_0/reg11_1/a_n102_n154# Vdd 2 4 -186 247
+n reg2bit2_0/reg11_1/a_n59_n133# reg2bit2_0/reg11_1/a_n43_n83# reg2bit2_0/reg11_1/a_n102_n154# 2 4 -172 247
+n reg2bit2_0/reg11_1/a_n109_n98# Gnd reg2bit2_0/reg11_1/a_n43_n83# 2 4 -172 243
+p reg2bit2_0/reg11_1/a_n109_n98# Vdd reg2bit2_0/reg11_1/a_n102_n154# 2 4 -186 239
+p Clkn reg2bit2_0/reg11_1/a_n109_n98# reg2bit2_0/reg11_1/a_n102_n98# 2 4 -225 216
+p reg2bit2_0/reg11_1/a_n102_n154# Vdd reg2bit2_0/reg11_1/a_n102_n98# 2 4 -186 217
+n reg2bit2_0/reg11_1/a_n102_n154# Gnd reg2bit2_0/reg11_1/a_n102_n98# 2 4 -172 217
+p Clk reg2bit2_0/reg11_1/a_n109_n126# reg2bit2_0/reg11_1/a_n109_n154# 2 4 -233 202
+n Clkn reg2bit2_0/reg11_1/a_n109_n126# reg2bit2_0/reg11_1/a_n109_n154# 2 4 -225 188
+p reg2bit2_0/reg11_1/a_n59_n133# reg2bit2_0/reg11_1/a_n109_n126# Vdd 2 4 -186 195
+n reg2bit2_0/reg11_1/a_n59_n133# reg2bit2_0/reg11_1/a_n42_n135# reg2bit2_0/reg11_1/a_n109_n126# 2 4 -171 195
+n A Gnd reg2bit2_0/reg11_1/a_n42_n135# 2 4 -171 191
+n Clk reg2bit2_0/reg11_1/a_n109_n154# reg2bit2_0/reg11_1/a_n102_n154# 2 4 -233 174
+p A Vdd reg2bit2_0/reg11_1/a_n109_n126# 2 4 -186 187
+p reg2bit2_0/reg11_1/a_n109_n154# Vdd A 2 4 -186 171
+n reg2bit2_0/reg11_1/a_n109_n154# Gnd A 2 4 -172 171
+p Clkn reg2bit2_0/reg11_1/a_n109_n154# reg2bit2_0/reg11_1/a_n102_n154# 2 4 -225 160
+p Clk Bout reg2bit2_0/reg11_0/a_n109_n98# 2 4 -324 258
+p rst Vdd reg2bit2_0/reg11_0/a_n59_n133# 2 4 -277 263
+n rst Gnd reg2bit2_0/reg11_0/a_n59_n133# 2 4 -263 263
+n Clkn Bout reg2bit2_0/reg11_0/a_n109_n98# 2 4 -316 244
+n Clk reg2bit2_0/reg11_0/a_n109_n98# reg2bit2_0/reg11_0/a_n102_n98# 2 4 -324 230
+p reg2bit2_0/reg11_0/a_n59_n133# reg2bit2_0/reg11_0/a_n102_n154# Vdd 2 4 -277 247
+n reg2bit2_0/reg11_0/a_n59_n133# reg2bit2_0/reg11_0/a_n43_n83# reg2bit2_0/reg11_0/a_n102_n154# 2 4 -263 247
+n reg2bit2_0/reg11_0/a_n109_n98# Gnd reg2bit2_0/reg11_0/a_n43_n83# 2 4 -263 243
+p reg2bit2_0/reg11_0/a_n109_n98# Vdd reg2bit2_0/reg11_0/a_n102_n154# 2 4 -277 239
+p Clkn reg2bit2_0/reg11_0/a_n109_n98# reg2bit2_0/reg11_0/a_n102_n98# 2 4 -316 216
+p reg2bit2_0/reg11_0/a_n102_n154# Vdd reg2bit2_0/reg11_0/a_n102_n98# 2 4 -277 217
+n reg2bit2_0/reg11_0/a_n102_n154# Gnd reg2bit2_0/reg11_0/a_n102_n98# 2 4 -263 217
+p Clk reg2bit2_0/reg11_0/a_n109_n126# reg2bit2_0/reg11_0/a_n109_n154# 2 4 -324 202
+n Clkn reg2bit2_0/reg11_0/a_n109_n126# reg2bit2_0/reg11_0/a_n109_n154# 2 4 -316 188
+p reg2bit2_0/reg11_0/a_n59_n133# reg2bit2_0/reg11_0/a_n109_n126# Vdd 2 4 -277 195
+n reg2bit2_0/reg11_0/a_n59_n133# reg2bit2_0/reg11_0/a_n42_n135# reg2bit2_0/reg11_0/a_n109_n126# 2 4 -262 195
+n B Gnd reg2bit2_0/reg11_0/a_n42_n135# 2 4 -262 191
+n Clk reg2bit2_0/reg11_0/a_n109_n154# reg2bit2_0/reg11_0/a_n102_n154# 2 4 -324 174
+p B Vdd reg2bit2_0/reg11_0/a_n109_n126# 2 4 -277 187
+p reg2bit2_0/reg11_0/a_n109_n154# Vdd B 2 4 -277 171
+n reg2bit2_0/reg11_0/a_n109_n154# Gnd B 2 4 -263 171
+p Clkn reg2bit2_0/reg11_0/a_n109_n154# reg2bit2_0/reg11_0/a_n102_n154# 2 4 -316 160
+n controller_part2_0/a_n83_39# Gnd load 2 4 -412 322
+p controller_part2_0/a_n83_39# Vdd load 2 8 -398 322
+p A controller_part2_0/a_n89_23# Vdd 2 4 -379 322
+n A controller_part2_0/a_n89_23# Gnd 2 4 -365 322
+n controller_part2_0/a_n89_23# controller_part2_0/a_n81_17# controller_part2_0/a_n83_39# 2 4 -412 306
+p controller_part2_0/a_n89_23# controller_part2_0/a_n83_39# Vdd 2 4 -395 306
+p B controller_part2_0/a_n89_15# Vdd 2 4 -379 302
+n B controller_part2_0/a_n89_15# Gnd 2 4 -365 302
+n controller_part2_0/a_n89_15# Gnd controller_part2_0/a_n81_17# 2 4 -412 298
+p controller_part2_0/a_n89_15# Vdd controller_part2_0/a_n83_39# 2 4 -395 298
+n controller_part2_0/a_n83_n1# Gnd add 2 4 -412 282
+p controller_part2_0/a_n83_n1# Vdd add 2 8 -398 282
+p A controller_part2_0/a_n89_n17# Vdd 2 4 -379 282
+n A controller_part2_0/a_n89_n17# Gnd 2 4 -365 282
+n controller_part2_0/a_n89_n17# controller_part2_0/a_n81_n23# controller_part2_0/a_n83_n1# 2 4 -412 266
+p controller_part2_0/a_n89_n17# controller_part2_0/a_n83_n1# Vdd 2 4 -395 266
+n B Gnd controller_part2_0/a_n81_n23# 2 4 -412 258
+p B Vdd controller_part2_0/a_n83_n1# 2 4 -395 258
+p controller_part2_0/a_n113_n41# s1 Vdd 2 4 -442 242
+n controller_part2_0/a_n113_n41# s1 Gnd 2 4 -427 242
+n controller_part2_0/a_n83_n41# Gnd controller_part2_0/a_n113_n41# 2 4 -412 242
+p controller_part2_0/a_n83_n41# Vdd controller_part2_0/a_n113_n41# 2 8 -398 242
+p A controller_part2_0/a_n89_n57# Vdd 2 4 -379 242
+n A controller_part2_0/a_n89_n57# Gnd 2 4 -365 242
+n controller_part2_0/a_n89_n57# controller_part2_0/a_n81_n63# controller_part2_0/a_n83_n41# 2 4 -412 226
+p controller_part2_0/a_n89_n57# controller_part2_0/a_n83_n41# Vdd 2 4 -395 226
+p B controller_part2_0/a_n89_n65# Vdd 2 4 -379 222
+n B controller_part2_0/a_n89_n65# Gnd 2 4 -365 222
+n controller_part2_0/a_n89_n65# Gnd controller_part2_0/a_n81_n63# 2 4 -412 218
+p controller_part2_0/a_n89_n65# Vdd controller_part2_0/a_n83_n41# 2 4 -395 218
+p controller_part2_0/a_n113_n81# sel0 Vdd 2 4 -442 202
+n controller_part2_0/a_n113_n81# sel0 Gnd 2 4 -427 202
+n controller_part2_0/a_n83_n81# Gnd controller_part2_0/a_n113_n81# 2 4 -412 202
+p controller_part2_0/a_n83_n81# Vdd controller_part2_0/a_n113_n81# 2 8 -398 202
+n A controller_part2_0/a_n81_n103# controller_part2_0/a_n83_n81# 2 4 -412 186
+p A controller_part2_0/a_n83_n81# Vdd 2 4 -395 186
+p B controller_part2_0/a_n89_n105# Vdd 2 4 -379 182
+n B controller_part2_0/a_n89_n105# Gnd 2 4 -365 182
+n controller_part2_0/a_n89_n105# Gnd controller_part2_0/a_n81_n103# 2 4 -412 178
+p controller_part2_0/a_n89_n105# Vdd controller_part2_0/a_n83_n81# 2 4 -395 178
+p controller_part2_0/a_n113_n121# shift Vdd 2 4 -442 162
+n controller_part2_0/a_n113_n121# shift Gnd 2 4 -427 162
+n controller_part2_0/a_n83_n121# Gnd controller_part2_0/a_n113_n121# 2 4 -412 162
+p controller_part2_0/a_n83_n121# Vdd controller_part2_0/a_n113_n121# 2 8 -398 162
+n A controller_part2_0/a_n81_n143# controller_part2_0/a_n83_n121# 2 4 -412 146
+p A controller_part2_0/a_n83_n121# Vdd 2 4 -395 146
+n B Gnd controller_part2_0/a_n81_n143# 2 4 -412 138
+p B Vdd controller_part2_0/a_n83_n121# 2 4 -395 138
+n controller_part2_0/a_n83_n161# Gnd inbit 2 4 -412 122
+p controller_part2_0/a_n83_n161# Vdd inbit 2 8 -398 122
+n A controller_part2_0/a_n81_n183# controller_part2_0/a_n83_n161# 2 4 -412 106
+p A controller_part2_0/a_n83_n161# Vdd 2 4 -395 106
+p B controller_part2_0/a_n89_n185# Vdd 2 4 -379 102
+n B controller_part2_0/a_n89_n185# Gnd 2 4 -365 102
+n controller_part2_0/a_n89_n185# Gnd controller_part2_0/a_n81_n183# 2 4 -412 98
+p controller_part2_0/a_n89_n185# Vdd controller_part2_0/a_n83_n161# 2 4 -395 98
+p and3gate_3/out andgate_1/B Vdd2 2 8 -100 264
+n and3gate_3/out andgate_1/B Gnd 2 4 -82 264
+p and3gate_0/out Vdd2 andgate_1/A 2 8 -100 237
+n and3gate_0/out Gnd andgate_1/A 2 4 -82 237
+p and3gate_1/out andgate_0/B Vdd2 2 8 -100 210
+n and3gate_1/out andgate_0/B Gnd 2 4 -82 210
+p and3gate_2/out Vdd2 andgate_0/A 2 8 -100 183
+n and3gate_2/out Gnd andgate_0/A 2 4 -82 183
+p A An Vdd2 2 8 -101 160
+n A An Gnd 2 4 -83 160
+p B Bn Vdd2 2 8 -101 142
+n B Bn Gnd 2 4 -83 142
+C andgate_0/B Gnd 2.8
+C and3gate_1/out Gnd 9.4
+C Vdd controller_part2_0/w_n119_n190# 16.1
+C Gnd controller_part2_0/w_n38_n190# 45.9
+C Gnd controller_part2_0/a_n83_n41# 3.8
+C B controller_part2_0/w_n38_n190# 22.2
+C Vdd controller_part2_0/a_n89_n17# 9.6
+C Gnd controller_part2_0/a_n83_39# 3.8
+C Gnd controller_part2_0/a_n89_n65# 3.6
+C andgate_1/a_n88_39# Gnd 3.8
+C and3gate_1/a_n83_47# Gnd 3.8
+C rst Gnd 3.8
+C Vdd controller_part2_0/a_n89_n57# 9.6
+C A Gnd 23.7
+C An Gnd 5.5
+C Vdd reg2bit2_0/reg11_0/a_n102_n154# 21.5
+C controller_part2_0/w_n119_n190# inbit 2.8
+C reg2bit2_0/reg11_0/a_n59_n133# Gnd 29.8
+C Vdd Clk 30.4
+C Vdd controller_part2_0/a_n89_n105# 8.5
+C controller_part2_0/w_n119_n190# s1 3.4
+C A B 4.7
+C Vdd Gnd 24.1
+C Clk reg2bit2_0/reg11_0/w_n113_n102# 5.6
+C Vdd reg2bit2_0/reg11_1/a_n102_n154# 21.5
+C Vdd controller_part2_0/a_n89_23# 9.6
+C reg2bit2_0/reg11_1/a_n59_n133# Gnd 29.8
+C Vdd2 andgate_1/B 5.8
+C B Vdd 40.4
+C andgate_0/a_n88_39# Gnd 3.8
+C reg2bit2_0/reg11_1/w_n113_n102# Clk 5.6
+C Vdd Clkn 34.5
+C Startn Gnd 3.8
+C Gnd controller_part2_0/a_n89_n185# 3.6
+C Clkn reg2bit2_0/reg11_0/w_n113_n102# 5.6
+C Vdd Bout 16.1
+C Bn An 4.6
+C Gnd inbit 8.9
+C Vdd reg2bit2_0/reg11_0/a_n109_n126# 13.7
+C Gnd controller_part2_0/a_n83_n121# 3.8
+C reg2bit2_0/reg11_1/w_n113_n102# Clkn 5.6
+C Vdd Aout 9.1
+C Gnd controller_part2_0/a_n83_n1# 3.8
+C andgate_0/B Vdd2 5.8
+C Bn Vdd 6.8
+C Gnd controller_part2_0/a_n89_n17# 3.6
+C Vdd reg2bit2_0/reg11_0/a_n109_n98# 9.2
+C Vdd reg2bit2_0/reg11_1/a_n109_n126# 13.7
+C Gnd controller_part2_0/a_n113_n81# 11.0
+C andgate_1/A Gnd 3.2
+C and3gate_2/out Gnd 7.9
+C Gnd controller_part2_0/a_n89_n57# 3.6
+C reg2bit2_0/reg11_0/w_n113_n102# reg2bit2_0/reg11_0/a_n109_n98# 7.7
+C Vdd reg2bit2_0/reg11_1/a_n109_n98# 9.2
+C reg2bit2_0/reg11_0/a_n102_n154# Gnd 3.4
+C and3gate_3/a_n83_47# Vdd 2.7
+C reg2bit2_0/reg11_0/w_n113_n158# reg2bit2_0/reg11_0/a_n109_n154# 7.5
+C Gnd controller_part2_0/a_n89_n105# 3.6
+C Vdd2 A 2.2
+C controller_part2_0/w_n119_n190# shift 3.4
+C add controller_part2_0/w_n119_n190# 2.8
+C reg2bit2_0/reg11_1/a_n102_n154# Gnd 3.4
+C Gnd controller_part2_0/a_n89_23# 3.6
+C B Gnd 20.1
+C reg2bit2_0/reg11_1/w_n113_n102# reg2bit2_0/reg11_1/a_n109_n98# 7.7
+C andgate_0/A Gnd 2.8
+C Gnd controller_part2_0/a_n113_n41# 11.0
+C reg2bit2_0/reg11_1/w_n113_n158# reg2bit2_0/reg11_1/a_n109_n154# 7.5
+C Vdd controller_part2_0/a_n89_15# 8.5
+C A controller_part2_0/w_n38_n190# 26.7
+C and3gate_0/a_n83_47# Vdd 2.7
+C and3gate_2/a_n83_47# Vdd 2.7
+C Gnd controller_part2_0/a_n83_n161# 3.8
+C sign Vdd 3.4
+C load controller_part2_0/w_n119_n190# 2.8
+C Gnd add 8.9
+C Vdd reg2bit2_0/reg11_0/a_n102_n98# 8.2
+C and3gate_3/out Gnd 6.5
+C Bn Gnd 5.6
+C reg2bit2_0/reg11_0/a_n109_n98# Gnd 2.4
+C Gnd controller_part2_0/a_n83_n81# 3.8
+C reg2bit2_0/reg11_0/w_n113_n158# reg2bit2_0/reg11_0/a_n102_n154# 2.6
+C Clk reg2bit2_0/reg11_0/w_n113_n158# 5.2
+C Vdd reg2bit2_0/reg11_1/a_n102_n98# 8.2
+C Vdd controller_part2_0/a_n89_n65# 8.5
+C and3gate_1/a_n83_47# Vdd 2.7
+C Vdd rst 32.4
+C reg2bit2_0/reg11_1/a_n109_n98# Gnd 2.4
+C Vdd2 andgate_1/A 3.7
+C A Vdd 48.3
+C and3gate_3/a_n83_47# Gnd 3.8
+C reg2bit2_0/reg11_1/w_n113_n158# Clk 5.2
+C An Vdd 6.8
+C Gnd controller_part2_0/a_n113_n121# 11.0
+C Vdd reg2bit2_0/reg11_0/a_n59_n133# 5.3
+C Gnd load 8.9
+C andgate_1/B Gnd 3.2
+C Clkn reg2bit2_0/reg11_0/w_n113_n158# 5.6
+C and3gate_0/out Gnd 17.5
+C reg2bit2_0/reg11_1/w_n113_n158# reg2bit2_0/reg11_1/a_n102_n154# 2.6
+C Vdd reg2bit2_0/reg11_0/dividendin 11.8
+C controller_part2_0/w_n119_n190# sel0 3.4
+C Vdd reg2bit2_0/reg11_1/a_n59_n133# 5.3
+C Vdd reg2bit2_0/reg11_0/a_n109_n154# 11.3
+C reg2bit2_0/reg11_1/w_n113_n158# Clkn 5.6
+C Vdd reg2bit2_0/reg11_1/dividendin 11.5
+C Vdd2 B 2.2
+C Gnd controller_part2_0/a_n89_15# 3.6
+C andgate_0/A Vdd2 3.7
+C Vdd reg2bit2_0/reg11_1/a_n109_n154# 11.3
+C Startn Vdd 6.8
+C and3gate_0/a_n83_47# Gnd 3.8
+C Signn Vdd 3.4
+C and3gate_2/a_n83_47# Gnd 3.8
+C Vdd controller_part2_0/a_n89_n185# 8.4
+C controller_part2_0/a_n89_n185# GND 2.4
+R controller_part2_0/a_n89_n185# 775
+R controller_part2_0/a_n81_n183# 40
+C controller_part2_0/a_n83_n161# GND 5.4
+R controller_part2_0/a_n83_n161# 551
+C inbit GND 3.2
+R inbit 441
+R controller_part2_0/a_n81_n143# 40
+C shift GND 2.6
+R shift 108
+C controller_part2_0/a_n83_n121# GND 5.4
+R controller_part2_0/a_n83_n121# 551
+C controller_part2_0/a_n113_n121# GND 3.7
+R controller_part2_0/a_n113_n121# 868
+C controller_part2_0/a_n89_n105# GND 2.2
+R controller_part2_0/a_n89_n105# 775
+R controller_part2_0/a_n81_n103# 40
+C sel0 GND 2.6
+R sel0 108
+C controller_part2_0/a_n83_n81# GND 5.4
+R controller_part2_0/a_n83_n81# 551
+C controller_part2_0/a_n113_n81# GND 3.7
+R controller_part2_0/a_n113_n81# 868
+C controller_part2_0/a_n89_n65# GND 2.2
+R controller_part2_0/a_n89_n65# 775
+R controller_part2_0/a_n81_n63# 40
+C controller_part2_0/a_n89_n57# GND 2.2
+R controller_part2_0/a_n89_n57# 823
+C s1 GND 2.6
+R s1 108
+C controller_part2_0/a_n83_n41# GND 5.4
+R controller_part2_0/a_n83_n41# 551
+C controller_part2_0/a_n113_n41# GND 3.7
+R controller_part2_0/a_n113_n41# 868
+R controller_part2_0/a_n81_n23# 40
+C controller_part2_0/a_n89_n17# GND 2.2
+R controller_part2_0/a_n89_n17# 823
+C controller_part2_0/a_n83_n1# GND 5.4
+R controller_part2_0/a_n83_n1# 551
+C add GND 3.2
+R add 441
+C controller_part2_0/a_n89_15# GND 2.2
+R controller_part2_0/a_n89_15# 775
+R controller_part2_0/a_n81_17# 40
+C controller_part2_0/a_n89_23# GND 2.2
+R controller_part2_0/a_n89_23# 823
+C controller_part2_0/a_n83_39# GND 5.4
+R controller_part2_0/a_n83_39# 551
+C Gnd GND 10.5
+R Gnd 8600
+C load GND 3.2
+R load 441
+R controller_part2_0/w_n119_n190# 40093
+R reg2bit2_0/reg11_0/a_n42_n135# 53
+C reg2bit2_0/reg11_0/a_n109_n154# GND 4.8
+R reg2bit2_0/reg11_0/a_n109_n154# 1287
+R reg2bit2_0/reg11_0/a_n109_n126# 519
+R reg2bit2_0/reg11_0/a_n43_n83# 53
+R reg2bit2_0/reg11_0/a_n102_n98# 512
+C reg2bit2_0/reg11_0/a_n102_n154# GND 9.7
+R reg2bit2_0/reg11_0/a_n102_n154# 1330
+C reg2bit2_0/reg11_0/a_n59_n133# GND 3.3
+R reg2bit2_0/reg11_0/a_n59_n133# 1802
+C reg2bit2_0/reg11_0/a_n109_n98# GND 6.5
+R reg2bit2_0/reg11_0/a_n109_n98# 1287
+C Bout GND 31.6
+R Bout 770
+R reg2bit2_0/reg11_1/a_n42_n135# 53
+C reg2bit2_0/reg11_1/a_n109_n154# GND 4.8
+R reg2bit2_0/reg11_1/a_n109_n154# 1287
+R reg2bit2_0/reg11_1/a_n109_n126# 519
+R reg2bit2_0/reg11_1/a_n43_n83# 53
+R reg2bit2_0/reg11_1/a_n102_n98# 512
+C reg2bit2_0/reg11_1/a_n102_n154# GND 9.7
+R reg2bit2_0/reg11_1/a_n102_n154# 1330
+C reg2bit2_0/reg11_1/a_n59_n133# GND 3.3
+R reg2bit2_0/reg11_1/a_n59_n133# 1802
+C rst GND 27.3
+R rst 1696
+C reg2bit2_0/reg11_1/a_n109_n98# GND 6.5
+R reg2bit2_0/reg11_1/a_n109_n98# 1287
+C Aout GND 29.0
+R Aout 824
+C Clkn GND 34.2
+R Clkn 3176
+C Clk GND 37.3
+R Clk 3056
+C Vdd GND 33.1
+R Vdd 147451
+C sign GND 22.3
+R sign 1038
+R and3gate_3/a_n81_17# 40
+C B GND 168.5
+R B 7132
+R and3gate_3/a_n81_25# 40
+C A GND 158.5
+R A 7228
+C and3gate_3/a_n83_47# GND 6.8
+R and3gate_3/a_n83_47# 822
+C and3gate_3/out GND 20.1
+R and3gate_3/out 1489
+C andgate_1/B GND 5.9
+R andgate_1/B 772
+R andgate_1/a_n86_17# 40
+C andgate_1/A GND 8.6
+R andgate_1/A 796
+C andgate_1/a_n88_39# GND 5.4
+R andgate_1/a_n88_39# 551
+C Vdd2 GND 3.6
+R Vdd2 45450
+C An GND 47.9
+R An 1491
+R and3gate_0/a_n81_17# 40
+C Bn GND 49.0
+R Bn 1396
+R and3gate_0/a_n81_25# 40
+C Startn GND 37.1
+R Startn 980
+C and3gate_0/a_n83_47# GND 6.8
+R and3gate_0/a_n83_47# 822
+C and3gate_0/out GND 3.6
+R and3gate_0/out 1119
+C andgate_0/B GND 6.2
+R andgate_0/B 772
+R andgate_0/a_n86_17# 40
+C andgate_0/A GND 8.9
+R andgate_0/A 796
+C andgate_0/a_n88_39# GND 5.4
+R andgate_0/a_n88_39# 551
+C Signn GND 32.9
+R Signn 753
+R and3gate_1/a_n81_17# 40
+R and3gate_1/a_n81_25# 40
+C and3gate_1/a_n83_47# GND 6.8
+R and3gate_1/a_n83_47# 822
+C and3gate_1/out GND 6.2
+R and3gate_1/out 940
+R and3gate_2/a_n81_17# 40
+R and3gate_2/a_n81_25# 40
+C and3gate_2/a_n83_47# GND 6.8
+R and3gate_2/a_n83_47# 822
+C and3gate_2/out GND 8.4
+R and3gate_2/out 975

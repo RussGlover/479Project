@@ -1,6 +1,9 @@
 magic
 tech scmos
-timestamp 1428990289
+timestamp 1428980143
+<< error_s >>
+rect -365 305 -357 306
+rect -367 297 -361 299
 << pwell >>
 rect -74 286 -61 291
 rect -74 276 -58 286
@@ -124,9 +127,9 @@ rect -101 141 -93 142
 rect -101 137 -97 141
 << metal1 >>
 rect -455 328 -451 332
-rect -420 329 -416 333
-rect -387 329 -383 333
+rect -387 328 -382 333
 rect -357 329 -353 333
+rect -420 318 -416 323
 rect -246 314 -242 321
 rect -234 307 -148 311
 rect -325 300 -156 304
@@ -187,6 +190,7 @@ rect -90 136 -86 137
 rect -90 130 -86 132
 rect -90 126 -79 130
 rect -98 110 -94 122
+rect -450 99 -446 104
 rect -83 102 -79 126
 rect -74 120 -70 145
 rect -41 121 -37 325
@@ -203,7 +207,6 @@ rect 15 284 19 321
 rect -17 110 -13 146
 rect 7 122 11 188
 rect 6 121 11 122
-rect -450 93 -446 97
 rect 6 94 10 121
 << metal2 >>
 rect -156 174 -152 300
@@ -311,14 +314,10 @@ rect -1 203 3 207
 rect -17 106 -13 110
 rect -25 98 -21 102
 rect 6 90 10 94
-use controller_part2  controller_part2_0
-timestamp 1428732039
-transform 1 0 -331 0 1 283
-box -120 -190 -7 50
-use reg2bit2  reg2bit2_0
-timestamp 1428982381
+use reg2bit  reg2bit_0
+timestamp 1428980143
 transform 1 0 -316 0 1 310
-box -17 -158 156 8
+box -48 -158 169 8
 use and3gate  and3gate_3
 timestamp 1428739103
 transform 1 0 15 0 1 265
@@ -339,6 +338,10 @@ use and3gate  and3gate_1
 timestamp 1428739103
 transform 1 0 15 0 1 165
 box -91 7 -52 59
+use controller_part2  controller_part2_0
+timestamp 1428732039
+transform 1 0 -331 0 1 283
+box -120 -190 -7 50
 use and3gate  and3gate_2
 timestamp 1428739103
 transform 1 0 15 0 1 115
@@ -348,6 +351,7 @@ rlabel metal1 7 192 11 288 7 B
 rlabel metal1 -17 150 -13 198 1 An
 rlabel metal1 -25 142 -21 198 1 Bn
 rlabel metal1 -33 134 -29 198 1 Startn
+rlabel metal1 -147 170 -143 174 3 Bout
 rlabel metal1 -74 287 -70 324 1 Gnd
 rlabel metal1 -41 319 -37 324 5 Vdd
 rlabel metal1 -141 214 -137 267 1 Gnd
@@ -355,6 +359,11 @@ rlabel metal1 -1 200 3 296 1 A
 rlabel metal1 -9 184 -5 280 1 Signn
 rlabel metal1 -107 177 -103 272 1 Vdd2
 rlabel metal1 15 284 19 321 7 sign
+rlabel metal1 -246 314 -242 321 1 Vdd
+rlabel metal1 -164 152 -160 156 1 Gnd
+rlabel metal1 -164 292 -160 296 1 Clk
+rlabel metal1 -164 285 -160 289 1 Clkn
+rlabel metal1 -164 278 -160 282 1 rst
 rlabel metal1 -148 231 -144 236 1 Aout
 rlabel metal1 -455 128 -451 132 3 inbit
 rlabel metal1 -455 149 -451 153 3 shift
@@ -362,14 +371,10 @@ rlabel metal1 -455 189 -451 193 3 sel0
 rlabel metal1 -455 229 -451 233 3 s1
 rlabel metal1 -455 288 -451 292 3 add
 rlabel metal1 -455 328 -451 332 4 load
-rlabel metal1 -246 314 -242 321 1 Vdd
-rlabel metal1 -164 278 -160 282 1 rst
-rlabel metal1 -164 285 -160 289 1 Clkn
-rlabel metal1 -164 292 -160 296 1 Clk
-rlabel metal1 -164 152 -160 156 1 Gnd
-rlabel metal1 -147 170 -143 174 3 Bout
+rlabel metal1 -387 328 -382 333 5 Vdd
 rlabel metal1 -357 329 -353 333 5 Gnd
-rlabel metal1 -420 329 -416 333 5 Gnd
-rlabel metal1 -387 329 -383 333 5 Vdd
-rlabel metal1 -450 93 -446 97 1 Vdd
+rlabel metal1 -420 318 -416 323 1 Gnd
+rlabel metal1 -450 99 -446 104 1 Vdd
+rlabel space -290 116 -286 159 1 Bnew
+rlabel space -199 148 -195 159 1 Anew
 << end >>

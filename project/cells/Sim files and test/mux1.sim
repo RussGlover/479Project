@@ -1,0 +1,56 @@
+| units: 100 tech: scmos format: MIT
+p S0n A a_n90_n12# 2 4 -92 8
+p S0 a_n90_n12# B 2 4 -84 8
+p S1n a_n49_5# out 2 4 -20 10
+p S1 out C 2 4 -12 10
+p a_n90_n12# a_n65_5# Vdd 2 9 -65 8
+p a_n65_5# a_n49_5# Vdd 2 9 -49 8
+n S0 A a_n90_n12# 2 4 -92 -12
+n S0n a_n90_n12# B 2 4 -84 -12
+n S1 a_n49_5# out 2 4 -20 -10
+n S1n out C 2 4 -12 -10
+n a_n90_n12# Gnd a_n65_5# 2 4 -61 -14
+n a_n65_5# Gnd a_n49_5# 2 4 -45 -14
+C w_n105_n16# out 2.8
+C S1n Vdd 3.6
+C w_n105_n16# A 2.1
+C w_n105_n16# a_n90_n12# 5.7
+C w_n100_5# B 2.0
+C w_n105_n16# a_n65_5# 5.0
+C w_n100_5# S1 2.5
+C w_n100_5# S0n 2.5
+C w_n100_5# S1n 2.1
+C w_n100_5# S0 2.3
+C w_n105_n16# Gnd 4.1
+C w_n105_n16# S1 24.1
+C w_n105_n16# S0n 3.3
+C w_n105_n16# a_n49_5# 2.7
+C w_n105_n16# S1n 3.3
+C w_n100_5# a_n90_n12# 2.9
+C w_n105_n16# S0 29.5
+C w_n100_5# a_n65_5# 2.4
+R Gnd 165
+C a_n65_5# GND 4.7
+R a_n65_5# 766
+C C GND 2.2
+R C 108
+R out 130
+C a_n49_5# GND 3.3
+R a_n49_5# 605
+C S1 GND 34.9
+R S1 2038
+R B 109
+C a_n90_n12# GND 5.2
+R a_n90_n12# 666
+C A GND 2.2
+R A 108
+C Vdd GND 4.3
+R Vdd 449
+C S0 GND 28.0
+R S0 2030
+C S1n GND 39.6
+R S1n 765
+C S0n GND 56.1
+R S0n 1352
+R w_n105_n16# 60
+R w_n100_5# 23911

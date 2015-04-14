@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1428986079
+timestamp 1428991195
 << pwell >>
 rect 554 -143 570 193
 rect 1003 162 1069 175
@@ -368,7 +368,7 @@ timestamp 1428729313
 transform 1 0 648 0 1 146
 box -96 9 -57 49
 use inputCombLogic2  inputCombLogic2_0
-timestamp 1428986079
+timestamp 1428990289
 transform 1 0 1077 0 1 -184
 box -455 90 19 333
 << labels >>

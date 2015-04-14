@@ -1,0 +1,303 @@
+| units: 100 tech: scmos format: MIT
+n shift1_0/addsub_0/a_n97_n15# shift1_0/addsub_0/a_n105_n31# reg1_0/Gnd 2 6 -27 -35
+n shift1_0/addsub_0/a_n75_3# mux1_0/A reg1_0/Gnd 2 6 -6 -35
+n mux1_0/C shift1_0/addsub_0/a_n62_43# shift1_0/addsub_0/a_n51_43# 2 6 16 -35
+n m1_166_n71# shift1_0/addsub_0/a_n51_43# reg1_0/Gnd 2 6 33 -35
+n shift1_0/addsub_0/a_n62_43# reg1_0/Gnd shift1_0/addsub_0/a_n24_43# 2 6 43 -35
+n reg1_0/Q shift1_0/addsub_0/a_n24_43# shift1_0/addsub_0/a_n20_43# 2 6 47 -35
+n m1_166_n85# shift1_0/addsub_0/a_n20_43# shift1_0/addsub_0/a_n75_3# 2 6 51 -35
+n shift1_0/addsub_0/a_n97_n15# shift1_0/addsub_0/a_n75_3# shift1_0/addsub_0/a_1_43# 2 6 68 -35
+n m1_166_n85# shift1_0/addsub_0/a_1_43# reg1_0/Gnd 2 6 77 -35
+n reg1_0/Q reg1_0/Gnd shift1_0/addsub_0/a_1_43# 2 6 88 -35
+n shift1_0/addsub_0/a_n62_43# shift1_0/addsub_0/a_1_43# reg1_0/Gnd 2 6 98 -35
+n shift1_0/addsub_0/a_n62_43# reg1_0/Gnd shift1_0/addsub_0/a_41_43# 2 6 108 -35
+n reg1_0/Q shift1_0/addsub_0/a_41_43# shift1_0/addsub_0/a_n97_n15# 2 6 112 -35
+n m1_166_n85# shift1_0/addsub_0/a_n97_n15# shift1_0/addsub_0/a_56_43# 2 6 123 -35
+n reg1_0/Q shift1_0/addsub_0/a_56_43# reg1_0/Gnd 2 6 134 -35
+n shift1_0/addsub_0/a_n62_43# reg1_0/Gnd shift1_0/addsub_0/a_56_43# 2 6 146 -35
+p mux1_0/C m1_166_n71# shift1_0/addsub_0/a_n62_43# 2 4 6 -49
+p shift1_0/addsub_0/a_n97_n15# shift1_0/addsub_0/a_n105_n31# mux1_0/Vdd 2 6 -27 -109
+p shift1_0/addsub_0/a_n75_3# mux1_0/A mux1_0/Vdd 2 6 5 -109
+p m1_166_n71# shift1_0/addsub_0/a_n51_43# mux1_0/Vdd 2 6 33 -109
+p shift1_0/addsub_0/a_n62_43# mux1_0/Vdd shift1_0/addsub_0/a_n24_n31# 2 6 43 -109
+p reg1_0/Q shift1_0/addsub_0/a_n24_n31# shift1_0/addsub_0/a_n20_n31# 2 6 47 -109
+p m1_166_n85# shift1_0/addsub_0/a_n20_n31# shift1_0/addsub_0/a_n75_3# 2 6 51 -109
+p shift1_0/addsub_0/a_n97_n15# shift1_0/addsub_0/a_n75_3# shift1_0/addsub_0/a_1_n31# 2 6 68 -109
+p m1_166_n85# shift1_0/addsub_0/a_1_n31# mux1_0/Vdd 2 6 77 -109
+p reg1_0/Q mux1_0/Vdd shift1_0/addsub_0/a_1_n31# 2 6 88 -109
+p shift1_0/addsub_0/a_n62_43# shift1_0/addsub_0/a_1_n31# mux1_0/Vdd 2 6 98 -109
+p shift1_0/addsub_0/a_n62_43# mux1_0/Vdd shift1_0/addsub_0/a_41_n31# 2 6 108 -109
+p reg1_0/Q shift1_0/addsub_0/a_41_n31# shift1_0/addsub_0/a_n97_n15# 2 6 112 -109
+p m1_166_n85# shift1_0/addsub_0/a_n97_n15# shift1_0/addsub_0/a_56_n31# 2 6 123 -109
+p reg1_0/Q shift1_0/addsub_0/a_56_n31# mux1_0/Vdd 2 6 134 -109
+p shift1_0/addsub_0/a_n62_43# mux1_0/Vdd shift1_0/addsub_0/a_56_n31# 2 6 146 -109
+n m1_159_n218# shift1_0/a_n6_n203# mux1_0/out 2 4 5 -209
+n shift1_0/a_n6_n203# mux1_0/Gnd shift1_0/a_40_n213# 2 4 49 -211
+n shift1_0/a_40_n213# mux1_0/Gnd m2_99_n9# 2 4 69 -211
+n m1_159_n225# m1_159_n199# shift1_0/a_n6_n203# 2 4 5 -217
+p shift1_0/a_n6_n203# m1_159_n232# shift1_0/a_40_n213# 2 4 49 -225
+p shift1_0/a_40_n213# m1_159_n232# m2_99_n9# 2 4 69 -225
+p mux1_0/S0n mux1_0/A mux1_0/a_n90_n12# 2 4 10 -153
+p mux1_0/S0 mux1_0/a_n90_n12# mux1_0/B 2 4 18 -153
+p mux1_0/S1n mux1_0/a_n49_5# mux1_0/out 2 4 82 -151
+p mux1_0/S1 mux1_0/out mux1_0/C 2 4 90 -151
+p mux1_0/a_n90_n12# mux1_0/a_n65_5# mux1_0/Vdd 2 9 37 -153
+p mux1_0/a_n65_5# mux1_0/a_n49_5# mux1_0/Vdd 2 9 53 -153
+n mux1_0/S0 mux1_0/A mux1_0/a_n90_n12# 2 4 10 -173
+n mux1_0/S0n mux1_0/a_n90_n12# mux1_0/B 2 4 18 -173
+n mux1_0/S1 mux1_0/a_n49_5# mux1_0/out 2 4 82 -171
+n mux1_0/S1n mux1_0/out mux1_0/C 2 4 90 -171
+n mux1_0/a_n90_n12# mux1_0/Gnd mux1_0/a_n65_5# 2 4 41 -175
+n mux1_0/a_n65_5# mux1_0/Gnd mux1_0/a_n49_5# 2 4 57 -175
+p m1_166_137# m2_99_n9# rr1_0/a_n109_n98# 2 4 93 103
+p reg1_0/rst reg1_0/Vdd rr1_0/a_n59_n133# 2 4 140 108
+n reg1_0/rst reg1_0/Gnd rr1_0/a_n59_n133# 2 4 154 108
+n m1_166_130# m2_99_n9# rr1_0/a_n109_n98# 2 4 101 89
+n m1_166_137# rr1_0/a_n109_n98# rr1_0/a_n102_n98# 2 4 93 75
+p rr1_0/a_n59_n133# rr1_0/a_n102_n154# reg1_0/Vdd 2 4 140 92
+n rr1_0/a_n59_n133# rr1_0/a_n43_n83# rr1_0/a_n102_n154# 2 4 154 92
+n rr1_0/a_n109_n98# reg1_0/Gnd rr1_0/a_n43_n83# 2 4 154 88
+p rr1_0/a_n109_n98# reg1_0/Vdd rr1_0/a_n102_n154# 2 4 140 84
+p m1_166_130# rr1_0/a_n109_n98# rr1_0/a_n102_n98# 2 4 101 61
+p rr1_0/a_n102_n154# reg1_0/Vdd rr1_0/a_n102_n98# 2 4 140 62
+n rr1_0/a_n102_n154# reg1_0/Gnd rr1_0/a_n102_n98# 2 4 154 62
+p m1_166_137# rr1_0/a_n109_n126# rr1_0/a_n109_n154# 2 4 93 47
+n m1_166_130# rr1_0/a_n109_n126# rr1_0/a_n109_n154# 2 4 101 33
+p rr1_0/a_n59_n133# rr1_0/a_n109_n126# reg1_0/Vdd 2 4 140 40
+n rr1_0/a_n59_n133# rr1_0/a_n42_n135# rr1_0/a_n109_n126# 2 4 155 40
+n mux1_0/C reg1_0/Gnd rr1_0/a_n42_n135# 2 4 155 36
+n m1_166_137# rr1_0/a_n109_n154# rr1_0/a_n102_n154# 2 4 93 19
+p mux1_0/C reg1_0/Vdd rr1_0/a_n109_n126# 2 4 140 32
+p rr1_0/a_n109_n154# reg1_0/Vdd mux1_0/C 2 4 140 16
+n rr1_0/a_n109_n154# reg1_0/Gnd mux1_0/C 2 4 154 16
+p m1_166_130# rr1_0/a_n109_n154# rr1_0/a_n102_n154# 2 4 101 5
+p reg1_0/Clk reg1_0/D reg1_0/a_n109_n98# 2 4 2 103
+p reg1_0/rst reg1_0/Vdd reg1_0/a_n59_n133# 2 4 49 108
+n reg1_0/rst reg1_0/Gnd reg1_0/a_n59_n133# 2 4 63 108
+n reg1_0/Clkn reg1_0/D reg1_0/a_n109_n98# 2 4 10 89
+n reg1_0/Clk reg1_0/a_n109_n98# reg1_0/a_n102_n98# 2 4 2 75
+p reg1_0/a_n59_n133# reg1_0/a_n102_n154# reg1_0/Vdd 2 4 49 92
+n reg1_0/a_n59_n133# reg1_0/a_n43_n83# reg1_0/a_n102_n154# 2 4 63 92
+n reg1_0/a_n109_n98# reg1_0/Gnd reg1_0/a_n43_n83# 2 4 63 88
+p reg1_0/a_n109_n98# reg1_0/Vdd reg1_0/a_n102_n154# 2 4 49 84
+p reg1_0/Clkn reg1_0/a_n109_n98# reg1_0/a_n102_n98# 2 4 10 61
+p reg1_0/a_n102_n154# reg1_0/Vdd reg1_0/a_n102_n98# 2 4 49 62
+n reg1_0/a_n102_n154# reg1_0/Gnd reg1_0/a_n102_n98# 2 4 63 62
+p reg1_0/Clk reg1_0/a_n109_n126# reg1_0/a_n109_n154# 2 4 2 47
+n reg1_0/Clkn reg1_0/a_n109_n126# reg1_0/a_n109_n154# 2 4 10 33
+p reg1_0/a_n59_n133# reg1_0/a_n109_n126# reg1_0/Vdd 2 4 49 40
+n reg1_0/a_n59_n133# reg1_0/a_n42_n135# reg1_0/a_n109_n126# 2 4 64 40
+n reg1_0/Q reg1_0/Gnd reg1_0/a_n42_n135# 2 4 64 36
+n reg1_0/Clk reg1_0/a_n109_n154# reg1_0/a_n102_n154# 2 4 2 19
+p reg1_0/Q reg1_0/Vdd reg1_0/a_n109_n126# 2 4 49 32
+p reg1_0/a_n109_n154# reg1_0/Vdd reg1_0/Q 2 4 49 16
+n reg1_0/a_n109_n154# reg1_0/Gnd reg1_0/Q 2 4 63 16
+p reg1_0/Clkn reg1_0/a_n109_n154# reg1_0/a_n102_n154# 2 4 10 5
+C reg1_0/Vdd rr1_0/a_n102_n98# 8.2
+C mux1_0/Vdd shift1_0/addsub_0/a_n75_3# 15.5
+C mux1_0/C mux1_0/Gnd 2.2
+C reg1_0/Q mux1_0/B 4.4
+C mux1_0/w_n100_5# mux1_0/S1n 2.1
+C reg1_0/Gnd mux1_0/C 11.4
+C rr1_0/w_n113_n102# rr1_0/a_n109_n98# 7.7
+C mux1_0/Vdd shift1_0/addsub_0/a_n62_43# 43.6
+C reg1_0/Gnd rr1_0/a_n102_n154# 3.4
+C mux1_0/Gnd m1_159_n199# 13.2
+C reg1_0/Gnd rr1_0/a_n109_n98# 2.4
+C mux1_0/Gnd shift1_0/a_n6_n203# 8.6
+C m1_159_n232# m1_159_n225# 7.2
+C mux1_0/Gnd m1_159_n218# 27.4
+C mux1_0/w_n100_5# mux1_0/S0 2.3
+C reg1_0/Vdd rr1_0/a_n59_n133# 5.3
+C mux1_0/S0n mux1_0/Gnd 3.3
+C shift1_0/addsub_0/w_n71_25# mux1_0/C 2.5
+C reg1_0/Vdd reg1_0/a_n102_n98# 8.2
+C mux1_0/Vdd m2_99_n9# 3.1
+C reg1_0/Gnd mux1_0/B 2.1
+C reg1_0/Gnd reg1_0/a_n102_n154# 3.4
+C mux1_0/Vdd shift1_0/addsub_0/a_56_n31# 5.6
+C reg1_0/Clk reg1_0/w_n113_n102# 5.6
+C reg1_0/Vdd rr1_0/a_n109_n154# 11.3
+C m2_99_n9# reg1_0/Vdd 4.4
+C mux1_0/A mux1_0/Gnd 2.1
+C reg1_0/Vdd reg1_0/a_n59_n133# 5.3
+C reg1_0/Clkn reg1_0/w_n113_n158# 5.6
+C mux1_0/Gnd mux1_0/S1 25.1
+C rr1_0/w_n113_n158# rr1_0/a_n109_n154# 7.5
+C reg1_0/Vdd m1_166_137# 22.1
+C mux1_0/Vdd shift1_0/addsub_0/a_n105_n31# 3.4
+C reg1_0/Gnd reg1_0/Q 30.3
+C mux1_0/Vdd m1_166_n71# 6.0
+C reg1_0/Vdd reg1_0/a_n109_n154# 11.3
+C mux1_0/Vdd mux1_0/C 2.2
+C rr1_0/w_n113_n158# m1_166_137# 5.2
+C rr1_0/w_n113_n102# m1_166_130# 5.6
+C reg1_0/Gnd reg1_0/rst 3.8
+C mux1_0/Gnd mux1_0/a_n49_5# 2.7
+C mux1_0/C shift1_0/addsub_0/a_56_n31# 2.2
+C reg1_0/Vdd reg1_0/Clk 21.4
+C mux1_0/Gnd shift1_0/a_40_n213# 2.6
+C mux1_0/w_n100_5# mux1_0/a_n90_n12# 2.9
+C mux1_0/Gnd mux1_0/out 8.2
+C reg1_0/Gnd reg1_0/a_n109_n98# 2.4
+C mux1_0/C reg1_0/Vdd 9.1
+C mux1_0/Gnd mux1_0/S1n 3.3
+C reg1_0/Vdd rr1_0/a_n102_n154# 21.5
+C reg1_0/Vdd rr1_0/a_n109_n98# 9.2
+C mux1_0/w_n100_5# mux1_0/a_n65_5# 2.4
+C mux1_0/Vdd mux1_0/B 6.7
+C shift1_0/addsub_0/a_n97_n15# shift1_0/addsub_0/a_n75_3# 2.4
+C mux1_0/Vdd shift1_0/addsub_0/a_1_n31# 4.7
+C rr1_0/w_n113_n158# rr1_0/a_n102_n154# 2.6
+C mux1_0/Gnd mux1_0/S0 29.9
+C mux1_0/B reg1_0/Vdd 11.6
+C reg1_0/Vdd reg1_0/a_n102_n154# 21.5
+C mux1_0/Vdd mux1_0/A 4.1
+C reg1_0/Gnd m1_166_n85# 2.9
+C reg1_0/Vdd rr1_0/a_n109_n126# 13.7
+C mux1_0/Vdd reg1_0/Q 40.3
+C reg1_0/w_n113_n102# reg1_0/a_n109_n98# 7.7
+C mux1_0/Vdd shift1_0/addsub_0/a_n97_n15# 39.3
+C reg1_0/w_n113_n158# reg1_0/a_n109_n154# 7.5
+C m1_159_n218# m1_159_n199# 3.7
+C reg1_0/Gnd shift1_0/addsub_0/a_n62_43# 32.5
+C mux1_0/S0n mux1_0/w_n100_5# 2.5
+C reg1_0/Gnd rr1_0/a_n59_n133# 29.8
+C m1_159_n232# shift1_0/a_40_n213# 2.6
+C mux1_0/B mux1_0/w_n100_5# 2.0
+C reg1_0/Clk reg1_0/w_n113_n158# 5.2
+C reg1_0/Q reg1_0/Vdd 9.1
+C reg1_0/Clkn reg1_0/w_n113_n102# 5.6
+C reg1_0/Vdd reg1_0/D 2.2
+C m1_159_n232# mux1_0/out 11.0
+C mux1_0/Gnd m1_159_n225# 26.1
+C mux1_0/C shift1_0/addsub_0/a_56_43# 2.2
+C m2_99_n9# rr1_0/w_n113_n102# 3.4
+C mux1_0/Vdd mux1_0/S1n 3.6
+C reg1_0/Vdd reg1_0/a_n109_n126# 13.7
+C reg1_0/Vdd reg1_0/rst 32.4
+C m2_99_n9# mux1_0/Gnd 5.0
+C reg1_0/Gnd m2_99_n9# 3.1
+C reg1_0/Vdd m1_166_130# 24.2
+C rr1_0/w_n113_n102# m1_166_137# 5.6
+C mux1_0/w_n100_5# mux1_0/S1 2.5
+C reg1_0/Vdd reg1_0/a_n109_n98# 9.2
+C mux1_0/Gnd mux1_0/a_n90_n12# 5.7
+C reg1_0/Gnd reg1_0/a_n59_n133# 29.8
+C reg1_0/Gnd reg1_0/Vdd 24.1
+C mux1_0/Gnd mux1_0/a_n65_5# 5.0
+C rr1_0/w_n113_n158# m1_166_130# 5.6
+C reg1_0/Vdd reg1_0/Clkn 25.5
+C mux1_0/Vdd shift1_0/addsub_0/a_n51_43# 2.1
+C reg1_0/w_n113_n158# reg1_0/a_n102_n154# 2.6
+C mux1_0/Vdd m1_166_n85# 35.7
+R reg1_0/a_n42_n135# 53
+C reg1_0/a_n109_n154# GND 4.8
+R reg1_0/a_n109_n154# 1287
+R reg1_0/a_n109_n126# 519
+R reg1_0/a_n43_n83# 53
+R reg1_0/a_n102_n98# 512
+C reg1_0/a_n102_n154# GND 9.7
+R reg1_0/a_n102_n154# 1330
+C reg1_0/a_n59_n133# GND 3.3
+R reg1_0/a_n59_n133# 1802
+C reg1_0/a_n109_n98# GND 6.5
+R reg1_0/a_n109_n98# 1287
+C reg1_0/D GND 2.9
+R reg1_0/D 109
+C reg1_0/Clkn GND 36.7
+R reg1_0/Clkn 1732
+C reg1_0/Clk GND 35.3
+R reg1_0/Clk 1673
+R rr1_0/a_n42_n135# 53
+C rr1_0/a_n109_n154# GND 4.8
+R rr1_0/a_n109_n154# 1287
+R rr1_0/a_n109_n126# 519
+R rr1_0/a_n43_n83# 53
+R rr1_0/a_n102_n98# 512
+C rr1_0/a_n102_n154# GND 9.7
+R rr1_0/a_n102_n154# 1330
+C rr1_0/a_n59_n133# GND 3.3
+R rr1_0/a_n59_n133# 1802
+C reg1_0/rst GND 35.3
+R reg1_0/rst 1696
+C rr1_0/a_n109_n98# GND 6.5
+R rr1_0/a_n109_n98# 1287
+C m1_166_130# GND 34.7
+R m1_166_130# 1565
+C m1_166_137# GND 36.1
+R m1_166_137# 1506
+C reg1_0/Vdd GND 27.9
+R reg1_0/Vdd 70566
+C mux1_0/a_n65_5# GND 4.7
+R mux1_0/a_n65_5# 766
+C mux1_0/a_n49_5# GND 3.3
+R mux1_0/a_n49_5# 605
+C mux1_0/S1 GND 37.4
+R mux1_0/S1 2038
+C mux1_0/a_n90_n12# GND 5.2
+R mux1_0/a_n90_n12# 666
+C mux1_0/S0 GND 29.7
+R mux1_0/S0 2030
+C mux1_0/S1n GND 41.3
+R mux1_0/S1n 765
+R mux1_0/w_n100_5# 23911
+C m1_159_n199# GND 15.2
+R m1_159_n199# 36
+C shift1_0/a_40_n213# GND 4.9
+R shift1_0/a_40_n213# 548
+C shift1_0/a_n6_n203# GND 4.0
+R shift1_0/a_n6_n203# 672
+C m1_159_n225# GND 22.1
+R m1_159_n225# 1517
+C mux1_0/out GND 10.4
+R mux1_0/out 253
+C m1_159_n218# GND 26.6
+R m1_159_n218# 1612
+C m1_159_n232# GND 25.9
+R m1_159_n232# 12965
+C mux1_0/Gnd GND 21.4
+R mux1_0/Gnd 795
+C mux1_0/S0n GND 57.8
+R mux1_0/S0n 1352
+C m2_99_n9# GND 16.5
+R m2_99_n9# 515
+C mux1_0/B GND 3.6
+R mux1_0/B 111
+R shift1_0/addsub_0/a_56_n31# 368
+R shift1_0/addsub_0/a_41_n31# 179
+R shift1_0/addsub_0/a_1_n31# 354
+R shift1_0/addsub_0/a_n20_n31# 179
+R shift1_0/addsub_0/a_n24_n31# 179
+C shift1_0/addsub_0/a_56_43# GND 6.0
+R shift1_0/addsub_0/a_56_43# 165
+R shift1_0/addsub_0/a_41_43# 80
+C shift1_0/addsub_0/a_1_43# GND 4.7
+R shift1_0/addsub_0/a_1_43# 159
+R shift1_0/addsub_0/a_n20_43# 80
+R shift1_0/addsub_0/a_n24_43# 80
+C shift1_0/addsub_0/a_n51_43# GND 3.1
+R shift1_0/addsub_0/a_n51_43# 157
+C mux1_0/A GND 7.3
+R mux1_0/A 494
+C shift1_0/addsub_0/a_n105_n31# GND 4.4
+R shift1_0/addsub_0/a_n105_n31# 130
+C m1_166_n85# GND 39.0
+R m1_166_n85# 3341
+C reg1_0/Q GND 49.4
+R reg1_0/Q 5646
+C m1_166_n71# GND 50.4
+R m1_166_n71# 1094
+C shift1_0/addsub_0/a_n75_3# GND 21.0
+R shift1_0/addsub_0/a_n75_3# 1351
+C shift1_0/addsub_0/a_n97_n15# GND 34.2
+R shift1_0/addsub_0/a_n97_n15# 2125
+C mux1_0/C GND 48.0
+R mux1_0/C 1506
+C shift1_0/addsub_0/a_n62_43# GND 24.0
+R shift1_0/addsub_0/a_n62_43# 5105
+C mux1_0/Vdd GND 8.6
+R mux1_0/Vdd 13171
+R shift1_0/addsub_0/w_n71_25# 4100
+C reg1_0/Gnd GND 15.6
+R reg1_0/Gnd 2287
