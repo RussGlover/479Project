@@ -1,0 +1,25 @@
+//Team Information
+Albert Ruskey 73536062 aruskey@shaw.ca
+Russill Glover 
+Nat Wongimpatchi
+
+//Did it work?
+N
+
+//Explanation of not working
+We completed both a full 8 bit datapath and a controller, however there were what we believe to be minor problems in each of them.
+
+In the Datapath:
+	- Simulates, and appears to execute each state properly except for when the subtractor is used.
+	- The add/sub consists of a working XOR and Full Adder cell.  We believe that the output may be coming out as the 2's compliment of what we expect when performing subtract operations, but are not sure.
+
+	- we have included .sim and .cmd files for the individual cells from task 5.
+
+In the Controller:
+	- 
+
+
+
+
+//Help received
+Our group did not receive any outside assistance, every transistor laid out is our own.
