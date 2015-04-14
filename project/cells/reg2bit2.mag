@@ -1,0 +1,38 @@
+magic
+tech scmos
+timestamp 1428982381
+<< metal1 >>
+rect 65 4 74 8
+rect 151 4 156 8
+rect 65 -18 74 -14
+rect 151 -18 156 -14
+rect 65 -25 74 -21
+rect 151 -25 156 -21
+rect 65 -32 74 -28
+rect 151 -32 156 -28
+rect 151 -52 156 -48
+rect 65 -158 74 -154
+<< metal2 >>
+rect -13 4 -9 8
+rect 78 4 82 8
+rect 26 -158 30 -154
+rect 117 -158 121 -154
+use reg11  reg11_0
+timestamp 1428636301
+transform 1 0 96 0 1 18
+box -113 -176 -31 -10
+use reg11  reg11_1
+timestamp 1428636301
+transform 1 0 187 0 1 18
+box -113 -176 -31 -10
+<< labels >>
+rlabel metal1 151 4 156 8 6 Vdd
+rlabel metal1 151 -18 156 -14 7 clk
+rlabel metal1 151 -25 156 -21 7 clkn
+rlabel metal1 151 -32 156 -28 7 rst
+rlabel metal1 151 -52 156 -48 7 GND
+rlabel metal2 117 -158 121 -154 1 Q0
+rlabel metal2 26 -158 30 -154 1 Q1
+rlabel metal2 -13 4 -9 8 5 D1
+rlabel metal2 78 4 82 8 5 D0
+<< end >>

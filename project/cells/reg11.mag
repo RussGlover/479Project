@@ -1,6 +1,6 @@
 magic
 tech scmos
-timestamp 1428973229
+timestamp 1428636301
 << pwell >>
 rect -113 -102 -85 -76
 rect -113 -158 -85 -132
@@ -110,8 +110,6 @@ rect -94 -168 -93 -164
 rect -113 -14 -79 -10
 rect -73 -14 -70 -10
 rect -66 -14 -31 -10
-rect -113 -22 -31 -18
-rect -113 -29 -31 -25
 rect -113 -36 -103 -32
 rect -99 -36 -31 -32
 rect -113 -43 -97 -39
@@ -184,8 +182,7 @@ rect -66 -169 -46 -165
 rect -113 -176 -41 -172
 rect -35 -176 -31 -162
 << metal2 >>
-rect -109 -61 -85 -57
-rect -89 -176 -85 -61
+rect -109 -61 -105 -10
 rect -70 -66 -66 -14
 rect -70 -74 -66 -70
 rect -70 -90 -66 -78
@@ -195,6 +192,7 @@ rect -70 -126 -66 -116
 rect -70 -142 -66 -130
 rect -70 -155 -66 -146
 rect -70 -176 -66 -169
+rect -59 -176 -55 -10
 << ntransistor >>
 rect -43 -65 -39 -63
 rect -96 -84 -94 -80
@@ -285,4 +283,13 @@ rect -70 -169 -66 -165
 rect -41 -176 -35 -172
 << nsubstratencontact >>
 rect -79 -14 -73 -10
+<< labels >>
+rlabel metal2 -57 -174 -57 -174 1 dividendin
+rlabel metal2 -68 -174 -68 -174 1 Q
+rlabel metal1 -33 -174 -33 -174 1 GND
+rlabel metal1 -33 -48 -33 -48 7 rst
+rlabel metal1 -33 -12 -33 -12 7 Vdd
+rlabel metal2 -107 -12 -107 -12 1 D
+rlabel metal1 -33 -41 -33 -41 7 Cb
+rlabel metal1 -33 -34 -33 -34 7 C
 << end >>

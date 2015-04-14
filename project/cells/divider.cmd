@@ -1,0 +1,134 @@
+stepsize 2000
+settle 50
+h Vdd
+l Gnd
+| Set up vectors
+
+vector divisorin divisorin_{6:0}
+vector dividendin dividendin_{7:0}
+vector remainder remainder_{6:0}
+vector quotient quotient_{7:0}
+
+| An initial clock pulse to get things going
+| as in the specification (verilog) test bench
+h reset
+s
+h clk
+l reset
+s
+l clk
+s
+
+| Start the process by asserting Start and waiting one clock cycle
+
+h start
+s
+h clk
+s
+l clk
+s
+
+| Now, lower start, and set the divisor and dividend.  For your
+| own tests, you should change these numbers here.  In this example,
+| we are dividing 16 by 3.
+
+l start
+set divisorin 0000011
+set dividendin 00010000
+
+| Now, wait 17 cycles
+
+s
+h clk
+s
+l clk
+s
+s
+h clk
+s
+l clk
+s
+s
+h clk
+s
+l clk
+s
+s
+h clk
+s
+l clk
+s
+
+s
+h clk
+s
+l clk
+s
+s
+h clk
+s
+l clk
+s
+s
+h clk
+s
+l clk
+s
+s
+h clk
+s
+l clk
+s
+
+s
+h clk
+s
+l clk
+s
+s
+h clk
+s
+l clk
+s
+s
+h clk
+s
+l clk
+s
+s
+h clk
+s
+l clk
+s
+
+s
+h clk
+s
+l clk
+s
+s
+h clk
+s
+l clk
+s
+s
+h clk
+s
+l clk
+s
+s
+h clk
+s
+l clk
+s
+s
+h clk
+s
+l clk
+s
+
+| Print out results
+
+w remainder quotient
+s
+exit
