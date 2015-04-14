@@ -17,6 +17,7 @@ In the Datapath:
 
 In the Controller:
 	- In the controller we needed the settle command to fix imbalances within the regsister
+	-There seems to be a missing connection somewhere in the final build as the subcell works 
 	- A test is provided which demonstrates the different states
 	- 
 
